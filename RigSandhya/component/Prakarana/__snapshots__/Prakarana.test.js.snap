@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Prakarana Render 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "row",
+      "padding": 12,
+    }
+  }
+>
+  <Image
+    source={
+      Object {
+        "uri": "largepic",
+      }
+    }
+    style={
+      Object {
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
+      }
+    }
+  />
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "fontFamily": "ganapati",
+        "fontSize": 16,
+        "marginLeft": 12,
+      }
+    }
+  >
+    last
+  </Text>
+</View>
+`;

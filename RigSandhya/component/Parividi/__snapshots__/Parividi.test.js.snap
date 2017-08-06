@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parividi Render 1`] = `
+<RCTScrollView
+  dataSource={
+    ListViewDataSource {
+      "items": 7,
+    }
+  }
+  renderHeader={[Function]}
+  renderRow={[Function]}
+  renderScrollComponent={[Function]}
+  renderSeparator={[Function]}
+  style={
+    Object {
+      "flex": 1,
+      "marginTop": 20,
+    }
+  }
+>
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+    />
+    <div>
+      Prakarana 
+      ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ ./chitra/sandhya.png
+    </div>
+    <div>
+      Prakarana 
+      ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ ./chitra/agnikarya.png
+    </div>
+    <div>
+      Prakarana 
+      ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ ./chitra/sandhya.png
+    </div>
+    <div>
+      Prakarana 
+      ಸಾಯ೦ಸ೦ಧ್ಯಾ ./chitra/sandhya.png
+    </div>
+    <div>
+      Prakarana 
+      ಸಾಯ೦ಸಮಿಧಾದಾನ ./chitra/agnikarya.png
+    </div>
+    <div>
+      Prakarana 
+      ಯಜ್ಞೋಪವೀತ ./chitra/upadesha.png
+    </div>
+    <div>
+      Prakarana 
+      ಉಪನಯನಕಾರಿಕ ./chitra/upadesha.png
+    </div>
+  </View>
+</RCTScrollView>
+`;
