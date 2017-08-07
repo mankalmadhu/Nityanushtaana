@@ -27,31 +27,31 @@ exports[`Parividi Render 1`] = `
     />
     <div>
       Prakarana 
-      ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ ./chitra/sandhya.png
+      ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1
     </div>
     <div>
       Prakarana 
-      ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ ./chitra/agnikarya.png
+      ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ 1
     </div>
     <div>
       Prakarana 
-      ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ ./chitra/sandhya.png
+      ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ 1
     </div>
     <div>
       Prakarana 
-      ಸಾಯ೦ಸ೦ಧ್ಯಾ ./chitra/sandhya.png
+      ಸಾಯ೦ಸ೦ಧ್ಯಾ 1
     </div>
     <div>
       Prakarana 
-      ಸಾಯ೦ಸಮಿಧಾದಾನ ./chitra/agnikarya.png
+      ಸಾಯ೦ಸಮಿಧಾದಾನ 1
     </div>
     <div>
       Prakarana 
-      ಯಜ್ಞೋಪವೀತ ./chitra/upadesha.png
+      ಯಜ್ಞೋಪವೀತ 1
     </div>
     <div>
       Prakarana 
-      ಉಪನಯನಕಾರಿಕ ./chitra/upadesha.png
+      ಉಪನಯನಕಾರಿಕ 1
     </div>
   </View>
 </RCTScrollView>

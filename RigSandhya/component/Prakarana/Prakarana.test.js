@@ -4,7 +4,7 @@ import Prakarana from './Prakarana';
 
 import Renderer from 'react-test-renderer';
 
-const testData = {"picture":"largepic", "title":"last"};
+const testData = {"picture":"{uri:largepic}", "title":"last"};
 
 test("Prakarana Render" , () => {
 

@@ -12,11 +12,7 @@ exports[`Prakarana Render 1`] = `
   }
 >
   <Image
-    source={
-      Object {
-        "uri": "largepic",
-      }
-    }
+    source="uri:largepic"
     style={
       Object {
         "borderRadius": 20,
