@@ -4,7 +4,7 @@ import React from 'react';
 import Prakarana from '../Prakarana/Prakarana';
 import ParividiShershike from '../ParividiShershike/ParividiShershike';
 import parividiVinyasa from './Parividi.Styles';
-import prakaranaMahiti from './Parividi.data';
+import {prakaranaMahiti} from './Parividi.data';
 
 class Parividi extends React.Component {
   constructor(props) {

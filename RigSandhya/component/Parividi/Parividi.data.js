@@ -1,13 +1,9 @@
-/////////////////////////////////////
-import sandhyaImage from "./chitra/sandhya.png";
-import agnikaryaImage from "./chitra/agnikarya.png";
-import upadeshaImage from "./chitra/upadesha.png";
 
-exports.sandhyaImage = sandhyaImage;
-exports.agnikaryaImage = agnikaryaImage;
-exports.upadeshaImage = upadeshaImage;
+export const sandhyaImage = require('./chitra/sandhya.png');
+export const agnikaryaImage = require('./chitra/agnikarya.png');
+export const upadeshaImage = require('./chitra/upadesha.png');
 
-const prakaranaMahiti = [
+export const prakaranaMahiti = [
   {
     "title":  "ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ",
     "picture": exports.sandhyaImage
@@ -37,5 +33,3 @@ const prakaranaMahiti = [
     "picture": exports.upadeshaImage
   }
   ]
-////////////////////////////////////////
-export default prakaranaMahiti;
