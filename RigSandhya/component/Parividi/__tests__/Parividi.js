@@ -1,12 +1,12 @@
 import 'react-native';
 import React from 'react';
-import Parividi from './Parividi';
+import Parividi from '../Parividi';
 
 import Renderer from 'react-test-renderer';
 
-jest.mock('../Adhyaya/Adhyaya');
-jest.mock('../ParividiShershike/ParividiShershike');
-jest.mock('./Parividi.mahiti',()=>{
+jest.mock('../../Adhyaya/Adhyaya');
+jest.mock('../../ParividiShershike/ParividiShershike');
+jest.mock('../Parividi.mahiti',()=>{
   return {
     
     parividiMahiti: [{ 

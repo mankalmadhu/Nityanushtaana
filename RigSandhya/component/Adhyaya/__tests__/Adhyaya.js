@@ -1,6 +1,6 @@
 import 'react-native';
 import React from 'react';
-import Adhyaya from './Adhyaya';
+import Adhyaya from '../Adhyaya';
 
 import Renderer from 'react-test-renderer';
 
