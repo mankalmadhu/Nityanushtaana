@@ -7,11 +7,16 @@ import Renderer from 'react-test-renderer';
 jest.mock('../Prakarana/Prakarana');
 jest.mock('../ParividiShershike/ParividiShershike');
 jest.mock('./Parividi.data',()=>{
-  
   return {
-    sandhyaImage : './chitra/sandhya.png',
-    agnikaryaImage : './chitra/agnikarya.png',
-    upadeshaImage : './chitra/upadesha.png'
+    
+    prakaranaMahiti: [{ 
+        "title":  "MockTitle1",
+        "picture": 'SomePicture1'
+      },
+      { 
+        "title":  "MockTitle2",
+        "picture": 'SomePicture2'
+      }]
 }});
 
 test("Parividi Render" , () => {
