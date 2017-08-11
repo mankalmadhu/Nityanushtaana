@@ -21,7 +21,7 @@ export default class Parividi extends React.Component {
         style={parividiVinyasa.avarana}
         dataSource={this.state.dataSource}
         renderHeader={() => <ParividiShershike />}
-        renderRow={(parividiMahiti) => <Adhyaya {...parividiMahiti()} />}
+        renderRow={(parividiMahiti) => <Adhyaya {...parividiMahiti} />}
         renderSeparator={(sectionId,rowId) => <View key={rowId} style={parividiVinyasa.vibhajaka} />}
         
       />
