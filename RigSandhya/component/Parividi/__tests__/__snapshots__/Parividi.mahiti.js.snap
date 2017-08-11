@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Parividi Mahiti 1`] = `
+<div>
+  Object {
+    "chitra": "./chitra/sandhya.png",
+    "shershike": "ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ",
+  }
+  Object {
+    "chitra": "./chitra/agnikarya.png",
+    "shershike": "ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ",
+  }
+  Object {
+    "chitra": "./chitra/sandhya.png",
+    "shershike": "ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ",
+  }
+  Object {
+    "chitra": "./chitra/sandhya.png",
+    "shershike": "ಸಾಯ೦ಸ೦ಧ್ಯಾ",
+  }
+  Object {
+    "chitra": "./chitra/agnikarya.png",
+    "shershike": "ಸಾಯ೦ಸಮಿಧಾದಾನ",
+  }
+  Object {
+    "chitra": "./chitra/upadesha.png",
+    "shershike": "ಯಜ್ಞೋಪವೀತ",
+  }
+  Object {
+    "chitra": "./chitra/upadesha.png",
+    "shershike": "ಉಪನಯನಕಾರಿಕ",
+  }
+</div>
+`;
