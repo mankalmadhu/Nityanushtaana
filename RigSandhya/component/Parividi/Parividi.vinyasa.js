@@ -1,6 +1,6 @@
 import {StyleSheet} from 'react-native';
 
-export const parividiVinyasa = StyleSheet.create({
+export default parividiVinyasa = StyleSheet.create({
   avarana: {
     flex: 1,
     marginTop: 20,

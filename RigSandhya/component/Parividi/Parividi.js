@@ -3,7 +3,7 @@ import React from 'react';
 
 import Adhyaya from '../Adhyaya/Adhyaya';
 import ParividiShershike from '../ParividiShershike/ParividiShershike';
-import {parividiVinyasa} from './Parividi.vinyasa';
+import parividiVinyasa from './Parividi.vinyasa';
 import {parividiMahiti} from './Parividi.mahiti';
 
 export default class Parividi extends React.Component {
