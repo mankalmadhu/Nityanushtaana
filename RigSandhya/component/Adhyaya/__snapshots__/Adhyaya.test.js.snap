@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Prakarana Render 1`] = `
+exports[`Adhyaya 1`] = `
 <View
   style={
     Object {
@@ -12,7 +12,11 @@ exports[`Prakarana Render 1`] = `
   }
 >
   <Image
-    source="uri:largepic"
+    source={
+      Object {
+        "uri": "largepic",
+      }
+    }
     style={
       Object {
         "borderRadius": 20,

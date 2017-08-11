@@ -1,13 +1,11 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import parividiShershikeVinyasa from './ParividiShershike.Styles';
+import parividiShershikeVinyasa from './ParividiShershike.vinyasa';
 
-const ParividiShershike = () => (
-  <View style={parividiShershikeVinyasa.container}>
-    <Text style={parividiShershikeVinyasa.text}>
+export default ParividiShershike = () => (
+  <View style={parividiShershikeVinyasa.avarana}>
+    <Text style={parividiShershikeVinyasa.pathya}>
       ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ
     </Text>
   </View>
 );
-
-export default ParividiShershike;

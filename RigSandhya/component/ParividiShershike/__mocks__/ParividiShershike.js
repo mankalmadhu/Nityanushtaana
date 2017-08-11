@@ -1,8 +1,6 @@
 import React from 'react';
 import { Text } from 'react-native';
 
-const ParividiShershike = (props) => (
+export default ParividiShershike = (props) => (
   <Text/>
 );
-
-export default ParividiShershike;

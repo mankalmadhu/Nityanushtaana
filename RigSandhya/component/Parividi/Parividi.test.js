@@ -4,26 +4,24 @@ import Parividi from './Parividi';
 
 import Renderer from 'react-test-renderer';
 
-jest.mock('../Prakarana/Prakarana');
+jest.mock('../Adhyaya/Adhyaya');
 jest.mock('../ParividiShershike/ParividiShershike');
-jest.mock('./Parividi.data',()=>{
+jest.mock('./Parividi.mahiti',()=>{
   return {
     
-    prakaranaMahiti: [{ 
-        "title":  "MockTitle1",
-        "picture": 'SomePicture1'
+    parividiMahiti: [{ 
+        "shershike":  "MockTitle1",
+        "chitra": 'SomePicture1'
       },
       { 
-        "title":  "MockTitle2",
-        "picture": 'SomePicture2'
+        "shershike":  "MockTitle2",
+        "chitra": 'SomePicture2'
       }]
 }});
 
-test("Parividi Render" , () => {
-   const parividiRenderer = Renderer.create(
+test("Parividi" , () => {
+   const parividi = Renderer.create(
        <Parividi/>
    ).toJSON();
-
-   expect(parividiRenderer).toMatchSnapshot();
-
+   expect(parividi).toMatchSnapshot();
 });

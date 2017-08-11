@@ -1,32 +1,30 @@
 import {ListView, View} from 'react-native';
 import React from 'react';
 
-import Prakarana from '../Prakarana/Prakarana';
+import Adhyaya from '../Adhyaya/Adhyaya';
 import ParividiShershike from '../ParividiShershike/ParividiShershike';
-import parividiVinyasa from './Parividi.Styles';
-import {prakaranaMahiti} from './Parividi.data';
+import parividiVinyasa from './Parividi.vinyasa';
+import {parividiMahiti} from './Parividi.mahiti';
 
-class Parividi extends React.Component {
+export default class Parividi extends React.Component {
   constructor(props) {
     super(props);
 
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     this.state = {
-      dataSource: ds.cloneWithRows(prakaranaMahiti),
+      dataSource: ds.cloneWithRows(parividiMahiti),
     };
   }
   render() {
     return (
       <ListView
-        style={parividiVinyasa.container}
+        style={parividiVinyasa.avarana}
         dataSource={this.state.dataSource}
         renderHeader={() => <ParividiShershike />}
-        renderRow={(prakaranaMahiti) => <Prakarana {...prakaranaMahiti} />}
-        renderSeparator={(sectionId,rowId) => <View key={rowId} style={parividiVinyasa.separator} />}
+        renderRow={(parividiMahiti) => <Adhyaya {...parividiMahiti} />}
+        renderSeparator={(sectionId,rowId) => <View key={rowId} style={parividiVinyasa.vibhajaka} />}
         
       />
     );
   }
 }
-
-export default Parividi;

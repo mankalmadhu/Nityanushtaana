@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Parividi Render 1`] = `
+exports[`Parividi 1`] = `
 <RCTScrollView
   dataSource={
     ListViewDataSource {
@@ -26,11 +26,11 @@ exports[`Parividi Render 1`] = `
       ellipsizeMode="tail"
     />
     <div>
-      Prakarana 
+      Adhyaya 
       MockTitle1 SomePicture1
     </div>
     <div>
-      Prakarana 
+      Adhyaya 
       MockTitle2 SomePicture2
     </div>
   </View>

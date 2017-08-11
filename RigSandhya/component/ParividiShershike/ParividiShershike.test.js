@@ -6,10 +6,10 @@ import Renderer from 'react-test-renderer';
 
 test("ParividiShershike Render" , () => {
 
-   const parividiShershikeRenderer = Renderer.create(
+   const parividiShershike = Renderer.create(
        <ParividiShershike/>
    ).toJSON();
 
-   expect(parividiShershikeRenderer).toMatchSnapshot();
+   expect(parividiShershike).toMatchSnapshot();
 
 });
