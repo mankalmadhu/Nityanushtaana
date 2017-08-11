@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export default adhyayaVinyasa = StyleSheet.create({
+export const adhyayaVinyasa = StyleSheet.create({
   avarana: {
     flex: 1,
     padding: 12,

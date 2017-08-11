@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Text } from 'react-native';
-import parividiShershikeVinyasa from './ParividiShershike.vinyasa';
+import {parividiShershikeVinyasa} from './ParividiShershike.vinyasa';
 
 export default ParividiShershike = () => (
   <View style={parividiShershikeVinyasa.avarana}>

@@ -1,6 +1,6 @@
 import React from 'react';
 import { View, Image, Text } from 'react-native';
-import adhyayaVinyasa from './Adhyaya.vinyasa';
+import {adhyayaVinyasa} from './Adhyaya.vinyasa';
 
 export default Adhyaya = (props) => (
   <View style={adhyayaVinyasa.avarana}>
