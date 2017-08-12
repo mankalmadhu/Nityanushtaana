@@ -9,7 +9,7 @@ jest.mock('../../ParividiShershike/ParividiShershike');
 jest.mock('../Parividi.mahiti',()=>{
   return {
     
-    parividiMahiti: [{ 
+    parividiMahiti : () => [{ 
         "shershike":  "MockTitle1",
         "chitra": 'SomePicture1'
       },

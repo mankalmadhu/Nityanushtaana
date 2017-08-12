@@ -12,16 +12,18 @@ export default class Parividi extends React.Component {
 
     const ds = new ListView.DataSource({rowHasChanged: (r1, r2) => r1 !== r2});
     this.state = {
-      dataSource: ds.cloneWithRows(parividiMahiti),
+      dataSource: ds.cloneWithRows(parividiMahiti()),
     };
   }
   render() {
+
+    const renderData = parividiMahiti();
     return (
       <ListView
         style={parividiVinyasa.avarana}
         dataSource={this.state.dataSource}
         renderHeader={() => <ParividiShershike />}
-        renderRow={(parividiMahiti) => <Adhyaya {...parividiMahiti} />}
+        renderRow={(renderData) => <Adhyaya {...renderData}/>}
         renderSeparator={(sectionId,rowId) => <View key={rowId} style={parividiVinyasa.vibhajaka} />}
         
       />
