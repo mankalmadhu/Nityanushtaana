@@ -1,12 +1,27 @@
 import React from 'react';
-import { View, Image, Text } from 'react-native';
+import { TouchableHighlight,View, Image, Text } from 'react-native';
 import adhyayaVinyasa from './Adhyaya.vinyasa';
 
-export default Adhyaya = (props) => (
-  <View style={adhyayaVinyasa.avarana}>
-    <Image source={props.chitra} style={adhyayaVinyasa.chitra} />
-    <Text style={adhyayaVinyasa.pathya}>
-      {`${props.shershike}`}
-    </Text>
-  </View>
-);
+
+export default class Adhyaya extends React.Component {
+  constructor(props) {
+    super(props);
+  }
+
+  handleAdhyayaPress = (shershike) => {
+    alert(shershike);
+  }
+
+  render() {
+   return (
+      <TouchableHighlight onPress={this.handleAdhyayaPress(this.props.shershike)}>
+        <View style={adhyayaVinyasa.avarana}>
+        <Image source={this.props.chitra} style={adhyayaVinyasa.chitra} />
+        <Text style={adhyayaVinyasa.pathya}>
+          {`${this.props.shershike}`}
+        </Text>
+        </View>
+      </TouchableHighlight>
+    );
+  }
+}

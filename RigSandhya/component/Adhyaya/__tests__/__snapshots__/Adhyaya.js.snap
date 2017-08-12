@@ -2,43 +2,71 @@
 
 exports[`Adhyaya 1`] = `
 <View
+  accessibilityComponentType={undefined}
+  accessibilityLabel={undefined}
+  accessibilityTraits={undefined}
+  accessible={true}
+  hasTVPreferredFocus={undefined}
+  hitSlop={undefined}
+  isTVSelectable={true}
+  nativeID={undefined}
+  onLayout={undefined}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
-    Object {
-      "alignItems": "center",
-      "flex": 1,
-      "flexDirection": "row",
-      "padding": 12,
-    }
+    Array [
+      Object {
+        "backgroundColor": "transparent",
+      },
+      undefined,
+    ]
   }
+  testID={undefined}
+  tvParallaxProperties={undefined}
 >
-  <Image
-    source={
-      Object {
-        "uri": "largepic",
-      }
-    }
+  <View
     style={
       Object {
-        "borderRadius": 20,
-        "height": 40,
-        "width": 40,
-      }
-    }
-  />
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "fontFamily": "ganapati",
-        "fontSize": 16,
-        "marginLeft": 12,
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "padding": 12,
       }
     }
   >
-    last
-  </Text>
+    <Image
+      source={
+        Object {
+          "uri": "largepic",
+        }
+      }
+      style={
+        Object {
+          "borderRadius": 20,
+          "height": 40,
+          "width": 40,
+        }
+      }
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "fontFamily": "ganapati",
+          "fontSize": 16,
+          "marginLeft": 12,
+        }
+      }
+    >
+      last
+    </Text>
+  </View>
 </View>
 `;
