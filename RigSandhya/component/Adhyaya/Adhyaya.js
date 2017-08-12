@@ -8,13 +8,13 @@ export default class Adhyaya extends React.Component {
     super(props);
   }
 
-  handleAdhyayaPress = (shershike) => {
-    alert(shershike);
+  handleAdhyayaPress = () => {
+    alert(this.props.shershike);
   }
 
   render() {
    return (
-      <TouchableHighlight onPress={this.handleAdhyayaPress(this.props.shershike)}>
+      <TouchableHighlight onPress={this.handleAdhyayaPress}>
         <View style={adhyayaVinyasa.avarana}>
         <Image source={this.props.chitra} style={adhyayaVinyasa.chitra} />
         <Text style={adhyayaVinyasa.pathya}>
