@@ -11,18 +11,15 @@ import {
   Text,
   View
 } from 'react-native';
+import { StackNavigator } from 'react-navigation';
 
 import Parividi from './component/Parividi/Parividi';
+import Shreekara from './component/Shreekara/Shreekara';
 
-export default class RigSandhya extends Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Parividi/>
-      </View>
-    );
-  }
-}
+const RigSandhya = StackNavigator({
+  Mukhaputa: { screen: Parividi },
+  ShubhaMastu : {screen: Shreekara}
+});
 
 const styles = StyleSheet.create({
   container: {
