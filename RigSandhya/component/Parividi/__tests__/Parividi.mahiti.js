@@ -1,6 +1,5 @@
 import React from 'react';
 
-jest.unmock('../Parividi.mahiti');
 const mahiti =require('../Parividi.mahiti');
 
 test("Parividi Mahiti" , () => {
