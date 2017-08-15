@@ -14,13 +14,15 @@ import {
 import { StackNavigator } from 'react-navigation';
 
 import Parividi from './component/Parividi/Parividi';
-import Shreekara from './component/Shreekara/Shreekara';
+import {Diksoochi} from './component/Diksoochi/Diksoochi';
 
-const RigSandhya = StackNavigator({
-  Mukhaputa: { screen: Parividi },
-  ShubhaMastu : {screen: Shreekara}
-});
-
+export default class RigSandhya extends Component {
+  render() {
+    return (
+      <Diksoochi ref={nav => { this.navigator = nav; }} />
+    );
+  }
+}
 const styles = StyleSheet.create({
   container: {
     flex: 1,

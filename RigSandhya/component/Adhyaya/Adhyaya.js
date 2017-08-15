@@ -10,7 +10,7 @@ export default class Adhyaya extends React.Component {
 
   handleAdhyayaPress = () => {
     const { navigate } = this.props.navigation;
-    navigate('ShubhaMastu', { shershike: this.props.shershike });
+    navigate(this.props.shershike, { shershike: this.props.shershike });
   }
 
   render() {
