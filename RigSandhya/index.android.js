@@ -11,15 +11,15 @@ import {
   Text,
   View
 } from 'react-native';
-import { StackNavigator } from 'react-navigation';
 
 import Parividi from './component/Parividi/Parividi';
-import {Diksoochi} from './component/Diksoochi/Diksoochi';
 
 export default class RigSandhya extends Component {
   render() {
     return (
-      <Diksoochi ref={nav => { this.navigator = nav; }} />
+    <View style={styles.container}>
+        <Parividi/>
+     </View>
     );
   }
 }
