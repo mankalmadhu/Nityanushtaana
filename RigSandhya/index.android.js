@@ -11,10 +11,14 @@ import {
   Text,
   View
 } from 'react-native';
+import { NativeRouter, Link } from 'react-router-native';
+import { Navigation, Card, NavBar } from 'react-router-navigation';
 
 import Parividi from './component/Parividi/Parividi';
+import Shreekara from './component/Shreekara/Shreekara';
+import ParividiShershike from './component/ParividiShershike/ParividiShershike';
 
-export default class RigSandhya extends Component {
+/*export default class RigSandhya extends Component {
   render() {
     return (
     <View style={styles.container}>
@@ -22,7 +26,16 @@ export default class RigSandhya extends Component {
      </View>
     );
   }
-}
+}*/
+
+const RigSandhya = () => (
+  <NativeRouter style={styles.container}>
+    <Navigation>
+      <Card exact path="/" component={Parividi} renderNavBar= {()=>(<ParividiShershike/>)}/>
+      <Card path="/shubhamastu"  component={Shreekara}/>
+    </Navigation>
+   </NativeRouter>
+)
 const styles = StyleSheet.create({
   container: {
     flex: 1,
