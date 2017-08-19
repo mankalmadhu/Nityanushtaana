@@ -11,7 +11,7 @@ export default class Adhyaya extends React.Component {
   
   render() {
    return (
-      <Link to="/shubhamastu" component={TouchableHighlight}>
+      <Link to={`/${this.props.shershike}`} component={TouchableHighlight}>
         <View style={adhyayaVinyasa.avarana}>
          <Image source={this.props.chitra} style={adhyayaVinyasa.chitra} />
          <Text style={adhyayaVinyasa.pathya}>
