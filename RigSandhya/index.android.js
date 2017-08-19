@@ -17,17 +17,7 @@ import { Navigation, Card, NavBar } from 'react-router-navigation';
 import Parividi from './component/Parividi/Parividi';
 import Shreekara from './component/Shreekara/Shreekara';
 import ParividiShershike from './component/ParividiShershike/ParividiShershike';
-
-/*export default class RigSandhya extends Component {
-  render() {
-    return (
-    <View style={styles.container}>
-        <Parividi/>
-     </View>
-    );
-  }
-}*/
-
+ 
 const RigSandhya = () => (
   <NativeRouter style={styles.container}>
     <Navigation>
