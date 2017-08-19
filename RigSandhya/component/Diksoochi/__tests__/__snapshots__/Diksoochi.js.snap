@@ -31,11 +31,6 @@ exports[`Diksoochi 1`] = `
   />
   <Card
     component={[Function]}
-    path="/ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
-    renderTitle={[Function]}
-  />
-  <Card
-    component={[Function]}
     path="/ಸಾಯ೦ಸ೦ಧ್ಯಾ"
     renderTitle={[Function]}
   />
