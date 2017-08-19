@@ -2,7 +2,6 @@ import {ListView, View} from 'react-native';
 import React from 'react';
 
 import Adhyaya from '../Adhyaya/Adhyaya';
-import ParividiShershike from '../ParividiShershike/ParividiShershike';
 import parividiVinyasa from './Parividi.vinyasa';
 import {parividiMahiti} from './Parividi.mahiti';
 
