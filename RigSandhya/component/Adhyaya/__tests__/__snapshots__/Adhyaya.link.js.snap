@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Adhyaya Link Test 1`] = `
+<Link
+  0="/"
+  1="l"
+  2="a"
+  3="s"
+  4="t"
+/>
+`;
