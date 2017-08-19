@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Diksoochi 1`] = `
+<Navigation
+  navBarStyle={
+    Object {
+      "backgroundColor": "#C1C1C1",
+    }
+  }
+>
+  <Card
+    component={[Function]}
+    exact={true}
+    path="/"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಸಾಯ೦ಸ೦ಧ್ಯಾ"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಸಾಯ೦ಸಮಿಧಾದಾನ"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಯಜ್ಞೋಪವೀತ"
+    renderTitle={[Function]}
+  />
+  <Card
+    component={[Function]}
+    path="/ಉಪನಯನಕಾರಿಕ"
+    renderTitle={[Function]}
+  />
+</Navigation>
+`;
