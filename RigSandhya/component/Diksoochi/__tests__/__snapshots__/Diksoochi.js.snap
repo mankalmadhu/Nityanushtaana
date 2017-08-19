@@ -9,45 +9,44 @@ exports[`Diksoochi 1`] = `
   }
 >
   <Card
-    component={[Function]}
-    exact={true}
+    component="Parividi"
     path="/"
-    renderTitle={[Function]}
+    renderTitle="ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ"
   />
   <Card
-    component={[Function]}
+    component="Shreekara"
     path="/ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
-    renderTitle={[Function]}
+    renderTitle="ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
   />
   <Card
-    component={[Function]}
+    component="Shreekara"
     path="/ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
-    renderTitle={[Function]}
+    renderTitle="ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
   />
   <Card
-    component={[Function]}
+    component="Shreekara"
     path="/ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ"
-    renderTitle={[Function]}
+    renderTitle="ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ"
   />
   <Card
-    component={[Function]}
+    component="Shreekara"
     path="/ಸಾಯ೦ಸ೦ಧ್ಯಾ"
-    renderTitle={[Function]}
+    renderTitle="ಸಾಯ೦ಸ೦ಧ್ಯಾ"
   />
   <Card
-    component={[Function]}
+    component="Shreekara"
     path="/ಸಾಯ೦ಸಮಿಧಾದಾನ"
-    renderTitle={[Function]}
+    renderTitle="ಸಾಯ೦ಸಮಿಧಾದಾನ"
   />
   <Card
-    component={[Function]}
+    component="Shreekara"
     path="/ಯಜ್ಞೋಪವೀತ"
-    renderTitle={[Function]}
+    renderTitle="ಯಜ್ಞೋಪವೀತ"
   />
   <Card
-    component={[Function]}
+    component="Shreekara"
     path="/ಉಪನಯನಕಾರಿಕ"
-    renderTitle={[Function]}
+    renderTitle="ಉಪನಯನಕಾರಿಕ"
   />
 </Navigation>
 `;
