@@ -16,7 +16,7 @@ import {Navigation, Card} from 'react-router-navigation';
 
 import Parividi from './component/Parividi/Parividi';
 import Shreekara from './component/Shreekara/Shreekara';
-import ParividiShershike from './component/ParividiShershike/ParividiShershike';
+import Shershike from './component/Shershike/Shershike';
  
 const RigSandhya = () => (
   

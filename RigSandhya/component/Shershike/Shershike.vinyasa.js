@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export default parividiShershikeVinyasa = StyleSheet.create({
+export default shershikeVinyasa = StyleSheet.create({
   avarana: {
     flex: 1,
     padding: 8,

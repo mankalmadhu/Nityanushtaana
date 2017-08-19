@@ -7,7 +7,6 @@ exports[`Parividi 1`] = `
       "items": 2,
     }
   }
-  renderHeader={[Function]}
   renderRow={[Function]}
   renderScrollComponent={[Function]}
   renderSeparator={[Function]}
@@ -19,12 +18,6 @@ exports[`Parividi 1`] = `
   }
 >
   <View>
-    <Text
-      accessible={true}
-      allowFontScaling={true}
-      disabled={false}
-      ellipsizeMode="tail"
-    />
     <div>
       Adhyaya 
       MockTitle1 SomePicture1
