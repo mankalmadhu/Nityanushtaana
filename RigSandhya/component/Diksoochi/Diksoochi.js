@@ -6,6 +6,8 @@ import Shreekara from '../Shreekara/Shreekara';
 import Shershike from '../Shershike/Shershike';
 import {parividiMahiti} from '../Parividi/Parividi.mahiti';
 
+import diksoochiVinyasa from './Diksoochi.vinyasa';
+
 var cardsCollection = parividiMahiti().map(function(mahiti){
   return <Card 
             path={`/${mahiti.shershike}`}  
@@ -15,14 +17,14 @@ var cardsCollection = parividiMahiti().map(function(mahiti){
 });
 
 export default Diksoochi = () => (
-
-       <Navigation navBarStyle={{backgroundColor: '#C1C1C1'}}>
+      
+       <Navigation navBarStyle={diksoochiVinyasa.shershikeAvarana}>
          <Card 
           exact path="/" 
           component={Parividi} 
           renderTitle = {()=>(<Shershike shershike='ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ'/>)}/>
          {cardsCollection}
       </Navigation>
-     
+      
   );
   

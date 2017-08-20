@@ -23,7 +23,6 @@ export default class Parividi extends React.Component {
         dataSource={this.state.dataSource}
         renderRow={(renderData) => <Adhyaya {...renderData}/>}
         renderSeparator={(sectionId,rowId) => <View key={rowId} style={parividiVinyasa.vibhajaka} />}
-        
       />
     );
   }

@@ -5,13 +5,13 @@ export default shershikeVinyasa = StyleSheet.create({
     flex: 1,
     padding: 8,
     flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#C1C1C1'
+    alignItems: 'center'
   },
   pathya: {
     marginLeft: 12,
     fontSize: 16,
-    fontFamily: 'ganapati'
+    fontFamily: 'ganapati',
+    color: '#f2f2f2'
   }
   
 });
