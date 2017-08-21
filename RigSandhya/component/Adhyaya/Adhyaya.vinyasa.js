@@ -9,7 +9,7 @@ export default adhyayaVinyasa = StyleSheet.create({
   },
   pathya: {
     marginLeft: 25,
-    fontSize: 16,
+    fontSize: 17,
     fontFamily: 'ganapati',
     color: '#ffffff'
   },
