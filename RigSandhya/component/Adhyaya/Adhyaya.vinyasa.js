@@ -8,7 +8,7 @@ export default adhyayaVinyasa = StyleSheet.create({
     alignItems: 'center',
   },
   pathya: {
-    marginLeft: 12,
+    marginLeft: 25,
     fontSize: 16,
     fontFamily: 'ganapati',
     color: '#ffffff'
