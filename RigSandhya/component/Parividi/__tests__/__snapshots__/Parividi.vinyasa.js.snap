@@ -4,11 +4,10 @@ exports[`Parividi Vinyasa 1`] = `
 <div>
   Object {
     "avarana": Object {
-      "flex": 1,
-      "marginTop": 20,
+      "backgroundColor": "#333333",
+      "flex": 3,
     },
     "vibhajaka": Object {
-      "backgroundColor": "#8E8E8E",
       "flex": 1,
       "height": 0.5,
     },

@@ -12,8 +12,8 @@ exports[`Parividi 1`] = `
   renderSeparator={[Function]}
   style={
     Object {
-      "flex": 1,
-      "marginTop": 20,
+      "backgroundColor": "#333333",
+      "flex": 3,
     }
   }
 >

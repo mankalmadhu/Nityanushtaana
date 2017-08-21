@@ -4,7 +4,7 @@ exports[`Diksoochi 1`] = `
 <Navigation
   navBarStyle={
     Object {
-      "backgroundColor": "#C1C1C1",
+      "backgroundColor": "#595959",
     }
   }
 >
