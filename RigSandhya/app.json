@@ -1,4 +1,9 @@
 {
   "name": "RigSandhya",
-  "displayName": "RigSandhya"
+  "displayName": "RigSandhya",
+  "expo": {
+    "name": "RigSandhya",
+    "slug":"RigSandhya",
+    "sdkVersion": "20.0.0"
+  }
 }

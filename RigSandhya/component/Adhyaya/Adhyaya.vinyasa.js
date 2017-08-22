@@ -1,4 +1,5 @@
 import { StyleSheet } from 'react-native';
+import { Font } from 'expo';
 
 export default adhyayaVinyasa = StyleSheet.create({
   avarana: {
@@ -10,7 +11,7 @@ export default adhyayaVinyasa = StyleSheet.create({
   pathya: {
     marginLeft: 25,
     fontSize: 17,
-    fontFamily: 'ganapati',
+    ...Font.style('ganapati'),
     color: '#ffffff'
   },
   chitra: {

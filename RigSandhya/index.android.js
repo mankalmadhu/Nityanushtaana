@@ -21,3 +21,4 @@ export default RigSandhya = () => (
 );
 
 AppRegistry.registerComponent('RigSandhya', () => RigSandhya);
+AppRegistry.registerComponent('main', () => RigSandhya);
