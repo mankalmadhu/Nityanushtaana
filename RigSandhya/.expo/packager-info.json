@@ -1,8 +1,8 @@
 {
-  "expoServerPort": null,
-  "packagerPort": null,
-  "packagerPid": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 5935,
+  "expoServerNgrokUrl": "https://w7-fxq.mankalmadhu.rigsandhya.exp.direct",
+  "packagerNgrokUrl": "https://packager.w7-fxq.mankalmadhu.rigsandhya.exp.direct",
+  "ngrokPid": 6031
 }
