@@ -33,7 +33,7 @@ export default class Diksoochi extends React.Component {
     {
       if(this.state.fontLoaded) {
       return  (
-        <Navigation navBarStyle={diksoochiVinyasa.shershikeAvarana}>
+        <Navigation navBarStyle={diksoochiVinyasa.shershikeAvarana} backButtonTintColor='#ffffff'>
          <Card 
           exact path="/" 
           component={Parividi} 
