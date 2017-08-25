@@ -2,6 +2,7 @@
 
 exports[`Diksoochi 1`] = `
 <Navigation
+  backButtonTintColor="#ffffff"
   navBarStyle={
     Object {
       "backgroundColor": "#595959",

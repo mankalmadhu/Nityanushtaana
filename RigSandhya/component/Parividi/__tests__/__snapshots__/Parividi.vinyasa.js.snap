@@ -8,6 +8,7 @@ exports[`Parividi Vinyasa 1`] = `
       "flex": 3,
     },
     "vibhajaka": Object {
+      "backgroundColor": "#8E8E8E",
       "flex": 1,
       "height": 0.5,
     },
