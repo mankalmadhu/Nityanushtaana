@@ -8,5 +8,6 @@ export default parividiVinyasa = StyleSheet.create({
   vibhajaka: {
     flex: 1,
     height: StyleSheet.hairlineWidth,
+    backgroundColor: '#8E8E8E'
    },
 });

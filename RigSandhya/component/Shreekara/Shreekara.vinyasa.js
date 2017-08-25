@@ -12,7 +12,10 @@ export default shreekaraVinyasa = StyleSheet.create({
     marginLeft: 12,
     fontSize: 16,
     fontFamily: 'ganapati',
-    color: '#ffffff'
+    color: '#ffffff',
+    marginLeft: 3,
+    textAlign:'justify',
+    lineHeight:50
   }
   
 });

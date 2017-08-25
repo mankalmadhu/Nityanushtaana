@@ -18,7 +18,7 @@ var cardsCollection = parividiMahiti().map(function(mahiti){
 
 export default Diksoochi = () => (
       
-       <Navigation navBarStyle={diksoochiVinyasa.shershikeAvarana}>
+       <Navigation navBarStyle={diksoochiVinyasa.shershikeAvarana} backButtonTintColor='#ffffff'>
          <Card 
           exact path="/" 
           component={Parividi} 
