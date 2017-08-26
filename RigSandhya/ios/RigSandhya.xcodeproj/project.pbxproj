@@ -36,6 +36,7 @@
 		5E9157361DD0AC6A00FF2AA8 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		183D0A6586334DD2BA2DB7D0 /* ganapati.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 819ECFE60972482E9E1FB9F1 /* ganapati.ttf */; };
+		0D5B302079234C93982FA2D2 /* Ganapati.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 671991D50D664020AEBCD8E5 /* Ganapati.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -256,6 +257,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		819ECFE60972482E9E1FB9F1 /* ganapati.ttf */ = {isa = PBXFileReference; name = "ganapati.ttf"; path = "../assets/fonts/ganapati.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		671991D50D664020AEBCD8E5 /* Ganapati.ttf */ = {isa = PBXFileReference; name = "Ganapati.ttf"; path = "../assets/fonts/Ganapati.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -489,6 +491,7 @@
 			isa = "PBXGroup";
 			children = (
 				819ECFE60972482E9E1FB9F1 /* ganapati.ttf */,
+				671991D50D664020AEBCD8E5 /* Ganapati.ttf */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -853,6 +856,7 @@
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 				183D0A6586334DD2BA2DB7D0 /* ganapati.ttf in Resources */,
+				0D5B302079234C93982FA2D2 /* Ganapati.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

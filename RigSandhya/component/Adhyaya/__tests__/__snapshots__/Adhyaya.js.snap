@@ -38,7 +38,7 @@ exports[`Adhyaya 1`] = `
       style={
         Object {
           "color": "#ffffff",
-          "fontFamily": "ganapati",
+          "fontFamily": "Ganapati",
           "fontSize": 17,
           "marginLeft": 25,
         }

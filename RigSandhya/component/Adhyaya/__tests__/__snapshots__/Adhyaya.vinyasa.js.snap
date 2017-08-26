@@ -16,7 +16,7 @@ exports[`Adhyaya Vinyasa 1`] = `
     },
     "pathya": Object {
       "color": "#ffffff",
-      "fontFamily": "ganapati",
+      "fontFamily": "Ganapati",
       "fontSize": 17,
       "marginLeft": 25,
     },

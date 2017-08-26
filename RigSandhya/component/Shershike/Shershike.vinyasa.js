@@ -10,7 +10,7 @@ export default shershikeVinyasa = StyleSheet.create({
   pathya: {
     marginLeft: 70,
     fontSize: 18,
-    fontFamily: 'ganapati',
+    fontFamily: 'Ganapati',
     color: '#ffffff'
   }
   

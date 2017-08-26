@@ -19,7 +19,7 @@ exports[`Shershike Render 1`] = `
     style={
       Object {
         "color": "#ffffff",
-        "fontFamily": "ganapati",
+        "fontFamily": "Ganapati",
         "fontSize": 18,
         "marginLeft": 70,
       }

@@ -11,7 +11,7 @@ export default shreekaraVinyasa = StyleSheet.create({
   pathya: {
     marginLeft: 12,
     fontSize: 16,
-    fontFamily: 'ganapati',
+    fontFamily: 'Ganapati',
     color: '#ffffff',
     marginLeft: 3,
     textAlign:'justify',

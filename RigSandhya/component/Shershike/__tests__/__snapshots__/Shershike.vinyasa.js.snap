@@ -11,7 +11,7 @@ exports[`Shershike Vinyasa 1`] = `
     },
     "pathya": Object {
       "color": "#ffffff",
-      "fontFamily": "ganapati",
+      "fontFamily": "Ganapati",
       "fontSize": 18,
       "marginLeft": 70,
     },
