@@ -22,8 +22,8 @@
   "jest": {
     "preset": "react-native",
     "transformIgnorePatterns": [
-			"node_modules/?!(react-native|native-base)"
-		]
+      "node_modules/?!(react-native|native-base)"
+    ]
   },
   "rnpm": {
     "assets": [
