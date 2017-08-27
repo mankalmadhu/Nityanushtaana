@@ -4,30 +4,37 @@ exports[`Parividi Mahiti 1`] = `
 <div>
   Object {
     "chitra": "./chitra/sandhya.png",
+    "paschat": "Shreekara",
     "shershike": "ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ",
   }
   Object {
     "chitra": "./chitra/agnikarya.png",
+    "paschat": "Shreekara",
     "shershike": "ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ",
   }
   Object {
     "chitra": "./chitra/sandhya.png",
+    "paschat": "Shreekara",
     "shershike": "ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ",
   }
   Object {
     "chitra": "./chitra/sandhya.png",
+    "paschat": "Shreekara",
     "shershike": "ಸಾಯ೦ಸ೦ಧ್ಯಾ",
   }
   Object {
     "chitra": "./chitra/agnikarya.png",
+    "paschat": "Shreekara",
     "shershike": "ಸಾಯ೦ಸಮಿಧಾದಾನ",
   }
   Object {
     "chitra": "./chitra/upadesha.png",
+    "paschat": "Shreekara",
     "shershike": "ಯಜ್ಞೋಪವೀತ",
   }
   Object {
     "chitra": "./chitra/upadesha.png",
+    "paschat": "Shreekara",
     "shershike": "ಉಪನಯನಕಾರಿಕ",
   }
 </div>
