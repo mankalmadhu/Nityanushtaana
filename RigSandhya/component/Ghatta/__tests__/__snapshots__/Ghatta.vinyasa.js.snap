@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ghatta Vinyasa 1`] = `
+<div>
+  Object {
+    "ghattaShershike": Object {
+      "color": "#ffffff",
+      "fontFamily": "Ganapati",
+      "fontSize": 17,
+      "marginLeft": 3,
+      "textAlign": "justify",
+    },
+    "purvanga": Object {
+      "color": "#ffffff",
+      "fontFamily": "Ganapati",
+      "fontSize": 16,
+      "fontStyle": "italic",
+      "lineHeight": 50,
+      "marginLeft": 3,
+      "paddingBottom": 10,
+      "textAlign": "justify",
+    },
+    "viniyoga": Object {
+      "color": "#ffffff",
+      "fontFamily": "Ganapati",
+      "fontSize": 16,
+      "lineHeight": 50,
+      "marginLeft": 3,
+      "textAlign": "justify",
+    },
+  }
+</div>
+`;
