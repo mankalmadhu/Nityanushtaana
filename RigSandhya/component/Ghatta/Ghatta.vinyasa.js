@@ -1,33 +1,23 @@
 import { StyleSheet } from 'react-native';
 
 export default ghattaVinyasa = StyleSheet.create({
-  viniyoga :{
+  pathya : {
     marginLeft: 12,
-    fontSize: 16,
     fontFamily: 'Ganapati',
     color: '#ffffff',
-    marginLeft: 3,
-    textAlign:'justify',
+    textAlign:'justify'
+  },
+  viniyoga :{
+    fontSize: 16,
     lineHeight:50
   },
   ghattaShershike : {
-    marginLeft: 12,
-    fontSize: 17,
-    fontFamily: 'Ganapati',
-    color: '#ffffff',
-    marginLeft: 3,
-    textAlign:'justify'
-    
+    fontSize: 17
   },
   purvanga :{
     paddingBottom: 10,
     fontStyle: 'italic',
     fontSize:16,
-    marginLeft: 12,
-    fontFamily: 'Ganapati',
-    color: '#ffffff',
-    marginLeft: 3,
-    textAlign:'justify',
     lineHeight:50
   }
   
