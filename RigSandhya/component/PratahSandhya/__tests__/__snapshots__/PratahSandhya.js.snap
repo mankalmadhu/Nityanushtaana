@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#333333",
+      "flex": 1,
+      "flexDirection": "column",
+      "padding": 3,
+    }
+  }
+>
+  <ಆಸನಸೂಚನೆ />
+  <ಆಚಮನೀಯ />
+  <ಪ್ರೋಕ್ಷಣ />
+  <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+  <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+</View>
+`;
