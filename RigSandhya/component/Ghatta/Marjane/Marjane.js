@@ -8,7 +8,7 @@ export default  ಮಾರ್ಜನೆ = () => (
 <Text style={ghattaVinyasa.viniyoga}>
    ಮಾರ್ಜನೆ
 </Text>
-<Text style={ghattaVinyasa.viniyoga}>
+<Text style={ghattaVinyasa.purvanga}>
    ಆಪೋಹಿಷ್ಠೇತಿ ತ್ರಿಚರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ, ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ ಋಷಿಃ, ಆಪೋ ದೇವತಾ, ಗಾಯತ್ರೀ ಛ೦ದಃ ಮಾರ್ಜನೇ ವಿನಿಯೋಗಃ ॥
 </Text>
 <Text style={ghattaVinyasa.viniyoga}>

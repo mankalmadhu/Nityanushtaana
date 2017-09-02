@@ -8,7 +8,7 @@ export default  ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ = () => (
 <Text style={ghattaVinyasa.viniyoga}>
    ಅಭಿಮ೦ತ್ರಣೆ
 </Text>
-<Text style={ghattaVinyasa.viniyoga}>
+<Text style={ghattaVinyasa.purvanga}>
    ಸೂರ್ಯಶ್ಚೇತ್ಯಸ್ಯ ಮ೦ತ್ರಸ್ಯ, ಸೂರ್ಯಮಾಮನ್ಯುಃ,ಮನ್ಯುಪತಯಃ,ಅಹರ್ದೇವತಾ, ಪ್ರಕೃತಿಪುರುಷ೦ ಛ೦ದ: ಜಲಾಭಿಮ೦ತ್ರಣೇ ವಿನಿಯೋಗಃ ॥
 </Text>
 <Text style={ghattaVinyasa.viniyoga}>
