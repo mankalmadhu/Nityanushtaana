@@ -1,6 +1,6 @@
 import { StyleSheet } from 'react-native';
 
-export default shreekaraVinyasa = StyleSheet.create({
+export default pratahSandhyaVinyasa = StyleSheet.create({
   avarana: {
     flex: 1,
     padding: 3,
