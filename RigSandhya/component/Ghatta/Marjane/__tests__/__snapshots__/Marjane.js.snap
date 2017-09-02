@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ಮಾರ್ಜನೆ 1`] = `
+<View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontFamily": "Ganapati",
+        "fontSize": 16,
+        "lineHeight": 50,
+        "marginLeft": 12,
+        "textAlign": "justify",
+      }
+    }
+  >
+    ಮಾರ್ಜನೆ
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontFamily": "Ganapati",
+        "fontSize": 16,
+        "fontStyle": "italic",
+        "lineHeight": 50,
+        "marginLeft": 12,
+        "paddingBottom": 10,
+        "textAlign": "justify",
+      }
+    }
+  >
+    ಆಪೋಹಿಷ್ಠೇತಿ ತ್ರಿಚರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ, ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ ಋಷಿಃ, ಆಪೋ ದೇವತಾ, ಗಾಯತ್ರೀ ಛ೦ದಃ ಮಾರ್ಜನೇ ವಿನಿಯೋಗಃ ॥
+  </Text>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontFamily": "Ganapati",
+        "fontSize": 16,
+        "lineHeight": 50,
+        "marginLeft": 12,
+        "textAlign": "justify",
+      }
+    }
+  >
+    ಓ೦ ಆಪೋ॒ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ಭುವ॒ಸ್ತಾನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇರಣಾ᳚ಯ॒ ಚಕ್ಷ॑ಸೇ ॥ ಯೋವಃ॑ ಶಿ॒ವತ॑ಮೋ॒ರಸ॒ಸ್ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ । ತಸ್ಮಾ॒ ಅರ᳚೦ಗ ಮಾ॒ಮವೋ॒ಯಸ್ಯ॒ಕ್ಷಯಾ᳚ಯ॒ ಜಿನ್ವ॑ಥ । ಆಪೋ᳚ ಜ॒ನಯ॑ಥಾಚನಃ ॥
+  </Text>
+</View>
+`;
