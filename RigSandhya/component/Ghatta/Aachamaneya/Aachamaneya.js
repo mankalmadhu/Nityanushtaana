@@ -5,10 +5,10 @@ import ghattaVinyasa from '../Ghatta.vinyasa';
 
 export default ಆಚಮನೀಯ = () => (
   <View>
-    <Text style={{ ...ghattaVinyasa.pathya, ...ghattaVinyasa.viniyoga }}>
+    <Text style={ghattaVinyasa.viniyoga}>
       ಆಚಮನೀಯ
     </Text>
-    <Text style={{ ...ghattaVinyasa.pathya, ...ghattaVinyasa.viniyoga }}>
+    <Text style={ghattaVinyasa.viniyoga}>
       ಕೇಶವಾಯ ಸ್ವಾಹಾ । ನಾರಾಯಣಾಯ ಸ್ವಾಹಾ ।ಮಾಧವಾಯ ಸ್ವಾಹಾ ।
        ಗೋವಿ೦ದಾಯ ನಮಃ ॥ ವಿಷ್ಣವೇ ನಮಃ । ಮಧುಸೂದನಾಯ ನಮಃ ।
        ತ್ರಿವಿಕ್ರಮಾಯ ನಮಃ । ವಾಮನಾಯ ನಮಃ ।ಶ್ರೀಧರಾಯ ನಮಃ ।
