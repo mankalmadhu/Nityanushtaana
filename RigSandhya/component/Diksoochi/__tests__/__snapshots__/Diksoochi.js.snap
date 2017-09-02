@@ -15,7 +15,7 @@ exports[`Diksoochi 1`] = `
     renderTitle="ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ"
   />
   <Card
-    component="Shreekara"
+    component="ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
     path="/ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
     renderTitle="ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
   />
