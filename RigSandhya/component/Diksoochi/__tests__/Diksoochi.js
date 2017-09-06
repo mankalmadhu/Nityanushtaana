@@ -18,7 +18,7 @@ jest.mock('react-router-navigation', (props)=>{
       var props = {
         path:this.props.path,
         component:this.props.component.name,
-        renderTitle:this.props.renderTitle().props.shershike};
+        renderTitle:this.props.renderTitle()};
         
       return MockReact.createElement('Card' ,props);
     }
