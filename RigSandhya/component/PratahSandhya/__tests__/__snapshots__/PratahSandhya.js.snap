@@ -6,7 +6,6 @@ exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
     Object {
       "alignItems": "center",
       "backgroundColor": "#333333",
-      "flex": 1,
       "flexDirection": "column",
       "padding": 3,
     }
