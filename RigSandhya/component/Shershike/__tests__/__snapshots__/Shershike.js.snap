@@ -2,28 +2,14 @@
 
 exports[`Shershike Render 1`] = `
 <View
-  style={
-    Object {
-      "alignItems": "center",
-      "flex": 1,
-      "flexDirection": "row",
-      "padding": 4,
-    }
-  }
+  style={Object {}}
 >
   <Text
     accessible={true}
     allowFontScaling={true}
     disabled={false}
     ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#ffffff",
-        "fontFamily": "Ganapati",
-        "fontSize": 18,
-        "marginLeft": 70,
-      }
-    }
+    style={Object {}}
   >
     TestTitle
   </Text>
