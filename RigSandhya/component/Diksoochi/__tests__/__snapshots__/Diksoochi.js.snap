@@ -12,202 +12,42 @@ exports[`Diksoochi 1`] = `
   <Card
     component="Parividi"
     path="/"
-    renderTitle={
-      <Shershike
-        shershike="ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ"
   />
   <Card
     component="ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
     path="/ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
-    renderTitle={
-      <Shershike
-        shershike="ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ"
   />
   <Card
     component="Shreekara"
     path="/ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
-    renderTitle={
-      <Shershike
-        shershike="ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ"
   />
   <Card
     component="Shreekara"
     path="/ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ"
-    renderTitle={
-      <Shershike
-        shershike="ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ"
   />
   <Card
     component="Shreekara"
     path="/ಸಾಯ೦ಸ೦ಧ್ಯಾ"
-    renderTitle={
-      <Shershike
-        shershike="ಸಾಯ೦ಸ೦ಧ್ಯಾ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಸಾಯ೦ಸ೦ಧ್ಯಾ"
   />
   <Card
     component="Shreekara"
     path="/ಸಾಯ೦ಸಮಿಧಾದಾನ"
-    renderTitle={
-      <Shershike
-        shershike="ಸಾಯ೦ಸಮಿಧಾದಾನ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಸಾಯ೦ಸಮಿಧಾದಾನ"
   />
   <Card
     component="Shreekara"
     path="/ಯಜ್ಞೋಪವೀತ"
-    renderTitle={
-      <Shershike
-        shershike="ಯಜ್ಞೋಪವೀತ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಯಜ್ಞೋಪವೀತ"
   />
   <Card
     component="Shreekara"
     path="/ಉಪನಯನಕಾರಿಕ"
-    renderTitle={
-      <Shershike
-        shershike="ಉಪನಯನಕಾರಿಕ"
-        vinyasa={
-          Object {
-            "avarana": Object {
-              "alignItems": "center",
-              "flex": 1,
-              "flexDirection": "row",
-              "padding": 4,
-            },
-            "pathya": Object {
-              "color": "#ffffff",
-              "fontFamily": "Ganapati",
-              "fontSize": 18,
-              "marginLeft": 70,
-            },
-          }
-        }
-      />
-    }
+    renderTitle="ಉಪನಯನಕಾರಿಕ"
   />
 </Navigation>
 `;
