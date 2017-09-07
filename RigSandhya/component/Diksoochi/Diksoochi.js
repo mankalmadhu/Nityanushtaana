@@ -6,13 +6,12 @@ import Shershike from '../Shershike/Shershike';
 import {parividiMahiti} from '../Parividi/Parividi.mahiti';
 
 import diksoochiVinyasa from './Diksoochi.vinyasa';
-import diksoochiShershikeVinyasa from './DiksoochiShershike.vinyasa';
 
 var cardsCollection = parividiMahiti().map(function(mahiti){
   return <Card 
             path={`/${mahiti.shershike}`}  
             component={mahiti.paschat} 
-            renderTitle = {()=>(<Shershike shershike={`${mahiti.shershike}`} vinyasa={diksoochiShershikeVinyasa}/>)}
+            renderTitle = {()=>(<Shershike shershike={`${mahiti.shershike}`}/>)}
             key={`${mahiti.shershike}`} />;
 });
 
@@ -22,7 +21,7 @@ export default Diksoochi = () => (
          <Card 
           exact path="/" 
           component={Parividi} 
-          renderTitle = {()=>(<Shershike shershike='ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ' vinyasa={diksoochiShershikeVinyasa}/>)}/>
+          renderTitle = {()=>(<Shershike shershike='ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ'/>)}/>
          {cardsCollection}
       </Navigation>
       
