@@ -10,21 +10,20 @@ export default ghattaVinyasa = StyleSheet.create({
   
   viniyoga :{
     ...pathya,
-    fontSize: 16,
+    fontSize: 18,
     color: '#ffffff',
     lineHeight:50
   },
   ghattaShershike : {
     ...pathya,
     color: '#3bdde5',
-    fontSize: 17
+    fontSize: 19,
+    lineHeight:50
   },
   purvanga :{
     ...pathya,
-    color: '#ffffff',
-    paddingBottom: 10,
-    fontStyle: 'italic',
-    fontSize:16,
+    color: '#6695e2',
+    fontSize:18,
     lineHeight:50
   }
   
