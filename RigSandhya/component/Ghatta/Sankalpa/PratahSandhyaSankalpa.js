@@ -5,10 +5,10 @@ import ghattaVinyasa from '../Ghatta.vinyasa';
 
 export default  ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ = () => (
   <View>
-    <Text style={ghattaVinyasa.viniyoga}>
+    <Text style={ghattaVinyasa.ghattaShershike}>
        ಸ೦ಕಲ್ಪ
     </Text>
-    <Text style={ghattaVinyasa.viniyoga}>
+    <Text style={ghattaVinyasa.purvanga}>
        ಪ್ರಣವಸ್ಯ ಪರಬ್ರಹ್ಮ ಋಷಿಃ ಪರಮಾತ್ಮಾ ದೇವತಾ ದೈವೀ ಗಾಯತ್ರೀ ಛ೦ದಃ ಪ್ರಾಣಾಯಾಮೇ ವಿನಿಯೋಗಃ ।
     </Text>
     <Text style={ghattaVinyasa.viniyoga}>

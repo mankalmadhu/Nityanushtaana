@@ -5,7 +5,7 @@ import ghattaVinyasa from '../Ghatta.vinyasa';
 
 export default ಆಚಮನೀಯ = () => (
   <View>
-    <Text style={ghattaVinyasa.viniyoga}>
+    <Text style={ghattaVinyasa.ghattaShershike}>
       ಆಚಮನೀಯ
     </Text>
     <Text style={ghattaVinyasa.viniyoga}>

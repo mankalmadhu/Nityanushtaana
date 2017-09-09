@@ -5,7 +5,7 @@ import ghattaVinyasa from '../Ghatta.vinyasa';
 
 export default  ಮಾರ್ಜನೆ = () => (
 <View>
-<Text style={ghattaVinyasa.viniyoga}>
+<Text style={ghattaVinyasa.ghattaShershike}>
    ಮಾರ್ಜನೆ
 </Text>
 <Text style={ghattaVinyasa.purvanga}>
