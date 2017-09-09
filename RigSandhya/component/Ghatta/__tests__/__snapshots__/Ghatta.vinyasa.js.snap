@@ -4,7 +4,7 @@ exports[`Ghatta Vinyasa 1`] = `
 <div>
   Object {
     "ghattaShershike": Object {
-      "color": "#ffffff",
+      "color": "#3bdde5",
       "fontFamily": "Ganapati",
       "fontSize": 17,
       "marginLeft": 12,

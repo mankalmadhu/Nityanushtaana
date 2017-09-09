@@ -9,10 +9,9 @@ exports[`ಪ್ರೋಕ್ಷಣ 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "color": "#ffffff",
+        "color": "#3bdde5",
         "fontFamily": "Ganapati",
-        "fontSize": 16,
-        "lineHeight": 50,
+        "fontSize": 17,
         "marginLeft": 12,
         "textAlign": "justify",
       }
