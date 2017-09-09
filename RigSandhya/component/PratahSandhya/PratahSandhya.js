@@ -1,5 +1,5 @@
 import React from 'react';
-import { ScrollView, Text } from 'react-native';
+import { View, ViewPagerAndroid, Text } from 'react-native';
 import pratahSandhyaVinyasa from './PratahSandhya.vinyasa';
 
 import ಆಸನಸೂಚನೆ from '../Ghatta/Sochane/AasanaSoochane';
@@ -10,17 +10,28 @@ import ಪ್ರಾತಃಮಾರ್ಜನೆ from '../Ghatta/Marjane/PratahMar
 
 export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Component {
 
-  render()
-  {
+  render() {
     return (
-     <ScrollView contentContainerStyle={pratahSandhyaVinyasa.avarana}>
-        <ಆಸನಸೂಚನೆ/>
-        <ಆಚಮನೀಯ/>
-        <ಪ್ರೋಕ್ಷಣ/>
-        <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ/>
-        <ಪ್ರಾತಃಮಾರ್ಜನೆ/>
+      <ViewPagerAndroid style={pratahSandhyaVinyasa.avarana} initialPage={0}>
+        <View>
+          <ಆಸನಸೂಚನೆ />
+          <ಆಚಮನೀಯ />
+        </View>
+        <View>
+          <ಪ್ರೋಕ್ಷಣ />
+        </View>
+        <View>
+          <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+        </View>
+        <View>
+        <ಆಚಮನೀಯ />
+        </View>
+        <View>
+        <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+        </View>
         
-     </ScrollView>
+
+      </ViewPagerAndroid>
     );
   }
 }

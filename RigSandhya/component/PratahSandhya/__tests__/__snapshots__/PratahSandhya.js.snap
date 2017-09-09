@@ -1,22 +1,38 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
-<RCTScrollView
-  contentContainerStyle={
-    Object {
-      "alignItems": "center",
-      "backgroundColor": "#333333",
-      "flexDirection": "column",
-      "padding": 3,
-    }
+<View
+  style={
+    Array [
+      Object {
+        "alignSelf": "flex-start",
+        "borderColor": "red",
+        "borderWidth": 1,
+      },
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#333333",
+        "flexDirection": "column",
+        "padding": 3,
+      },
+    ]
   }
 >
   <View>
     <ಆಸನಸೂಚನೆ />
     <ಆಚಮನೀಯ />
+  </View>
+  <View>
     <ಪ್ರೋಕ್ಷಣ />
+  </View>
+  <View>
     <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+  </View>
+  <View>
+    <ಆಚಮನೀಯ />
+  </View>
+  <View>
     <ಪ್ರಾತಃಮಾರ್ಜನೆ />
   </View>
-</RCTScrollView>
+</View>
 `;

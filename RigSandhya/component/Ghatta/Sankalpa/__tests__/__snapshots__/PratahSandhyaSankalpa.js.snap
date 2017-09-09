@@ -11,7 +11,8 @@ exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
       Object {
         "color": "#3bdde5",
         "fontFamily": "Ganapati",
-        "fontSize": 17,
+        "fontSize": 19,
+        "lineHeight": 50,
         "marginLeft": 12,
         "textAlign": "justify",
       }
@@ -26,13 +27,11 @@ exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
     ellipsizeMode="tail"
     style={
       Object {
-        "color": "#ffffff",
+        "color": "#6695e2",
         "fontFamily": "Ganapati",
-        "fontSize": 16,
-        "fontStyle": "italic",
+        "fontSize": 18,
         "lineHeight": 50,
         "marginLeft": 12,
-        "paddingBottom": 10,
         "textAlign": "justify",
       }
     }
@@ -48,7 +47,7 @@ exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
       Object {
         "color": "#ffffff",
         "fontFamily": "Ganapati",
-        "fontSize": 16,
+        "fontSize": 18,
         "lineHeight": 50,
         "marginLeft": 12,
         "textAlign": "justify",
@@ -66,7 +65,7 @@ exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
       Object {
         "color": "#ffffff",
         "fontFamily": "Ganapati",
-        "fontSize": 16,
+        "fontSize": 18,
         "lineHeight": 50,
         "marginLeft": 12,
         "textAlign": "justify",
@@ -84,7 +83,7 @@ exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
       Object {
         "color": "#ffffff",
         "fontFamily": "Ganapati",
-        "fontSize": 16,
+        "fontSize": 18,
         "lineHeight": 50,
         "marginLeft": 12,
         "textAlign": "justify",
@@ -102,7 +101,7 @@ exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
       Object {
         "color": "#ffffff",
         "fontFamily": "Ganapati",
-        "fontSize": 16,
+        "fontSize": 18,
         "lineHeight": 50,
         "marginLeft": 12,
         "textAlign": "justify",
