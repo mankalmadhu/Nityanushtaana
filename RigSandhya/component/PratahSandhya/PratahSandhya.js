@@ -24,13 +24,11 @@ export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Compo
           <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
         </View>
         <View>
-        <ಆಚಮನೀಯ />
+          <ಆಚಮನೀಯ />
         </View>
         <View>
-        <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+          <ಪ್ರಾತಃಮಾರ್ಜನೆ />
         </View>
-        
-
       </ViewPagerAndroid>
     );
   }
