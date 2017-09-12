@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, ViewPagerAndroid, Text } from 'react-native';
+import { View, ViewPagerAndroid,ScrollView, Text } from 'react-native';
 import pratahSandhyaVinyasa from './PratahSandhya.vinyasa';
 
 import ಆಸನಸೂಚನೆ from '../Ghatta/Sochane/AasanaSoochane';
@@ -14,20 +14,26 @@ export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Compo
     return (
       <ViewPagerAndroid style={pratahSandhyaVinyasa.avarana} initialPage={0}>
         <View>
-          <ಆಸನಸೂಚನೆ />
-          <ಆಚಮನೀಯ />
+          <ScrollView>
+           <ಆಸನಸೂಚನೆ />
+           <ಆಚಮನೀಯ />
+          </ScrollView>
         </View>
         <View>
+        <ScrollView>
           <ಪ್ರೋಕ್ಷಣ />
-        </View>
-        <View>
           <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+        </ScrollView>  
         </View>
         <View>
+        <ScrollView>
           <ಆಚಮನೀಯ />
+          </ScrollView>
         </View>
         <View>
+        <ScrollView>
           <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+        </ScrollView>
         </View>
       </ViewPagerAndroid>
     );

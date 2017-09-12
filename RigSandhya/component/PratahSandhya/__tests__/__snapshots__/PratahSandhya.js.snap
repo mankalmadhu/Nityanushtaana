@@ -12,6 +12,7 @@ exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
       Object {
         "alignItems": "center",
         "backgroundColor": "#333333",
+        "flex": 1,
         "flexDirection": "column",
         "padding": 3,
       },
@@ -19,20 +20,34 @@ exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
   }
 >
   <View>
-    <ಆಸನಸೂಚನೆ />
-    <ಆಚಮನೀಯ />
+    <RCTScrollView>
+      <View>
+        <ಆಸನಸೂಚನೆ />
+        <ಆಚಮನೀಯ />
+      </View>
+    </RCTScrollView>
   </View>
   <View>
-    <ಪ್ರೋಕ್ಷಣ />
+    <RCTScrollView>
+      <View>
+        <ಪ್ರೋಕ್ಷಣ />
+        <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+      </View>
+    </RCTScrollView>
   </View>
   <View>
-    <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+    <RCTScrollView>
+      <View>
+        <ಆಚಮನೀಯ />
+      </View>
+    </RCTScrollView>
   </View>
   <View>
-    <ಆಚಮನೀಯ />
-  </View>
-  <View>
-    <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+    <RCTScrollView>
+      <View>
+        <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+      </View>
+    </RCTScrollView>
   </View>
 </View>
 `;
