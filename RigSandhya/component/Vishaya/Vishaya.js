@@ -3,13 +3,13 @@ import {  Text } from 'react-native';
 import PropTypes from 'prop-types';
 
 export default ವಿಷಯ = (props) => (
-    <Text style={props.vinyasa}>
-      {props.vishaya}
+    <Text style={props.ವಿನ್ಯಾಸ}>
+      {props.ಮಾಹಿತಿ}
     </Text>
   
 );
 
 ವಿಷಯ.propTypes = {
-  vinyasa : PropTypes.object.isRequired,
-  vishaya : PropTypes.string.isRequired
+  ವಿನ್ಯಾಸ : PropTypes.object.isRequired,
+  ಮಾಹಿತಿ : PropTypes.string.isRequired
 };

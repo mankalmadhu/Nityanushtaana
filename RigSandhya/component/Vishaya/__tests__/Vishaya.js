@@ -8,7 +8,7 @@ import Renderer from 'react-test-renderer';
 test("ವಿಷಯ" , () => {
 
    const vishaya = Renderer.create(
-       <ವಿಷಯ vinyasa = {StyleSheet.create({})} vishaya='Some Text'/>
+       <ವಿಷಯ ವಿನ್ಯಾಸ = {StyleSheet.create({})} ಮಾಹಿತಿ='Some Text'/>
    ).toJSON();
 
    expect(vishaya).toMatchSnapshot();
