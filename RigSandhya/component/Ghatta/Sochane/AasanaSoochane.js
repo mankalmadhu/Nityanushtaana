@@ -2,9 +2,11 @@ import React from 'react';
 import { Text } from 'react-native';
 
 import ghattaVinyasa from '../Ghatta.vinyasa';
+import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಆಸನಸೂಚನೆ = () => (
-    <Text style={ghattaVinyasa.ghattaShershike}>
-        (ಪೂರ್ವ/ಉತ್ತರ ಅಭಿಮುಖವಾಗಿ ಕುಳಿತು)
-    </Text>
-);
+    <ವಿಷಯ 
+    ವಿನ್ಯಾಸ = {ghattaVinyasa.ghattaShershike} 
+    ಮಾಹಿತಿ='(ಪೂರ್ವ/ಉತ್ತರ ಅಭಿಮುಖವಾಗಿ ಕುಳಿತು)'/>
+ );
+ 
