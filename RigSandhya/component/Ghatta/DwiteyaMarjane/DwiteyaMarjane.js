@@ -2,6 +2,9 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 import ghattaVinyasa from '../Ghatta.vinyasa';
+import ಮಾರ್ಜನೆ from '../Marjane/Marjane';
+import ಗಾಯತ್ರೀಮ೦ತ್ರ from '../Gayatri/GayatriMantra';
+import ವ್ಯಾಹೃತಿ from '../Gayatri/Vyahruti';
 
 export default ದ್ವಿತೀಯಮಾರ್ಜನೆ = () => (
 <View>
@@ -11,17 +14,9 @@ export default ದ್ವಿತೀಯಮಾರ್ಜನೆ = () => (
 <Text style={ghattaVinyasa.purvanga}>
   ಆಪೋಹಿಷ್ಠೇತಿ ನವರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ ಆಪೋ ಗಾಯತ್ರಿ ಪ೦ಚಮೀ ವರ್ಧಮಾನಾ ಸಪ್ತಮೀ ಪ್ರತಿಷ್ಠಾ ಅ೦ತ್ಯೇ ದ್ವೇ ಅನುಷ್ಟುಭೌ ದ್ವಿತೀಯ ಮಾರ್ಜನೆ ವಿನಿಯೋಗಃ ॥
 </Text>
-<Text style={ghattaVinyasa.viniyoga}>
-  ಓ೦ ಆಪೋ॒ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ಭುವ॒ಸ್ತಾನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇರಣಾ᳚ಯ॒ ಚಕ್ಷ॑ಸೇ ॥ 
-  ಯೋವಃ॑ ಶಿ॒ವತ॑ಮೋ॒ರಸ॒ಸ್ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ ।
-   ತಸ್ಮಾ॒ ಅರ᳚೦ಗ ಮಾ॒ಮವೋ॒ಯಸ್ಯ॒ಕ್ಷಯಾ᳚ಯ॒ ಜಿನ್ವ॑ಥ । ಆಪೋ᳚ ಜ॒ನಯ॑ಥಾಚನಃ ॥
-</Text>
-<Text style={ghattaVinyasa.viniyoga}>
-  ಓ೦ ಭೂಃ ಓ೦ ಭುವಃ ಓ೦ ಸುವಃ ಓ೦ ಮಹಃ ಓ೦ ಜನಃ ಓ೦ ತಪಃ ಓ೦ ಸತ್ಯಮ್ ॥
-</Text>
-<Text style={ghattaVinyasa.viniyoga}>
-  ಓ೦ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯ॒೦ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥
-</Text>
+<ಮಾರ್ಜನೆ/>
+<ವ್ಯಾಹೃತಿ />
+<ಗಾಯತ್ರೀಮ೦ತ್ರ />
 <Text style={ghattaVinyasa.viniyoga}>
   ಓ೦ ಶ೦ ನೋ᳚ ದೇ॒ವೀರ॒ಭಿಷ್ಟ॑ಯ॒ ಆಪೋ᳚ ಭವ೦ತು ಪೀ॒ತಯೇ᳚। ಶ೦ಯೋರ॒ಭಿಸ್ರ॑ವ೦ತು ನಃ । ಈಶಾ᳚ನಾ॒ವಾರ್ಯಾ᳚ಣಾ॒೦ ಕ್ಷಯ᳚೦ತೀಶ್ಚರ್ಷಣೀ॒ನಾಮ್ । 
   ಅ॒ಪೋಯಾ᳚ಚಾಮಿ ಭೇಷ॒ಜಮ್।ಅ॒ಪ್ಸುಮೇ॒ ಸೋಮೋ᳚ ಅಬ್ರವೀದ॒೦ತರ್ವಿಶ್ವಾ᳚ನಿ ಭೇಷ॒ಜಾ ।ಅ॒ಗ್ನಿ೦ ಚ॑ ವಿ॒ಶ್ವಶ᳚೦ಭುವಮ್। 

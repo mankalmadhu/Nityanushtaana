@@ -38,24 +38,26 @@ exports[`ದ್ವಿತೀಯಮಾರ್ಜನೆ 1`] = `
   >
     ಆಪೋಹಿಷ್ಠೇತಿ ನವರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ ಆಪೋ ಗಾಯತ್ರಿ ಪ೦ಚಮೀ ವರ್ಧಮಾನಾ ಸಪ್ತಮೀ ಪ್ರತಿಷ್ಠಾ ಅ೦ತ್ಯೇ ದ್ವೇ ಅನುಷ್ಟುಭೌ ದ್ವಿತೀಯ ಮಾರ್ಜನೆ ವಿನಿಯೋಗಃ ॥
   </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#ffffff",
-        "fontFamily": "Ganapati",
-        "fontSize": 18,
-        "lineHeight": 50,
-        "marginLeft": 12,
-        "textAlign": "justify",
+  <View>
+    <Text
+      accessible={true}
+      allowFontScaling={true}
+      disabled={false}
+      ellipsizeMode="tail"
+      style={
+        Object {
+          "color": "#ffffff",
+          "fontFamily": "Ganapati",
+          "fontSize": 18,
+          "lineHeight": 50,
+          "marginLeft": 12,
+          "textAlign": "justify",
+        }
       }
-    }
-  >
-    ಓ೦ ಆಪೋ॒ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ಭುವ॒ಸ್ತಾನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇರಣಾ᳚ಯ॒ ಚಕ್ಷ॑ಸೇ ॥ ಯೋವಃ॑ ಶಿ॒ವತ॑ಮೋ॒ರಸ॒ಸ್ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ । ತಸ್ಮಾ॒ ಅರ᳚೦ಗ ಮಾ॒ಮವೋ॒ಯಸ್ಯ॒ಕ್ಷಯಾ᳚ಯ॒ ಜಿನ್ವ॑ಥ । ಆಪೋ᳚ ಜ॒ನಯ॑ಥಾಚನಃ ॥
-  </Text>
+    >
+      ಓ೦ ಆಪೋ॒ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ಭುವ॒ಸ್ತಾನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇರಣಾ᳚ಯ॒ ಚಕ್ಷ॑ಸೇ ॥ ಯೋವಃ॑ ಶಿ॒ವತ॑ಮೋ॒ರಸ॒ಸ್ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ । ತಸ್ಮಾ॒ ಅರ᳚೦ಗ ಮಾ॒ಮವೋ॒ಯಸ್ಯ॒ಕ್ಷಯಾ᳚ಯ॒ ಜಿನ್ವ॑ಥ । ಆಪೋ᳚ ಜ॒ನಯ॑ಥಾಚನಃ ॥
+    </Text>
+  </View>
   <Text
     accessible={true}
     allowFontScaling={true}
