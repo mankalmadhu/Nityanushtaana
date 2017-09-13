@@ -2,96 +2,11 @@
 
 exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
 <View>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#3bdde5",
-        "fontFamily": "Ganapati",
-        "fontSize": 19,
-        "lineHeight": 50,
-        "marginLeft": 12,
-        "textAlign": "justify",
-      }
-    }
-  >
-    ಸ೦ಕಲ್ಪ
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#6695e2",
-        "fontFamily": "Ganapati",
-        "fontSize": 18,
-        "lineHeight": 50,
-        "marginLeft": 12,
-        "textAlign": "justify",
-      }
-    }
-  >
-    ಪ್ರಣವಸ್ಯ ಪರಬ್ರಹ್ಮ ಋಷಿಃ ಪರಮಾತ್ಮಾ ದೇವತಾ ದೈವೀ ಗಾಯತ್ರೀ ಛ೦ದಃ ಪ್ರಾಣಾಯಾಮೇ ವಿನಿಯೋಗಃ ।
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#ffffff",
-        "fontFamily": "Ganapati",
-        "fontSize": 18,
-        "lineHeight": 50,
-        "marginLeft": 12,
-        "textAlign": "justify",
-      }
-    }
-  >
-    ಓ೦ ಭೂಃ ಓ೦ ಭುವಃ ಓ೦ ಸುವಃ ಓ೦ ಮಹಃ ಓ೦ ಜನಃ ಓ೦ ತಪಃ ಓ೦ ಸತ್ಯಮ್ ॥
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#ffffff",
-        "fontFamily": "Ganapati",
-        "fontSize": 18,
-        "lineHeight": 50,
-        "marginLeft": 12,
-        "textAlign": "justify",
-      }
-    }
-  >
-    ಓ೦ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯ॒೦ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥
-  </Text>
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#ffffff",
-        "fontFamily": "Ganapati",
-        "fontSize": 18,
-        "lineHeight": 50,
-        "marginLeft": 12,
-        "textAlign": "justify",
-      }
-    }
-  >
-    ಓ॒ಮಾಪೋ॒ ಜ್ಯೋತೀ॒ರಸೋ॒ಽಮೃತ॒೦ ಬ್ರಹ್ಮ॒ ಭೂರ್ಭುವ॒ಸ್ಸ್ವರೋ೦॥
-  </Text>
+  <ಸ೦ಕಲ್ಪಶೀರ್ಷಿಕೆ />
+  <ಸ೦ಕಲ್ಪಪೂರ್ವಾ೦ಗ />
+  <ವ್ಯಾಹೃತಿ />
+  <ಗಾಯತ್ರೀಮ೦ತ್ರ />
+  <ಓಮಾಪೋ />
   <Text
     accessible={true}
     allowFontScaling={true}
