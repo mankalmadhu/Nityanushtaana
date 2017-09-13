@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ಗಾಯತ್ರೀಮ೦ತ್ರ 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  disabled={false}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#ffffff",
+      "fontFamily": "Ganapati",
+      "fontSize": 18,
+      "lineHeight": 50,
+      "marginLeft": 12,
+      "textAlign": "justify",
+    }
+  }
+>
+  ಓ೦ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯ॒೦ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥
+</Text>
+`;
