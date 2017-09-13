@@ -1,5 +1,5 @@
 import React from 'react';
-import ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ from '../Marjane';
+import ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ from '../PratahAbhimantrane';
 import Renderer from 'react-test-renderer';
 
 test("ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ", () => {
