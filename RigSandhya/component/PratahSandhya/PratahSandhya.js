@@ -7,9 +7,11 @@ import ಆಚಮನೀಯ from '../Ghatta/Aachamaneya/Aachamaneya';
 import ಪ್ರೋಕ್ಷಣ from '../Ghatta/Prokshana/Prokshana';
 import ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/PratahSandhyaSankalpa';
 import ಪ್ರಾತಃಮಾರ್ಜನೆ from '../Ghatta/Marjane/PratahMarjane';
+import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/DwiteyaMarjane';
+import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
 
 export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Component {
-
+ 
   render() {
     return (
       <ViewPagerAndroid style={pratahSandhyaVinyasa.avarana} initialPage={0}>
@@ -35,6 +37,13 @@ export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Compo
           <ಪ್ರಾತಃಮಾರ್ಜನೆ />
         </ScrollView>
         </View>
+        <View>
+        <ScrollView>
+          <ದ್ವಿತೀಯಮಾರ್ಜನೆ />
+          <ವಿಸರ್ಜನೆ />
+        </ScrollView>
+        </View>
+
       </ViewPagerAndroid>
     );
   }

@@ -49,5 +49,13 @@ exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
       </View>
     </RCTScrollView>
   </View>
+  <View>
+    <RCTScrollView>
+      <View>
+        <ದ್ವಿತೀಯಮಾರ್ಜನೆ />
+        <ವಿಸರ್ಜನೆ />
+      </View>
+    </RCTScrollView>
+  </View>
 </View>
 `;
