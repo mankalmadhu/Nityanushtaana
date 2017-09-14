@@ -1,9 +1,9 @@
 import React from 'react';
 
 export default ghattaVinyasa = {
-  
-  viniyoga :'viniyoga',
-  ghattaShershike : 'ghattaShershike',
-  purvanga :'purvanga'
+   
+  ವಿನಿಯೋಗ :'ವಿನಿಯೋಗ',
+  ಶೀರ್ಷಿಕೆ : 'ಶೀರ್ಷಿಕೆ',
+  ಪೂರ್ವಾ೦ಗ :'ಪೂರ್ವಾ೦ಗ'
   
 };
