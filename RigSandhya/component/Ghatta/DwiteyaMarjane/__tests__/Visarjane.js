@@ -6,10 +6,8 @@ jest.mock('../../Ghatta.vinyasa');
 jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
 test("ವಿಸರ್ಜನೆ", () => {
-  const pratahAbhimantrane = Renderer.create(
-    <ವಿಸರ್ಜನೆ />
-  ).toJSON();
-
-  expect(pratahAbhimantrane).toMatchSnapshot();
+    expect(Renderer.create(
+      <ವಿಸರ್ಜನೆ />
+    ).toJSON()).toMatchSnapshot();
 
 });

@@ -1,11 +1,13 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import ghattaVinyasa from '../Ghatta.vinyasa';
+import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಗಾಯತ್ರೀಮ೦ತ್ರ = () => (
-    <Text style={ghattaVinyasa.viniyoga}>
-       ಓ೦ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯ॒೦ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥
-    </Text>
+<ವಿಷಯ 
+ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ} 
+ಮಾಹಿತಿ={`ಓ೦ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯ॒೦ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ ।
+ ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥`}/>
     
 );
