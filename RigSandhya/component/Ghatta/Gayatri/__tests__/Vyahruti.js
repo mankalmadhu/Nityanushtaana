@@ -2,11 +2,12 @@ import React from 'react';
 import ವ್ಯಾಹೃತಿ from '../Vyahruti';
 import Renderer from 'react-test-renderer';
 
-test("ವ್ಯಾಹೃತಿ", () => {
-  const vyaaHruti = Renderer.create(
-    <ವ್ಯಾಹೃತಿ />
-  ).toJSON();
+jest.mock('../../Ghatta.vinyasa');
+jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
-  expect(vyaaHruti).toMatchSnapshot();
+test("ವ್ಯಾಹೃತಿ", () => {
+   expect(Renderer.create(
+    <ವ್ಯಾಹೃತಿ />
+  ).toJSON()).toMatchSnapshot();
 
 });
