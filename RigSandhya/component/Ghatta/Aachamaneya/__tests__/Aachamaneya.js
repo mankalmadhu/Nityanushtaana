@@ -2,11 +2,12 @@ import React from 'react';
 import ಆಚಮನೀಯ from '../Aachamaneya';
 import Renderer from 'react-test-renderer';
 
-test("ಆಚಮನೀಯ", () => {
-  const achamaneya = Renderer.create(
-    <ಆಚಮನೀಯ />
-  ).toJSON();
+jest.mock('../../Ghatta.vinyasa');
+jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
-  expect(achamaneya).toMatchSnapshot();
+test("ಆಚಮನೀಯ", () => {
+   expect(Renderer.create(
+    <ಆಚಮನೀಯ />
+  ).toJSON()).toMatchSnapshot();
 
 });
