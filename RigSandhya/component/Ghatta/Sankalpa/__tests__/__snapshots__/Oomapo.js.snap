@@ -1,22 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ಓಮಾಪೋ 1`] = `
-<Text
-  accessible={true}
-  allowFontScaling={true}
-  disabled={false}
-  ellipsizeMode="tail"
-  style={
-    Object {
-      "color": "#ffffff",
-      "fontFamily": "Ganapati",
-      "fontSize": 18,
-      "lineHeight": 50,
-      "marginLeft": 12,
-      "textAlign": "justify",
-    }
-  }
->
-  ಓ॒ಮಾಪೋ॒ ಜ್ಯೋತೀ॒ರಸೋ॒ಽಮೃತ॒೦ ಬ್ರಹ್ಮ॒ ಭೂರ್ಭುವ॒ಸ್ಸ್ವರೋ೦॥
-</Text>
+<ವಿಷಯ
+  ಮಾಹಿತಿ="ಓ॒ಮಾಪೋ॒ ಜ್ಯೋತೀ॒ರಸೋ॒ಽಮೃತ॒೦ ಬ್ರಹ್ಮ॒ ಭೂರ್ಭುವ॒ಸ್ಸ್ವರೋ೦॥"
+  ವಿನ್ಯಾಸ="ವಿನಿಯೋಗ"
+/>
 `;

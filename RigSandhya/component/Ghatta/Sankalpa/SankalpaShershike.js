@@ -1,11 +1,12 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import ghattaVinyasa from '../Ghatta.vinyasa';
+import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಸ೦ಕಲ್ಪಶೀರ್ಷಿಕೆ = () => (
-    <Text style={ghattaVinyasa.ghattaShershike}>
-       ಸ೦ಕಲ್ಪ
-    </Text>
-
+    <ವಿಷಯ 
+    ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} 
+    ಮಾಹಿತಿ={`ಸ೦ಕಲ್ಪ`}/>    
+    
 );

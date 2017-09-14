@@ -7,23 +7,9 @@ exports[`ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ 1`] = `
   <ವ್ಯಾಹೃತಿ />
   <ಗಾಯತ್ರೀಮ೦ತ್ರ />
   <ಓಮಾಪೋ />
-  <Text
-    accessible={true}
-    allowFontScaling={true}
-    disabled={false}
-    ellipsizeMode="tail"
-    style={
-      Object {
-        "color": "#ffffff",
-        "fontFamily": "Ganapati",
-        "fontSize": 18,
-        "lineHeight": 50,
-        "marginLeft": 12,
-        "textAlign": "justify",
-      }
-    }
-  >
-    ಮಮ ಉಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥ೦ ಪ್ರಾತಃ ಸ೦ಧ್ಯಾ೦ ಉಪಾಸ್ಯೇ ॥
-  </Text>
+  <ವಿಷಯ
+    ಮಾಹಿತಿ="ಮಮ ಉಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥ೦ ಪ್ರಾತಃ ಸ೦ಧ್ಯಾ೦ ಉಪಾಸ್ಯೇ ॥"
+    ವಿನ್ಯಾಸ="ವಿನಿಯೋಗ"
+  />
 </View>
 `;

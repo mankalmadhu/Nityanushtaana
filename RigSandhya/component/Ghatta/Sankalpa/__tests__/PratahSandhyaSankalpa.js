@@ -7,12 +7,13 @@ jest.mock('../../Gayatri/Vyahruti', () => 'ವ್ಯಾಹೃತಿ' );
 jest.mock('../SankalpaPurvanga', () => 'ಸ೦ಕಲ್ಪಪೂರ್ವಾ೦ಗ' );
 jest.mock('../SankalpaShershike', () => 'ಸ೦ಕಲ್ಪಶೀರ್ಷಿಕೆ' );
 jest.mock('../Oomapo', () => 'ಓಮಾಪೋ' );
+jest.mock('../../Ghatta.vinyasa');
+jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
 test("ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ", () => {
-  const pratahSandhyaSankalpa = Renderer.create(
-    <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
-  ).toJSON();
 
-  expect(pratahSandhyaSankalpa).toMatchSnapshot();
+  expect(Renderer.create(
+    <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+  ).toJSON()).toMatchSnapshot();
 
 });

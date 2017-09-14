@@ -2,11 +2,12 @@ import React from 'react';
 import ಓಮಾಪೋ from '../Oomapo';
 import Renderer from 'react-test-renderer';
 
-test("ಓಮಾಪೋ", () => {
-  const oomapo = Renderer.create(
-    <ಓಮಾಪೋ />
-  ).toJSON();
+jest.mock('../../Ghatta.vinyasa');
+jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
-  expect(oomapo).toMatchSnapshot();
+test("ಓಮಾಪೋ", () => {
+  expect(Renderer.create(
+    <ಓಮಾಪೋ />
+  ).toJSON()).toMatchSnapshot();
 
 });
