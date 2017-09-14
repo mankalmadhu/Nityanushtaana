@@ -4,7 +4,6 @@ import { View, Text } from 'react-native';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
-
 export default ಪ್ರೋಕ್ಷಣ = () => (
   <View>
     <ವಿಷಯ 
