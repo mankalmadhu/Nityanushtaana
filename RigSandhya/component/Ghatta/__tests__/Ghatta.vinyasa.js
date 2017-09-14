@@ -1,6 +1,6 @@
 import React from 'react';
-import ghattaVinyasa from '../Ghatta.vinyasa';
+import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 
 test("Ghatta Vinyasa" , () => {
-  expect(<div>{ghattaVinyasa}</div>).toMatchSnapshot();
+  expect(<div>{ಘಟ್ಟವಿನ್ಯಾಸ}</div>).toMatchSnapshot();
 });

@@ -3,15 +3,7 @@
 exports[`Ghatta Vinyasa 1`] = `
 <div>
   Object {
-    "ghattaShershike": Object {
-      "color": "#3bdde5",
-      "fontFamily": "Ganapati",
-      "fontSize": 19,
-      "lineHeight": 50,
-      "marginLeft": 12,
-      "textAlign": "justify",
-    },
-    "purvanga": Object {
+    "ಪೂರ್ವಾ೦ಗ": Object {
       "color": "#6695e2",
       "fontFamily": "Ganapati",
       "fontSize": 18,
@@ -19,10 +11,18 @@ exports[`Ghatta Vinyasa 1`] = `
       "marginLeft": 12,
       "textAlign": "justify",
     },
-    "viniyoga": Object {
+    "ವಿನಿಯೋಗ": Object {
       "color": "#ffffff",
       "fontFamily": "Ganapati",
       "fontSize": 18,
+      "lineHeight": 50,
+      "marginLeft": 12,
+      "textAlign": "justify",
+    },
+    "ಶೀರ್ಷಿಕೆ": Object {
+      "color": "#3bdde5",
+      "fontFamily": "Ganapati",
+      "fontSize": 19,
       "lineHeight": 50,
       "marginLeft": 12,
       "textAlign": "justify",

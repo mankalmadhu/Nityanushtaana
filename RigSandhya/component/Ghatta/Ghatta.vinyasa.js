@@ -6,21 +6,21 @@ const pathya = {
   textAlign:'justify'
 };
 
-export default ghattaVinyasa = StyleSheet.create({
+export default  ಘಟ್ಟವಿನ್ಯಾಸ = StyleSheet.create({
   
-  viniyoga :{
+  ವಿನಿಯೋಗ :{
     ...pathya,
     fontSize: 18,
     color: '#ffffff',
     lineHeight:50
   },
-  ghattaShershike : {
+  ಶೀರ್ಷಿಕೆ : {
     ...pathya,
     color: '#3bdde5',
     fontSize: 19,
     lineHeight:50
   },
-  purvanga :{
+  ಪೂರ್ವಾ೦ಗ :{
     ...pathya,
     color: '#6695e2',
     fontSize:18,
