@@ -7,10 +7,8 @@ jest.mock('../PratahAbhimantrane', () => 'ಪ್ರಾತಃಅಭಿಮ೦ತ�
 jest.mock('../MarjaneSankalpa', () => 'ಮಾರ್ಜನೆಸ೦ಕಲ್ಪ' );
 
 test("ಪ್ರಾತಃಮಾರ್ಜನೆ", () => {
-  const marjane = Renderer.create(
+  expect(Renderer.create(
     <ಪ್ರಾತಃಮಾರ್ಜನೆ />
-  ).toJSON();
-
-  expect(marjane).toMatchSnapshot();
+  ).toJSON()).toMatchSnapshot();
 
 });
