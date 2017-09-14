@@ -1,15 +1,19 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
-import ghattaVinyasa from '../Ghatta.vinyasa';
+import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಮಾರ್ಜನೆಸ೦ಕಲ್ಪ = () => (
 <View>
-<Text style={ghattaVinyasa.ghattaShershike}>
-   ಮಾರ್ಜನೆ
-</Text>
-<Text style={ghattaVinyasa.purvanga}>
-   ಆಪೋಹಿಷ್ಠೇತಿ ತ್ರಿಚರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ, ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ ಋಷಿಃ, ಆಪೋ ದೇವತಾ, ಗಾಯತ್ರೀ ಛ೦ದಃ ಮಾರ್ಜನೇ ವಿನಿಯೋಗಃ ॥
-</Text>
+<ವಿಷಯ 
+ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} 
+ಮಾಹಿತಿ={`ಓ೦ ಭೂಃ ಓ೦ ಭುವಃ ಓ೦ ಸುವಃ ಓ೦ ಮಹಃ ಓ೦ ಜನಃ ಓ೦ ತಪಃ ಓ೦ ಸತ್ಯಮ್ ॥`}/>    
+
+<ವಿಷಯ 
+ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಪೂರ್ವಾ೦ಗ} 
+ಮಾಹಿತಿ={`ಆಪೋಹಿಷ್ಠೇತಿ ತ್ರಿಚರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ, ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ ಋಷಿಃ,
+ ಆಪೋ ದೇವತಾ, ಗಾಯತ್ರೀ ಛ೦ದಃ ಮಾರ್ಜನೇ ವಿನಿಯೋಗಃ ॥`}/>    
+
 </View>
 );
