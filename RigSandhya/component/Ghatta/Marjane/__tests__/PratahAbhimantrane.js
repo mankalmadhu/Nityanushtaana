@@ -2,11 +2,12 @@ import React from 'react';
 import ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ from '../PratahAbhimantrane';
 import Renderer from 'react-test-renderer';
 
-test("ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ", () => {
-  const pratahAbhimantrane = Renderer.create(
-    <ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ />
-  ).toJSON();
+jest.mock('../../Ghatta.vinyasa');
+jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
-  expect(pratahAbhimantrane).toMatchSnapshot();
+test("ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ", () => {
+  expect(Renderer.create(
+    <ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ />
+  ).toJSON()).toMatchSnapshot();
 
 });
