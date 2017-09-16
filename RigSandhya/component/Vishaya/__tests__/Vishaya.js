@@ -7,10 +7,10 @@ import Renderer from 'react-test-renderer';
 
 test("ವಿಷಯ" , () => {
 
-   const vishaya = Renderer.create(
-       <ವಿಷಯ ವಿನ್ಯಾಸ = {StyleSheet.create({})} ಮಾಹಿತಿ='Some Text'/>
-   ).toJSON();
-
-   expect(vishaya).toMatchSnapshot();
+expect(Renderer.create(
+    <ವಿಷಯ ವಿನ್ಯಾಸ = {StyleSheet.create({})} >
+      Some Text
+    </ವಿಷಯ>
+).toJSON()).toMatchSnapshot();
 
 });

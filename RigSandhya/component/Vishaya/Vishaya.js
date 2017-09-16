@@ -4,12 +4,11 @@ import PropTypes from 'prop-types';
 
 export default ವಿಷಯ = (props) => (
     <Text style={props.ವಿನ್ಯಾಸ}>
-      {props.ಮಾಹಿತಿ}
+      {props.children}
     </Text>
   
 );
 
 ವಿಷಯ.propTypes = {
-  ವಿನ್ಯಾಸ : PropTypes.object.isRequired,
-  ಮಾಹಿತಿ : PropTypes.string.isRequired
+  ವಿನ್ಯಾಸ : PropTypes.object.isRequired
 };
