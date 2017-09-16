@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ಪುಟ 1`] = `
+<View>
+  <RCTScrollView>
+    <View>
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        disabled={false}
+        ellipsizeMode="tail"
+      >
+        Test
+      </Text>
+    </View>
+  </RCTScrollView>
+</View>
+`;
