@@ -1,7 +1,6 @@
 import React from 'react';
-import { View, ViewPagerAndroid,ScrollView, Text } from 'react-native';
-import pratahSandhyaVinyasa from './PratahSandhya.vinyasa';
 
+import ಲೇಖನ from '../Lekhana/Lekhana';
 import ಪುಟ from '../Puta/Puta';
 import ಆಸನಸೂಚನೆ from '../Ghatta/Sochane/AasanaSoochane';
 import ಆಚಮನೀಯ from '../Ghatta/Aachamaneya/Aachamaneya';
@@ -11,12 +10,11 @@ import ಪ್ರಾತಃಮಾರ್ಜನೆ from '../Ghatta/Marjane/PratahMar
 import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/DwiteyaMarjane';
 import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
 
-
 export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Component {
  
   render() {
     return (
-      <ViewPagerAndroid style={pratahSandhyaVinyasa.avarana} initialPage={0}>
+      <ಲೇಖನ>
         <ಪುಟ>
           <ಆಸನಸೂಚನೆ />
           <ಆಚಮನೀಯ />
@@ -38,7 +36,7 @@ export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Compo
           <ದ್ವಿತೀಯಮಾರ್ಜನೆ />
           <ವಿಸರ್ಜನೆ />
         </ಪುಟ>
-     </ViewPagerAndroid>
+     </ಲೇಖನ>
     );
   }
 }

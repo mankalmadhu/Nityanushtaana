@@ -1,24 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "borderColor": "red",
-        "borderWidth": 1,
-      },
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#333333",
-        "flex": 1,
-        "flexDirection": "column",
-        "padding": 3,
-      },
-    ]
-  }
->
+<ಲೇಖನ>
   <ಪುಟ>
     <ಆಸನಸೂಚನೆ />
     <ಆಚಮನೀಯ />
@@ -40,5 +23,5 @@ exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
     <ದ್ವಿತೀಯಮಾರ್ಜನೆ />
     <ವಿಸರ್ಜನೆ />
   </ಪುಟ>
-</View>
+</ಲೇಖನ>
 `;
