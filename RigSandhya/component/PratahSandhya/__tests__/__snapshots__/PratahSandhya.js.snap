@@ -19,43 +19,26 @@ exports[`ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ 1`] = `
     ]
   }
 >
-  <View>
-    <RCTScrollView>
-      <View>
-        <ಆಸನಸೂಚನೆ />
-        <ಆಚಮನೀಯ />
-      </View>
-    </RCTScrollView>
-  </View>
-  <View>
-    <RCTScrollView>
-      <View>
-        <ಪ್ರೋಕ್ಷಣ />
-        <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
-      </View>
-    </RCTScrollView>
-  </View>
-  <View>
-    <RCTScrollView>
-      <View>
-        <ಆಚಮನೀಯ />
-      </View>
-    </RCTScrollView>
-  </View>
-  <View>
-    <RCTScrollView>
-      <View>
-        <ಪ್ರಾತಃಮಾರ್ಜನೆ />
-      </View>
-    </RCTScrollView>
-  </View>
-  <View>
-    <RCTScrollView>
-      <View>
-        <ದ್ವಿತೀಯಮಾರ್ಜನೆ />
-        <ವಿಸರ್ಜನೆ />
-      </View>
-    </RCTScrollView>
-  </View>
+  <ಪುಟ>
+    <ಆಸನಸೂಚನೆ />
+    <ಆಚಮನೀಯ />
+  </ಪುಟ>
+  <ಪುಟ>
+    <ಪ್ರೋಕ್ಷಣ />
+    <ಆಚಮನೀಯ />
+  </ಪುಟ>
+  <ಪುಟ>
+    <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+  </ಪುಟ>
+  <ಪುಟ>
+    <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+  </ಪುಟ>
+  <ಪುಟ>
+    <ಆಚಮನೀಯ />
+  </ಪುಟ>
+  <ಪುಟ>
+    <ದ್ವಿತೀಯಮಾರ್ಜನೆ />
+    <ವಿಸರ್ಜನೆ />
+  </ಪುಟ>
 </View>
 `;

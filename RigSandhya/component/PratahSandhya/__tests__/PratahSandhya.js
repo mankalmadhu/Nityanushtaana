@@ -2,6 +2,7 @@ import React from 'react';
 import ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ from '../PratahSandhya';
 import Renderer from 'react-test-renderer';
 
+jest.mock('../../Puta/Puta', () => 'ಪುಟ' );
 jest.mock('../../Ghatta/Sochane/AasanaSoochane', () => 'ಆಸನಸೂಚನೆ' );
 jest.mock('../../Ghatta/Aachamaneya/Aachamaneya', () => 'ಆಚಮನೀಯ' );
 jest.mock('../../Ghatta/Prokshana/Prokshana', () => 'ಪ್ರೋಕ್ಷಣ' );
@@ -11,10 +12,8 @@ jest.mock('../../Ghatta/DwiteyaMarjane/DwiteyaMarjane', () => 'ದ್ವಿತ�
 jest.mock('../../Ghatta/DwiteyaMarjane/Visarjane', () => 'ವಿಸರ್ಜನೆ' );
 
 test("ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ", () => {
-  const pratahSandhya = Renderer.create(
+  expect(Renderer.create(
     <ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ />
-  ).toJSON();
-
-  expect(pratahSandhya).toMatchSnapshot();
+  ).toJSON()).toMatchSnapshot();
 
 });
