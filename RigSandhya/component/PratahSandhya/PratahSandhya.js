@@ -9,9 +9,11 @@ import ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ from '../Ghatta/Sa
 import ಪ್ರಾತಃಮಾರ್ಜನೆ from '../Ghatta/Marjane/PratahMarjane';
 import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/DwiteyaMarjane';
 import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
+import ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/PratahArghyaSankalpa';
+import ಪ್ರಾತರರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/PratahArghyaPradana';
 
 export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Component {
- 
+
   render() {
     return (
       <ಲೇಖನ>
@@ -36,7 +38,17 @@ export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Compo
           <ದ್ವಿತೀಯಮಾರ್ಜನೆ />
           <ವಿಸರ್ಜನೆ />
         </ಪುಟ>
-     </ಲೇಖನ>
+        <ಪುಟ>
+          <ಆಚಮನೀಯ />
+        </ಪುಟ>
+        <ಪುಟ>
+          <ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ />
+        </ಪುಟ>
+        <ಪುಟ>
+          <ಪ್ರಾತರರ್ಘ್ಯ />
+        </ಪುಟ>
+
+      </ಲೇಖನ>
     );
   }
 }
