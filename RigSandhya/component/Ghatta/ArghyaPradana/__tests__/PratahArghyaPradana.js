@@ -7,6 +7,7 @@ jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 jest.mock('../../Gayatri/Trihruti',()=>'ತ್ರಿಹೃತಿ');
 jest.mock('../../Gayatri/GayatriMantra',()=>'ಗಾಯತ್ರೀಮ೦ತ್ರ');
 jest.mock('../../Sankalpa/Oomapo',()=>'ಓಮಾಪೋ');
+jest.mock('../KalaTeetaArgyaPradana',()=>'ಕಾಲಾತೀತಅರ್ಘ್ಯ');
 
 test("ಪ್ರಾತರರ್ಘ್ಯ", () => {
    expect(Renderer.create(
