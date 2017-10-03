@@ -11,6 +11,7 @@ import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane
 import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
 import ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/PratahArghyaSankalpa';
 import ಪ್ರಾತರರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/PratahArghyaPradana';
+import ಪ್ರಾತಃಗಾಯತ್ರೀ from '../Ghatta/Japa/PratahGayatriJapa';
 
 export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Component {
 
@@ -47,7 +48,9 @@ export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Compo
         <ಪುಟ>
           <ಪ್ರಾತರರ್ಘ್ಯ />
         </ಪುಟ>
-
+        <ಪುಟ>
+          <ಪ್ರಾತಃಗಾಯತ್ರೀ />
+        </ಪುಟ>
       </ಲೇಖನ>
     );
   }

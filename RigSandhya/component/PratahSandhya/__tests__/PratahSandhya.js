@@ -13,6 +13,7 @@ jest.mock('../../Ghatta/DwiteyaMarjane/DwiteyaMarjane', () => 'ದ್ವಿತ�
 jest.mock('../../Ghatta/DwiteyaMarjane/Visarjane', () => 'ವಿಸರ್ಜನೆ' );
 jest.mock('../../Ghatta/Sankalpa/PratahArghyaSankalpa', () => 'ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ' );
 jest.mock('../../Ghatta/ArghyaPradana/PratahArghyaPradana', () => 'ಪ್ರಾತರರ್ಘ್ಯ' );
+jest.mock('../../Ghatta/Japa/PratahGayatriJapa', () => 'ಪ್ರಾತಃಗಾಯತ್ರೀ' );
 
 test("ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ", () => {
   expect(Renderer.create(
