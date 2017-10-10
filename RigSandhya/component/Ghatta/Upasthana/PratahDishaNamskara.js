@@ -3,8 +3,8 @@ import { View } from 'react-native';
 
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
- 
-export default ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕರ = () => (
+
+export default ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ = () => (
   <View>
     <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ} >
       ಓ೦ ನಮಃ ಪ್ರಾಚ್ಯೇ ದಿಶೇ ಇ೦ದ್ರಾಯ ನಮಃ ಅಗ್ನಯೇ ನಮಃ । 
