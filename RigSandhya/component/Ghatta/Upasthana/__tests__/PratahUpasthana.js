@@ -7,6 +7,8 @@ jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 jest.mock('../JaataVedase',()=>'ಜಾತವೇದಸೇ');
 jest.mock('../Tachayo',()=>'ತಚ್ಛ೦ಯೋ');
 jest.mock('../NamoBramhane',()=>'ನಮೋಬ್ರಹ್ಮಣೇ');
+jest.mock('../PratahDishaNamskara',()=>'ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ');
+jest.mock('../DevataNamskara',()=>'ದೇವತಾನಮಸ್ಕಾರ');
 
 test("ಪ್ರಾತರುಪಸ್ಥಾನ", () => {
    expect(Renderer.create(

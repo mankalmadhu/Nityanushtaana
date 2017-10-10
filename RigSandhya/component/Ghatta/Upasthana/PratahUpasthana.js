@@ -6,6 +6,8 @@ import ವಿಷಯ from '../../Vishaya/Vishaya';
 import ಜಾತವೇದಸೇ from './JaataVedase';
 import ತಚ್ಛ೦ಯೋ from './Tachayo';
 import ನಮೋಬ್ರಹ್ಮಣೇ from './NamoBramhane';
+import ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ from './PratahDishaNamskara';
+import ದೇವತಾನಮಸ್ಕಾರ from './DevataNamskara';
 
 export default ಪ್ರಾತರುಪಸ್ಥಾನ = () => (
   <View>
@@ -21,6 +23,8 @@ export default ಪ್ರಾತರುಪಸ್ಥಾನ = () => (
     <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ} >
       (ಮೂರು ಬಾರಿ)
     </ವಿಷಯ>
+    <ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ />
+    <ದೇವತಾನಮಸ್ಕಾರ />
   </View>
 
 );
