@@ -13,6 +13,8 @@ import ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sanka
 import ಪ್ರಾತರರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/PratahArghyaPradana';
 import ಪ್ರಾತಃಗಾಯತ್ರೀ from '../Ghatta/Japa/PratahGayatriJapa';
 import ಪ್ರಾತರುಪಸ್ಥಾನ from '../Ghatta/Upasthana/PratahUpasthana';
+import ಪ್ರಾತಸ್ಸಮರ್ಪಣ from '../Ghatta/Samarpana/PratahSamarpana';
+import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
 
 export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Component {
 
@@ -54,6 +56,13 @@ export default class ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ extends React.Compo
         </ಪುಟ>
         <ಪುಟ>
           <ಪ್ರಾತರುಪಸ್ಥಾನ />
+        </ಪುಟ>
+        <ಪುಟ>
+          <ಆಚಮನೀಯ />
+          <ಪ್ರಾತಸ್ಸಮರ್ಪಣ />
+        </ಪುಟ>
+        <ಪುಟ>
+          <ಅಪರಾಧಕ್ಷಮಾಪಣ />
         </ಪುಟ>
       </ಲೇಖನ>
     );

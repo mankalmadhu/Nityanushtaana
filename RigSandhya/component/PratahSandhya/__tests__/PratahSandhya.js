@@ -15,6 +15,8 @@ jest.mock('../../Ghatta/Sankalpa/PratahArghyaSankalpa', () => 'ಪ್ರಾತ�
 jest.mock('../../Ghatta/ArghyaPradana/PratahArghyaPradana', () => 'ಪ್ರಾತರರ್ಘ್ಯ' );
 jest.mock('../../Ghatta/Japa/PratahGayatriJapa', () => 'ಪ್ರಾತಃಗಾಯತ್ರೀ' );
 jest.mock('../../Ghatta/Upasthana/PratahUpasthana', () => 'ಪ್ರಾತರುಪಸ್ಥಾನ' );
+jest.mock('../../Ghatta/Samarpana/PratahSamarpana', () => 'ಪ್ರಾತಸ್ಸಮರ್ಪಣ' );
+jest.mock('../../Ghatta/AparadhaKshamapana/AparadhaKshamapana', () => 'ಅಪರಾಧಕ್ಷಮಾಪಣ' );
 
 test("ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ", () => {
   expect(Renderer.create(
