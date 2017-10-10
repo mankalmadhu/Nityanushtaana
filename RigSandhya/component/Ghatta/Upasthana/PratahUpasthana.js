@@ -8,6 +8,8 @@ import ತಚ್ಛ೦ಯೋ from './Tachayo';
 import ನಮೋಬ್ರಹ್ಮಣೇ from './NamoBramhane';
 import ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ from './PratahDishaNamskara';
 import ದೇವತಾನಮಸ್ಕಾರ from './DevataNamskara';
+import ನಿರ್ಗಮನ from './Niragamana';
+import ಪ್ರವರ from './Pravara';
 
 export default ಪ್ರಾತರುಪಸ್ಥಾನ = () => (
   <View>
@@ -25,6 +27,9 @@ export default ಪ್ರಾತರುಪಸ್ಥಾನ = () => (
     </ವಿಷಯ>
     <ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ />
     <ದೇವತಾನಮಸ್ಕಾರ />
+    <ನಿರ್ಗಮನ />
+    <ನಮೋಬ್ರಹ್ಮಣೇ />
+    <ಪ್ರವರ />
   </View>
 
 );
