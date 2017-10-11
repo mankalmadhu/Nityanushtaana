@@ -12,6 +12,7 @@ import ಸಮಿಧಾದಾನ from '../Ghatta/SamidhaDana/SamidhaDana';
 import ಅಗ್ನ್ಯುಪಸ್ಥಾನ from '../Ghatta/SamidhaDana/AgniUpasthana';
 import ರಕ್ಷಾಧಾರಣ from '../Ghatta/SamidhaDana/RakshaDharana';
 import ಅಗ್ನಿಃಪ್ರಾರ್ಥನೆ from '../Ghatta/SamidhaDana/AgniPrarthane';
+import ಪ್ರವರ from '../Ghatta/Upasthana/Pravara';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
  
 export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ = () =>
@@ -41,6 +42,7 @@ export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ = () =>
        </ಪುಟ>
        <ಪುಟ>
           <ಅಗ್ನಿಃಪ್ರಾರ್ಥನೆ />
+          <ಪ್ರವರ />
        </ಪುಟ>
        <ಪುಟ>
           <ಆಚಮನೀಯ />
