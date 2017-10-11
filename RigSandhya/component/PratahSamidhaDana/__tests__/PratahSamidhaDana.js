@@ -11,6 +11,8 @@ jest.mock('../../Ghatta/Sankalpa/PratahSamidhaDanaSankalpa', () => 'ಪ್ರಾ
 jest.mock('../../Ghatta/SamidhaDana/AgniMurtiDhyana', () => 'ಅಗ್ನಿಮೂರ್ತಿಧ್ಯಾನ' );
 jest.mock('../../Ghatta/SamidhaDana/SamidhaDana', () => 'ಸಮಿಧಾದಾನ' );
 jest.mock('../../Ghatta/SamidhaDana/AgniUpasthana', () => 'ಅಗ್ನ್ಯುಪಸ್ಥಾನ' );
+jest.mock('../../Ghatta/SamidhaDana/RakshaDharana', () => 'ರಕ್ಷಾಧಾರಣ' );
+jest.mock('../../Ghatta/SamidhaDana/AgniPrarthane', () => 'ಅಗ್ನಿಃಪ್ರಾರ್ಥನೆ' );
 jest.mock('../../Ghatta/AparadhaKshamapana/AparadhaKshamapana', () => 'ಅಪರಾಧಕ್ಷಮಾಪಣ' );
 
 test("ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ", () => {

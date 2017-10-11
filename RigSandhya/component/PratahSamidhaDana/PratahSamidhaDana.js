@@ -10,8 +10,10 @@ import ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸ೦ಕಲ್ಪ from '../
 import ಅಗ್ನಿಮೂರ್ತಿಧ್ಯಾನ from '../Ghatta/SamidhaDana/AgniMurtiDhyana';
 import ಸಮಿಧಾದಾನ from '../Ghatta/SamidhaDana/SamidhaDana';
 import ಅಗ್ನ್ಯುಪಸ್ಥಾನ from '../Ghatta/SamidhaDana/AgniUpasthana';
+import ರಕ್ಷಾಧಾರಣ from '../Ghatta/SamidhaDana/RakshaDharana';
+import ಅಗ್ನಿಃಪ್ರಾರ್ಥನೆ from '../Ghatta/SamidhaDana/AgniPrarthane';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
-
+ 
 export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ = () =>
 
      (
@@ -34,12 +36,18 @@ export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ = () =>
        <ಪುಟ>
          <ಅಗ್ನ್ಯುಪಸ್ಥಾನ />
        </ಪುಟ>
-        <ಪುಟ>
+       <ಪುಟ>
+         <ರಕ್ಷಾಧಾರಣ />
+       </ಪುಟ>
+       <ಪುಟ>
+          <ಅಗ್ನಿಃಪ್ರಾರ್ಥನೆ />
+       </ಪುಟ>
+       <ಪುಟ>
           <ಆಚಮನೀಯ />
-        </ಪುಟ>
-        <ಪುಟ>
+       </ಪುಟ>
+       <ಪುಟ>
           <ಅಪರಾಧಕ್ಷಮಾಪಣ />
-        </ಪುಟ>
+       </ಪುಟ>
       </ಲೇಖನ>
     );
   
