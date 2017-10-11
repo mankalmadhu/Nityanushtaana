@@ -10,7 +10,7 @@ jest.mock('../../Ghatta/Aachamaneya/Aachamaneya', () => 'ಆಚಮನೀಯ' );
 jest.mock('../../Ghatta/Sankalpa/PratahSamidhaDanaSankalpa', () => 'ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸ೦ಕಲ್ಪ' );
 jest.mock('../../Ghatta/SamidhaDana/AgniMurtiDhyana', () => 'ಅಗ್ನಿಮೂರ್ತಿಧ್ಯಾನ' );
 jest.mock('../../Ghatta/SamidhaDana/SamidhaDana', () => 'ಸಮಿಧಾದಾನ' );
-jest.mock('../../Ghatta/Samarpana/PratahSamarpana', () => 'ಪ್ರಾತಸ್ಸಮರ್ಪಣ' );
+jest.mock('../../Ghatta/SamidhaDana/AgniUpasthana', () => 'ಅಗ್ನ್ಯುಪಸ್ಥಾನ' );
 jest.mock('../../Ghatta/AparadhaKshamapana/AparadhaKshamapana', () => 'ಅಪರಾಧಕ್ಷಮಾಪಣ' );
 
 test("ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ", () => {

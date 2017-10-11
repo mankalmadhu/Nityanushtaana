@@ -9,6 +9,7 @@ import ಆಚಮನೀಯ from '../Ghatta/Aachamaneya/Aachamaneya';
 import ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/PratahSamidhaDanaSankalpa';
 import ಅಗ್ನಿಮೂರ್ತಿಧ್ಯಾನ from '../Ghatta/SamidhaDana/AgniMurtiDhyana';
 import ಸಮಿಧಾದಾನ from '../Ghatta/SamidhaDana/SamidhaDana';
+import ಅಗ್ನ್ಯುಪಸ್ಥಾನ from '../Ghatta/SamidhaDana/AgniUpasthana';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
 
 export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ = () =>
@@ -29,6 +30,9 @@ export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ = () =>
         </ಪುಟ>
         <ಪುಟ>
           <ಸಮಿಧಾದಾನ/>
+       </ಪುಟ>
+       <ಪುಟ>
+         <ಅಗ್ನ್ಯುಪಸ್ಥಾನ />
        </ಪುಟ>
         <ಪುಟ>
           <ಆಚಮನೀಯ />
