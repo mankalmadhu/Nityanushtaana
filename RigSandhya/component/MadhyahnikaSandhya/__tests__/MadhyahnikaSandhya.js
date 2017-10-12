@@ -13,9 +13,9 @@ jest.mock('../../Ghatta/DwiteyaMarjane/DwiteyaMarjane', () => 'ದ್ವಿತ�
 jest.mock('../../Ghatta/DwiteyaMarjane/Visarjane', () => 'ವಿಸರ್ಜನೆ' );
 jest.mock('../../Ghatta/Sankalpa/MadhyahnikaArghyaSankalpa', () => 'ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯಸ೦ಕಲ್ಪ' );
 jest.mock('../../Ghatta/ArghyaPradana/MadhyahnikaArghyaPradana', () => 'ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯ' );
-jest.mock('../../Ghatta/Japa/PratahGayatriJapa', () => 'ಪ್ರಾತಃಗಾಯತ್ರೀ' );
+jest.mock('../../Ghatta/Japa/MadhyahnikaGayatriJapa', () => 'ಮಾಧ್ಯಾಹ್ನಿಕಗಾಯತ್ರೀ' );
 jest.mock('../../Ghatta/Upasthana/MadhyahnikaUpasthana', () => 'ಮಾಧ್ಯಾಹ್ನಿಕೌಪಸ್ಥಾನ' );
-jest.mock('../../Ghatta/Samarpana/PratahSamarpana', () => 'ಪ್ರಾತಸ್ಸಮರ್ಪಣ' );
+jest.mock('../../Ghatta/Samarpana/MadhyahnikaSamarpana', () => 'ಮಾಧ್ಯಾಹ್ನಿಕಸಮರ್ಪಣ' );
 jest.mock('../../Ghatta/AparadhaKshamapana/AparadhaKshamapana', () => 'ಅಪರಾಧಕ್ಷಮಾಪಣ' );
 
 test("ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ", () => {
