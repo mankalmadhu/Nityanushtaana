@@ -16,7 +16,7 @@ import ಪುನಃಪೂಜಾ from '../Ghatta/SamidhaDana/PunahPuja';
 import ಪ್ರವರ from '../Ghatta/Upasthana/Pravara';
 import ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸಮರ್ಪಣ from '../Ghatta/Samarpana/PratahSamidhaDanaSamarpana';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
- 
+
 export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ = () =>
 
      (
