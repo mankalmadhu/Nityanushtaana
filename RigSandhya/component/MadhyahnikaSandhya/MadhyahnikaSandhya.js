@@ -6,7 +6,7 @@ import ಆಸನಸೂಚನೆ from '../Ghatta/Sochane/AasanaSoochane';
 import ಆಚಮನೀಯ from '../Ghatta/Aachamaneya/Aachamaneya';
 import ಪ್ರೋಕ್ಷಣ from '../Ghatta/Prokshana/Prokshana';
 import ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/MadhyahnikaSandhyaSankalpa';
-import ಪ್ರಾತಃಮಾರ್ಜನೆ from '../Ghatta/Marjane/PratahMarjane';
+import ಮಾಧ್ಯಾಹ್ನಿಕಮಾರ್ಜನೆ from '../Ghatta/Marjane/MadhyahnikaMarjane';
 import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/DwiteyaMarjane';
 import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
 import ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/PratahArghyaSankalpa';
@@ -32,7 +32,7 @@ export default ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ = () =>
           <ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
         </ಪುಟ>
         <ಪುಟ>
-          <ಪ್ರಾತಃಮಾರ್ಜನೆ />
+          <ಮಾಧ್ಯಾಹ್ನಿಕಮಾರ್ಜನೆ />
         </ಪುಟ>
         <ಪುಟ>
           <ಆಚಮನೀಯ />
