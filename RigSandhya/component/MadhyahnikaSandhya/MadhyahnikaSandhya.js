@@ -12,10 +12,10 @@ import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
 import ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/MadhyahnikaArghyaSankalpa';
 import ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/MadhyahnikaArghyaPradana';
 import ಪ್ರಾತಃಗಾಯತ್ರೀ from '../Ghatta/Japa/PratahGayatriJapa';
-import ಪ್ರಾತರುಪಸ್ಥಾನ from '../Ghatta/Upasthana/PratahUpasthana';
+import ಮಾಧ್ಯಾಹ್ನಿಕೌಪಸ್ಥಾನ from '../Ghatta/Upasthana/MadhyahnikaUpasthana';
 import ಪ್ರಾತಸ್ಸಮರ್ಪಣ from '../Ghatta/Samarpana/PratahSamarpana';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
-
+ 
 export default ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ = () =>
  (
 
@@ -51,10 +51,10 @@ export default ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ = () =>
           <ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯ />
         </ಪುಟ>
         <ಪುಟ>
-          <ಪ್ರಾತಃಗಾಯತ್ರೀ />
+          <ಮಾಧ್ಯಾಹ್ನಿಕೌಪಸ್ಥಾನ />
         </ಪುಟ>
         <ಪುಟ>
-          <ಪ್ರಾತರುಪಸ್ಥಾನ />
+          <ಪ್ರಾತಃಗಾಯತ್ರೀ />
         </ಪುಟ>
         <ಪುಟ>
           <ಆಚಮನೀಯ />
