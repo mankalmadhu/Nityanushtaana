@@ -8,5 +8,6 @@ test("Parividi Mahiti" , () => {
   mahiti.upadeshaChitra = jest.fn(()=>'./chitra/upadesha.png');
   mahiti.paschat = jest.fn(()=>'Shreekara');
   mahiti.pratahSandhya = jest.fn(()=>'ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ');
+  mahiti.pratahSamidhaDana = jest.fn(()=>'ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ');
   expect(<div>{mahiti.parividiMahiti()}</div>).toMatchSnapshot();
 });

@@ -2,10 +2,11 @@ import React from 'react';
 import Renderer from 'react-test-renderer';
 import Diksoochi from '../Diksoochi';
 
-jest.mock('../../Shershike/Shershike', (props)=> `'Shershike'`);
+jest.mock('../../Shershike/Shershike', ()=> 'Shershike');
 jest.mock('../../Shreekara/Shreekara', ()=> 'Shreekara');
 jest.mock('../../Parividi/Parividi', ()=> 'Parividi');
 jest.mock('../../PratahSandhya/PratahSandhya', ()=> 'ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ');
+jest.mock('../../PratahSamidhaDana/PratahSamidhaDana', ()=> 'ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ');
 
 jest.mock('react-router-navigation', (props)=>{
   const MockReact = require('React');

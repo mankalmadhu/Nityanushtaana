@@ -1,11 +1,13 @@
 import Shreekara from '../Shreekara/Shreekara';
 import ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ from '../PratahSandhya/PratahSandhya';
+import ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ from '../PratahSamidhaDana/PratahSamidhaDana';
 
 export const sandhyaChitra = () => require('./chitra/sandhya.png');
 export const agnikaryaChitra = () => require('./chitra/agnikarya.png');
 export const upadeshaChitra = () => require('./chitra/upadesha.png');
 export const paschat = () => Shreekara;
 export const pratahSandhya = ()=> ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ;
+export const pratahSamidhaDana = ()=> ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ;
 
 export const parividiMahiti = () => [
   {
@@ -16,7 +18,7 @@ export const parividiMahiti = () => [
   {
     "shershike":  "ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ",
     "chitra": exports.agnikaryaChitra(),
-    "paschat": exports.paschat()
+    "paschat": exports.pratahSamidhaDana()
   },
   {
     "shershike":  "ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ",
