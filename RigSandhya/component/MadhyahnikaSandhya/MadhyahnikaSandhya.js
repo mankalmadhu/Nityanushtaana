@@ -10,7 +10,7 @@ import ಮಾಧ್ಯಾಹ್ನಿಕಮಾರ್ಜನೆ from '../Ghatta/Ma
 import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/DwiteyaMarjane';
 import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
 import ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/MadhyahnikaArghyaSankalpa';
-import ಪ್ರಾತರರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/PratahArghyaPradana';
+import ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/MadhyahnikaArghyaPradana';
 import ಪ್ರಾತಃಗಾಯತ್ರೀ from '../Ghatta/Japa/PratahGayatriJapa';
 import ಪ್ರಾತರುಪಸ್ಥಾನ from '../Ghatta/Upasthana/PratahUpasthana';
 import ಪ್ರಾತಸ್ಸಮರ್ಪಣ from '../Ghatta/Samarpana/PratahSamarpana';
@@ -48,7 +48,7 @@ export default ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ = () =>
           <ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯಸ೦ಕಲ್ಪ />
         </ಪುಟ>
         <ಪುಟ>
-          <ಪ್ರಾತರರ್ಘ್ಯ />
+          <ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯ />
         </ಪುಟ>
         <ಪುಟ>
           <ಪ್ರಾತಃಗಾಯತ್ರೀ />
