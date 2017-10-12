@@ -2,7 +2,11 @@ import React from 'react';
 import Renderer from 'react-test-renderer';
 import Diksoochi from '../Diksoochi';
 
-jest.mock('../../Shershike/Shershike');
+jest.mock('../../Shershike/Shershike', (props)=> `'Shershike'`);
+jest.mock('../../Shreekara/Shreekara', ()=> 'Shreekara');
+jest.mock('../../Parividi/Parividi', ()=> 'Parividi');
+jest.mock('../../PratahSandhya/PratahSandhya', ()=> 'ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ');
+
 jest.mock('react-router-navigation', (props)=>{
   const MockReact = require('React');
   class Navigation extends MockReact.Component
@@ -15,12 +19,7 @@ jest.mock('react-router-navigation', (props)=>{
   class Card extends MockReact.Component
   {
     render() {
-      var props = {
-        path:this.props.path,
-        component:this.props.component.name,
-        renderTitle:this.props.renderTitle().props.shershike};
-        
-      return MockReact.createElement('Card' ,props);
+      return MockReact.createElement('Card' ,this.props);
     }
   }
 
