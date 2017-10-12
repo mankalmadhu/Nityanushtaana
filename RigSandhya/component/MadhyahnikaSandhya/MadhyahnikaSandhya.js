@@ -1,5 +1,5 @@
 import React from 'react';
-
+ 
 import ಲೇಖನ from '../Lekhana/Lekhana';
 import ಪುಟ from '../Puta/Puta';
 import ಆಸನಸೂಚನೆ from '../Ghatta/Sochane/AasanaSoochane';
@@ -9,7 +9,7 @@ import ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ fro
 import ಮಾಧ್ಯಾಹ್ನಿಕಮಾರ್ಜನೆ from '../Ghatta/Marjane/MadhyahnikaMarjane';
 import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/DwiteyaMarjane';
 import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
-import ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/PratahArghyaSankalpa';
+import ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/MadhyahnikaArghyaSankalpa';
 import ಪ್ರಾತರರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/PratahArghyaPradana';
 import ಪ್ರಾತಃಗಾಯತ್ರೀ from '../Ghatta/Japa/PratahGayatriJapa';
 import ಪ್ರಾತರುಪಸ್ಥಾನ from '../Ghatta/Upasthana/PratahUpasthana';
@@ -45,7 +45,7 @@ export default ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ = () =>
           <ಆಚಮನೀಯ />
         </ಪುಟ>
         <ಪುಟ>
-          <ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ />
+          <ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯಸ೦ಕಲ್ಪ />
         </ಪುಟ>
         <ಪುಟ>
           <ಪ್ರಾತರರ್ಘ್ಯ />
