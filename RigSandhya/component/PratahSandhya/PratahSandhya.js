@@ -16,7 +16,8 @@ import ಪ್ರಾತರುಪಸ್ಥಾನ from '../Ghatta/Upasthana/PratahU
 import ಪ್ರಾತಸ್ಸಮರ್ಪಣ from '../Ghatta/Samarpana/PratahSamarpana';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
 
-export default ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ = () => {
+export default ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ = () =>
+ (
 
       <ಲೇಖನ>
         <ಪುಟ>
@@ -63,4 +64,4 @@ export default ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ = () => {
           <ಅಪರಾಧಕ್ಷಮಾಪಣ />
         </ಪುಟ>
       </ಲೇಖನ>
-}
+ )
