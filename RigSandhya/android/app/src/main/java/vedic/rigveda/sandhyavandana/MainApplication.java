@@ -1,4 +1,4 @@
-package com.rigsandhya;
+package vedic.rigveda.sandhyavandana;
 
 import android.app.Application;
 
