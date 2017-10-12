@@ -11,6 +11,7 @@ jest.mock('../PratahDishaNamskara',()=>'ಪ್ರಾತರ್ದಿಶಾನಮ�
 jest.mock('../DevataNamskara',()=>'ದೇವತಾನಮಸ್ಕಾರ');
 jest.mock('../Niragamana',()=>'ನಿರ್ಗಮನ');
 jest.mock('../Pravara',()=>'ಪ್ರವರ');
+jest.mock('../AasatyaLokaat',()=>'ಆಸತ್ಯಲೋಕಾತ್');
 
 test("ಪ್ರಾತರುಪಸ್ಥಾನ", () => {
    expect(Renderer.create(

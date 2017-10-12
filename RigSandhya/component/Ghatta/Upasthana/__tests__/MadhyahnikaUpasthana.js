@@ -9,6 +9,7 @@ jest.mock('../ChitramDevanam',()=>'ಚಿತ್ರ೦ದೇವಾನಾ೦');
 jest.mock('../Tachaskshuhu',()=>'ತಚ್ಚಕ್ಷುಃ');
 jest.mock('../NamoBramhane',()=>'ನಮೋಬ್ರಹ್ಮಣೇ');
 jest.mock('../Pravara',()=>'ಪ್ರವರ');
+jest.mock('../AasatyaLokaat',()=>'ಆಸತ್ಯಲೋಕಾತ್');
 
 test("ಮಾಧ್ಯಾಹ್ನಿಕೌಪಸ್ಥಾನ", () => {
    expect(Renderer.create(

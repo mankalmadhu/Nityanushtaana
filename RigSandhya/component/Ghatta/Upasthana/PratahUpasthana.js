@@ -10,6 +10,7 @@ import ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ from './PratahDish
 import ದೇವತಾನಮಸ್ಕಾರ from './DevataNamskara';
 import ನಿರ್ಗಮನ from './Niragamana';
 import ಪ್ರವರ from './Pravara';
+import ಆಸತ್ಯಲೋಕಾತ್ from './AasatyaLokaat';
 
 export default ಪ್ರಾತರುಪಸ್ಥಾನ = () => (
   <View>
@@ -30,6 +31,7 @@ export default ಪ್ರಾತರುಪಸ್ಥಾನ = () => (
     <ನಿರ್ಗಮನ />
     <ನಮೋಬ್ರಹ್ಮಣೇ />
     <ಪ್ರವರ />
+    <ಆಸತ್ಯಲೋಕಾತ್ />
   </View>
 
 );

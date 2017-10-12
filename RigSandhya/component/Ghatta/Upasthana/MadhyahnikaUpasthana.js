@@ -8,6 +8,7 @@ import ಚಿತ್ರ೦ದೇವಾನಾ೦ from './ChitramDevanam';
 import ನಮೋಬ್ರಹ್ಮಣೇ from './NamoBramhane';
 import ತಚ್ಚಕ್ಷುಃ from './Tachaskshuhu';
 import ಪ್ರವರ from './Pravara';
+import ಆಸತ್ಯಲೋಕಾತ್ from './AasatyaLokaat';
 
 export default ಮಾಧ್ಯಾಹ್ನಿಕೌಪಸ್ಥಾನ = () => (
   <View>
@@ -22,6 +23,7 @@ export default ಮಾಧ್ಯಾಹ್ನಿಕೌಪಸ್ಥಾನ = () => (
     <ತಚ್ಚಕ್ಷುಃ />
     <ನಮೋಬ್ರಹ್ಮಣೇ />
     <ಪ್ರವರ />
+    <ಆಸತ್ಯಲೋಕಾತ್ />
   </View>
 
 );
