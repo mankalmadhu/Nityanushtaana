@@ -5,7 +5,7 @@ import ಪುಟ from '../Puta/Puta';
 import ಆಸನಸೂಚನೆ from '../Ghatta/Sochane/AasanaSoochane';
 import ಆಚಮನೀಯ from '../Ghatta/Aachamaneya/Aachamaneya';
 import ಪ್ರೋಕ್ಷಣ from '../Ghatta/Prokshana/Prokshana';
-import ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/PratahSandhyaSankalpa';
+import ಸಾಯ೦ಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/SayamSandhyaSankalpa';
 import ಪ್ರಾತಃಮಾರ್ಜನೆ from '../Ghatta/Marjane/PratahMarjane';
 import ದ್ವಿತೀಯಮಾರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/DwiteyaMarjane';
 import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
@@ -29,7 +29,7 @@ export default ಸಾಯ೦ಸ೦ಧ್ಯಾ = () =>
           <ಆಚಮನೀಯ />
         </ಪುಟ>
         <ಪುಟ>
-          <ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
+          <ಸಾಯ೦ಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ />
         </ಪುಟ>
         <ಪುಟ>
           <ಪ್ರಾತಃಮಾರ್ಜನೆ />
