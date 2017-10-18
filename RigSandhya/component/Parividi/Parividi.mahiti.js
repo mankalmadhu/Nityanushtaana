@@ -10,7 +10,6 @@ import ಯಜ್ಞೋಪವೀತ from '../Yajnopaveeta/Yajnopaveeta';
 export const sandhyaChitra = () => require('./chitra/sandhya.png');
 export const agnikaryaChitra = () => require('./chitra/agnikarya.png');
 export const upadeshaChitra = () => require('./chitra/upadesha.png');
-export const paschat = () => Shreekara;
 export const pratahSandhya = ()=> ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ;
 export const pratahSamidhaDana = ()=> ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ;
 export const madhyahnikaSandhya = ()=> ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ;
