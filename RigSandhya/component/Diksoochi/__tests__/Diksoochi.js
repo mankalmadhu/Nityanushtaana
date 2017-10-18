@@ -10,6 +10,7 @@ jest.mock('../../PratahSamidhaDana/PratahSamidhaDana', ()=> 'ಪ್ರಾತಸ�
 jest.mock('../../MadhyahnikaSandhya/MadhyahnikaSandhya', ()=> 'ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ');
 jest.mock('../../SayamSandhya/SayamSandhya', ()=> 'ಸಾಯ೦ಸ೦ಧ್ಯಾ');
 jest.mock('../../SayamSamidhaDana/SayamSamidhaDana', ()=> 'ಸಾಯ೦ಸಮಿಧಾದಾನ');
+jest.mock('../../UpanayanaKarika/UpanayanaKarika', ()=> 'ಉಪನಯನಕಾರಿಕಾ');
 
 jest.mock('react-router-navigation', (props)=>{
   const MockReact = require('React');
