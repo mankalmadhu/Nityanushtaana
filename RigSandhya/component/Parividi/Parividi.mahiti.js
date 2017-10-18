@@ -3,6 +3,7 @@ import ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ from '../PratahSandhya/PratahSand
 import ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ from '../PratahSamidhaDana/PratahSamidhaDana';
 import ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ from '../MadhyahnikaSandhya/MadhyahnikaSandhya';
 import ಸಾಯ೦ಸ೦ಧ್ಯಾ from '../SayamSandhya/SayamSandhya';
+import ಸಾಯ೦ಸಮಿಧಾದಾನ from '../SayamSamidhaDana/SayamSamidhaDana';
 
 export const sandhyaChitra = () => require('./chitra/sandhya.png');
 export const agnikaryaChitra = () => require('./chitra/agnikarya.png');
@@ -12,6 +13,7 @@ export const pratahSandhya = ()=> ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ;
 export const pratahSamidhaDana = ()=> ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ;
 export const madhyahnikaSandhya = ()=> ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ;
 export const sayamSandhya = ()=> ಸಾಯ೦ಸ೦ಧ್ಯಾ;
+export const sayamSamidhaDana = ()=> ಸಾಯ೦ಸಮಿಧಾದಾನ;
 
 export const parividiMahiti = () => [
   {
@@ -37,7 +39,7 @@ export const parividiMahiti = () => [
   {
     "shershike":  "ಸಾಯ೦ಸಮಿಧಾದಾನ",
     "chitra": exports.agnikaryaChitra(),
-    "paschat": exports.paschat()
+    "paschat": exports.sayamSamidhaDana()
   },
   {
     "shershike":  "ಯಜ್ಞೋಪವೀತ",
