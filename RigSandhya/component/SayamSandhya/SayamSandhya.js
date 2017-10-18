@@ -13,7 +13,7 @@ import ಸಾಯಮರ್ಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/Sa
 import ಸಾಯಮರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/SayamArghyaPradana';
 import ಸಾಯ೦ಗಾಯತ್ರೀ from '../Ghatta/Japa/SayamGayatriJapa';
 import ಸಾಯಮುಪಸ್ಥಾನ from '../Ghatta/Upasthana/SayamUpasthana';
-import ಪ್ರಾತಸ್ಸಮರ್ಪಣ from '../Ghatta/Samarpana/PratahSamarpana';
+import ಸಾಯ೦ಸಮರ್ಪಣ from '../Ghatta/Samarpana/SayamSamarpana';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
 
 export default ಸಾಯ೦ಸ೦ಧ್ಯಾ = () =>
@@ -58,7 +58,7 @@ export default ಸಾಯ೦ಸ೦ಧ್ಯಾ = () =>
         </ಪುಟ>
         <ಪುಟ>
           <ಆಚಮನೀಯ />
-          <ಪ್ರಾತಸ್ಸಮರ್ಪಣ />
+          <ಸಾಯ೦ಸಮರ್ಪಣ />
         </ಪುಟ>
         <ಪುಟ>
           <ಅಪರಾಧಕ್ಷಮಾಪಣ />
