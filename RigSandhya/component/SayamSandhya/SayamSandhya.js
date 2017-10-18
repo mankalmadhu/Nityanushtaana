@@ -12,7 +12,7 @@ import ವಿಸರ್ಜನೆ from '../Ghatta/DwiteyaMarjane/Visarjane';
 import ಸಾಯಮರ್ಘ್ಯಸ೦ಕಲ್ಪ from '../Ghatta/Sankalpa/SayamArghyaSankalpa';
 import ಸಾಯಮರ್ಘ್ಯ from '../Ghatta/ArghyaPradana/SayamArghyaPradana';
 import ಸಾಯ೦ಗಾಯತ್ರೀ from '../Ghatta/Japa/SayamGayatriJapa';
-import ಪ್ರಾತರುಪಸ್ಥಾನ from '../Ghatta/Upasthana/PratahUpasthana';
+import ಸಾಯಮುಪಸ್ಥಾನ from '../Ghatta/Upasthana/SayamUpasthana';
 import ಪ್ರಾತಸ್ಸಮರ್ಪಣ from '../Ghatta/Samarpana/PratahSamarpana';
 import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Ghatta/AparadhaKshamapana/AparadhaKshamapana';
 
@@ -54,7 +54,7 @@ export default ಸಾಯ೦ಸ೦ಧ್ಯಾ = () =>
           <ಸಾಯ೦ಗಾಯತ್ರೀ />
         </ಪುಟ>
         <ಪುಟ>
-          <ಪ್ರಾತರುಪಸ್ಥಾನ />
+          <ಸಾಯಮುಪಸ್ಥಾನ />
         </ಪುಟ>
         <ಪುಟ>
           <ಆಚಮನೀಯ />
