@@ -4,7 +4,6 @@ exports[`ವಿಷಯ 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
-  disabled={false}
   ellipsizeMode="tail"
   style={Object {}}
 >
