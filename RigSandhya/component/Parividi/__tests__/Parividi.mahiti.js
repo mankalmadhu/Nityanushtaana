@@ -13,5 +13,6 @@ test("Parividi Mahiti" , () => {
   mahiti.sayamSandhya = jest.fn(()=>'ಸಾಯ೦ಸ೦ಧ್ಯಾ');
   mahiti.sayamSamidhaDana = jest.fn(()=>'ಸಾಯ೦ಸಮಿಧಾದಾನ');
   mahiti.upanayanaKarika = jest.fn(()=>'ಉಪನಯನಕಾರಿಕಾ');
+  mahiti.upanayanaKarika = jest.fn(()=>'ಯಜ್ಞೋಪವೀತ');
   expect(<div>{mahiti.parividiMahiti()}</div>).toMatchSnapshot();
 });

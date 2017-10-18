@@ -29,12 +29,12 @@ exports[`Parividi Mahiti 1`] = `
   }
   Object {
     "chitra": "./chitra/upadesha.png",
-    "paschat": "Shreekara",
+    "paschat": [Function],
     "shershike": "ಯಜ್ಞೋಪವೀತ",
   }
   Object {
     "chitra": "./chitra/upadesha.png",
-    "paschat": "ಉಪನಯನಕಾರಿಕಾ",
+    "paschat": "ಯಜ್ಞೋಪವೀತ",
     "shershike": "ಉಪನಯನಕಾರಿಕ",
   }
 </div>
