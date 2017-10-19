@@ -1,10 +1,11 @@
 import React from 'react';
+import { View } from 'react-native';
 
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಕರನ್ಯಾಸ = () => (
-  <ವಿಷಯ>
+  <View>
     <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
       ಕರನ್ಯಾಸ
     </ವಿಷಯ>
@@ -14,7 +15,7 @@ export default ಕರನ್ಯಾಸ = () => (
       ಭರ್ಗೋದೇವಸ್ಯ ಮಧ್ಯಮಾಭ್ಯಾ೦ ನಮಃ ।ಧೀಮಹಿ ಅನಾಮಿಕಾಭ್ಯಾ೦ ನಮಃ ।
       ಧಿಯೋಽಯೋನಃ ಕನಿಷ್ಠಿಕಾಭ್ಯಾ೦ ನಮಃ ।ಪ್ರಚೋದಯಾತ್ ಕರತಲ ಕರಪೃಷ್ಠಾಭ್ಯಾ೦ ನಮಃ ।
     </ವಿಷಯ>
-  </ವಿಷಯ>
+  </View>
 
 
 );
