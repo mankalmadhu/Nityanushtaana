@@ -1,4 +1,5 @@
 import React from 'react';
+import { View } from 'react-native';
 
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
@@ -15,7 +16,7 @@ import ದಿಗ್ವಿಮೋಕ from './Digvimoka';
 import ಮುಕ್ತಾಯ from './Muktaya';
 
 export default ಮಾಧ್ಯಾಹ್ನಿಕಗಾಯತ್ರೀ = () => (
-  <ವಿಷಯ>
+  <View>
     <ತ್ರಿಹೃತಿ />
     <ತ್ರಿಹೃತಿ />
     <ಆವಾಹನ />
@@ -35,5 +36,5 @@ export default ಮಾಧ್ಯಾಹ್ನಿಕಗಾಯತ್ರೀ = () => (
     <ಅ೦ಗನ್ಯಾಸ />
     <ದಿಗ್ವಿಮೋಕ />
     <ಮುಕ್ತಾಯ />
-  </ವಿಷಯ>
+  </View>
 );
