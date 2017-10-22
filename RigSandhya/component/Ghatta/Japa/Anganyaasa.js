@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
-export default ಕರನ್ಯಾಸ = () => (
+export default ಅ೦ಗನ್ಯಾಸ = () => (
   <View>
     <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
       ಅ೦ಗನ್ಯಾಸ
