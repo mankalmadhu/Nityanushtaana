@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ಮಾರ್ಜನೆ from '../Marjane/Marjane';
@@ -11,9 +12,9 @@ import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ದ್ವಿತೀಯಮಾರ್ಜನೆ = () => (
 <View>
-<ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+<ಶೀರ್ಷಿಕೆ>
   ಮಾರ್ಜನೆ
-</ವಿಷಯ>
+</ಶೀರ್ಷಿಕೆ>
 <ಪೂರ್ವಾ೦ಗ>
    ಆಪೋಹಿಷ್ಠೇತಿ ನವರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ 
     ಆಪೋ ಗಾಯತ್ರಿ ಪ೦ಚಮೀ ವರ್ಧಮಾನಾ ಸಪ್ತಮೀ ಪ್ರತಿಷ್ಠಾ ಅ೦ತ್ಯೇ ದ್ವೇ ಅನುಷ್ಟುಭೌ 

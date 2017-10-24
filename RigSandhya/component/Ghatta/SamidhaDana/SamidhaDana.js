@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
@@ -8,9 +9,9 @@ import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಸಮಿಧಾದಾನ = () => (
   <View>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+    <ಶೀರ್ಷಿಕೆ>
       ಸಮಿಧಾದಾನ
-    </ವಿಷಯ>
+    </ಶೀರ್ಷಿಕೆ>
     <ಪೂರ್ವಾ೦ಗ>
       ಅಗ್ನಯೇ ಸಮಿಧಮಿತ್ಯಸ್ಯ ಹಿರಣ್ಯಗರ್ಭಃ ಅಗ್ನಿಃ ಬೃಹತೀ ಸಮಿಧಾದಾನೇ ವಿನಿಯೋಗಃ ।
     </ಪೂರ್ವಾ೦ಗ>

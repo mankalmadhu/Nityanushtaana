@@ -4,6 +4,7 @@ import Renderer from 'react-test-renderer';
 
 jest.mock('../../Marjane/Marjane',()=>'ಮಾರ್ಜನೆ');
 jest.mock('../../Gayatri/GayatriMantra',()=>'ಗಾಯತ್ರೀಮ೦ತ್ರ');
+jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 jest.mock('../../../Vishaya/Purvanga',()=>'ಪೂರ್ವಾ೦ಗ');
 jest.mock('../../Gayatri/Vyahruti',()=>'ವ್ಯಾಹೃತಿ');

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
@@ -8,9 +9,9 @@ import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಅಗ್ನ್ಯುಪಸ್ಥಾನ = () => (
   <View>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+    <ಶೀರ್ಷಿಕೆ>
       ಅಗ್ನ್ಯುಪಸ್ಥಾನ
-    </ವಿಷಯ>
+    </ಶೀರ್ಷಿಕೆ>
     <ವಿನಿಯೋಗ>
       (ಅಗ್ನಿಗೆ ಅಭಿಮುಖವಾಗಿ ನಿ೦ತು)
     </ವಿನಿಯೋಗ>

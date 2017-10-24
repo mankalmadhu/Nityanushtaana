@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
@@ -12,12 +13,12 @@ import ಕಾಲಾತೀತಅರ್ಘ್ಯ from './KalaTeetaArgyaPradana';
 
 export default ಸಾಯಮರ್ಘ್ಯ = () => (
   <View>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+    <ಶೀರ್ಷಿಕೆ>
       ಅರ್ಘ್ಯ ಪ್ರದಾನ 
-    </ವಿಷಯ>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+    </ಶೀರ್ಷಿಕೆ>
+    <ಶೀರ್ಷಿಕೆ>
       (ಪಶ್ಚಿಮಾಭಿಮುಖವಾಗಿ ನಿ೦ತು)
-    </ವಿಷಯ>
+    </ಶೀರ್ಷಿಕೆ>
     <ಪೂರ್ವಾ೦ಗ>
       ತತ್ಸವಿತುರ್ವಿಶ್ವಾಮಿತ್ರಸ್ಸವಿತಾಗಾಯತ್ರೀ
     </ಪೂರ್ವಾ೦ಗ>

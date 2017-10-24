@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
@@ -15,12 +16,12 @@ import ಆಸತ್ಯಲೋಕಾತ್ from './AasatyaLokaat';
 
 export default ಪ್ರಾತರುಪಸ್ಥಾನ = () => (
   <View>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+    <ಶೀರ್ಷಿಕೆ>
       ಉಪಸ್ಥಾನ
-    </ವಿಷಯ>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+    </ಶೀರ್ಷಿಕೆ>
+    <ಶೀರ್ಷಿಕೆ>
       (ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ನಿ೦ತು)
-    </ವಿಷಯ>
+    </ಶೀರ್ಷಿಕೆ>
     <ಜಾತವೇದಸೇ />
     <ತಚ್ಛ೦ಯೋ />
     <ನಮೋಬ್ರಹ್ಮಣೇ />
