@@ -4,6 +4,7 @@ import Renderer from 'react-test-renderer';
 
 jest.mock('../../Ghatta.vinyasa');
 jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
+jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 
 test("ಅಗ್ನಿಃಪ್ರಾರ್ಥನೆ", () => {
    expect(Renderer.create(

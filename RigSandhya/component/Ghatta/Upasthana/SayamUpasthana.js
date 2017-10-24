@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 import ಜಾತವೇದಸೇ from './JaataVedase';
@@ -23,9 +24,9 @@ export default ಸಾಯಮುಪಸ್ಥಾನ = () => (
     <ಜಾತವೇದಸೇ />
     <ತಚ್ಛ೦ಯೋ />
     <ನಮೋಬ್ರಹ್ಮಣೇ />
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ} >
+    <ವಿನಿಯೋಗ>
       (ಮೂರು ಬಾರಿ)
-    </ವಿಷಯ>
+    </ವಿನಿಯೋಗ>
     <ಸಾಯ೦ದಿಶಾನಮಸ್ಕಾರ />
     <ದೇವತಾನಮಸ್ಕಾರ />
     <ನಿರ್ಗಮನ />
