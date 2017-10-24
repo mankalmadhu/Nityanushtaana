@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default  ಆಕೃಷ್ಣೇನ = () => (

@@ -7,7 +7,7 @@ import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ಮಾರ್ಜನೆ from '../Marjane/Marjane';
 import ಗಾಯತ್ರೀಮ೦ತ್ರ from '../Gayatri/GayatriMantra';
 import ವ್ಯಾಹೃತಿ from '../Gayatri/Vyahruti';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ದ್ವಿತೀಯಮಾರ್ಜನೆ = () => (

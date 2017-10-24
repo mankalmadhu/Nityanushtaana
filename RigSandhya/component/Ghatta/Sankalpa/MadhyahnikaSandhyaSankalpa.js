@@ -6,7 +6,7 @@ import ವ್ಯಾಹೃತಿ from '../Gayatri/Vyahruti';
 import ಸ೦ಕಲ್ಪಪೂರ್ವಾ೦ಗ from './SankalpaPurvanga';
 import ಸ೦ಕಲ್ಪಶೀರ್ಷಿಕೆ from './SankalpaShershike';
 import ಓಮಾಪೋ from './Oomapo';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 import ಪ್ರೀತ್ಯರ್ಥ from './Preetyartha';
 

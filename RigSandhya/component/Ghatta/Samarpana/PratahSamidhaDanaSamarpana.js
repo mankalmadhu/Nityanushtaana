@@ -3,7 +3,7 @@ import { View } from 'react-native';
 
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸಮರ್ಪಣ = () => (

@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಮಾರ್ಜನೆಸ೦ಕಲ್ಪ = () => (

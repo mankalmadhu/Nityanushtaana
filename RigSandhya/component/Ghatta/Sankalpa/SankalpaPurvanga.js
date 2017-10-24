@@ -2,7 +2,7 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default  ಸ೦ಕಲ್ಪಪೂರ್ವಾ೦ಗ= () => (

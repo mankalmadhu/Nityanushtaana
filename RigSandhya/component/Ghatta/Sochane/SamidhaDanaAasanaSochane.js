@@ -2,7 +2,7 @@ import React from 'react';
 import { Text } from 'react-native';
 
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಸಮಿಧಾದಾನಆಸನಸೂಚನೆ = () => (

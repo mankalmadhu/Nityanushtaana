@@ -2,7 +2,7 @@ import React from 'react';
 import { View } from 'react-native';
 
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
-import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
+
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 import ಉದುತ್ಯ೦ from './Udutyam';
 import ಚಿತ್ರ೦ದೇವಾನಾ೦ from './ChitramDevanam';
