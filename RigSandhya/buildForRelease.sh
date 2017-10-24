@@ -61,6 +61,7 @@
    ['ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ']='PratahArghyaSankalpa'
    ['ಪ್ರಾತಃಜಪಸ೦ಕಲ್ಪ']='PratahJapaSankalpa'
    ['ಪ್ರಾತಃಸಮಿಧಾದಾನಸ೦ಕಲ್ಪ']='PratahSamidhaDanaSankalpa'
+   ['ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸ೦ಕಲ್ಪ']='PratahSamidhaDanaSankalpa'
    ['ಪ್ರಾತಃಸ೦ಧ್ಯಾಸ೦ಕಲ್ಪ']='PratahSandhyaSankalpa'
    ['ಪ್ರೀತ್ಯರ್ಥ']='Preetyartha'
    ['ಸ೦ಕಲ್ಪಪೂರ್ವಾ೦ಗ']='SankalpaPurvanga'
@@ -85,10 +86,10 @@
    ['ತಚ್ಚಕ್ಷುಃ']='Tachhkshuhu'
    ['ತಚ್ಛ೦ಯೋ']='Tachayyo'
    ['ಉದುತ್ಯ೦']='Udutyam'
-   ['ಸಮಿಧಾದಾನಆಸನಸೂಚನೆ'] = 'SamidhaDanaAasanaSochane'
-   ['ಉಪನಯನಕಾರಿಕಾಮ೦ತ್ರ']= 'UpanayanaKarikaMantra'
-   ['ಯಜ್ಞೋಪವೀತಧಾರಣ']= 'YajnopavetaDharana'
-   ['ಯಜ್ಞೋಪವೀತವಿಸರ್ಜನ']= 'YajnopavetaVisarjana'
+   ['ಸಮಿಧಾದಾನಆಸನಸೂಚನೆ']='SamidhaDanaAasanaSochane'
+   ['ಉಪನಯನಕಾರಿಕಾಮ೦ತ್ರ']='UpanayanaKarikaMantra'
+   ['ಯಜ್ಞೋಪವೀತಧಾರಣ']='YajnopavetaDharana'
+   ['ಯಜ್ಞೋಪವೀತವಿಸರ್ಜನ']='YajnopavetaVisarjana'
    )
 
    
