@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
@@ -15,11 +16,11 @@ export default ಜಪ = () => (
   <ತ್ರಿಹೃತಿ>
     <ಗಾಯತ್ರೀಮ೦ತ್ರ />
   </ತ್ರಿಹೃತಿ>
-  <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ}>
+  <ವಿನಿಯೋಗ>
     (ಯಥಾಶಕ್ತಿ)
-  </ವಿಷಯ>
-  <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ}>
+  </ವಿನಿಯೋಗ>
+  <ವಿನಿಯೋಗ>
     ತತ್ಸಬ್ರಹ್ಮಾರ್ಪಣಮಸ್ತು
-  </ವಿಷಯ>
+  </ವಿನಿಯೋಗ>
 </View>
 );
