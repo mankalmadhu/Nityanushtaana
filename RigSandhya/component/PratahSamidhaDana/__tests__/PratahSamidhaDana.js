@@ -17,6 +17,7 @@ jest.mock('../../Ghatta/SamidhaDana/PunahPuja', () => 'ಪುನಃಪೂಜಾ'
 jest.mock('../../Ghatta/Upasthana/Pravara', () => 'ಪ್ರವರ' );
 jest.mock('../../Ghatta/Samarpana/PratahSamidhaDanaSamarpana', () => 'ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸಮರ್ಪಣ' );
 jest.mock('../../Ghatta/AparadhaKshamapana/AparadhaKshamapana', () => 'ಅಪರಾಧಕ್ಷಮಾಪಣ' );
+jest.mock('../../Ghatta/Sochane/SamidhaDanaAasanaSochane', () => 'ಸಮಿಧಾದಾನಆಸನಸೂಚನೆ' );
 
 test("ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ", () => {
   expect(Renderer.create(
