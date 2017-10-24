@@ -9,7 +9,7 @@ jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 jest.mock('../../../Vishaya/Purvanga',()=>'ಪೂರ್ವಾ೦ಗ');
 jest.mock('../../Gayatri/Vyahruti',()=>'ವ್ಯಾಹೃತಿ');
 
-jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
+
 
 test("ದ್ವಿತೀಯಮಾರ್ಜನೆ", () => {
   const marjane = Renderer.create(

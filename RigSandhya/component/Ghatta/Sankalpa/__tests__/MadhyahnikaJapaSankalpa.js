@@ -10,7 +10,7 @@ jest.mock('../SankalpaShershike', () => 'ಸ೦ಕಲ್ಪಶೀರ್ಷಿಕ
 jest.mock('../Preetyartha', () => 'ಪ್ರೀತ್ಯರ್ಥ' );
 jest.mock('../Oomapo', () => 'ಓಮಾಪೋ' );
 
-jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
+
 
 test("ಮಾಧ್ಯಾಹ್ನಿಕಜಪಸ೦ಕಲ್ಪ", () => {
 

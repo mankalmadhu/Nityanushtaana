@@ -3,7 +3,7 @@ import ಮಾಧ್ಯಾಹ್ನಿಕಸಮರ್ಪಣ from '../MadhyahnikaS
 import Renderer from 'react-test-renderer';
 
 
-jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
+
 jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 

@@ -3,7 +3,7 @@ import ಮಾಧ್ಯಾಹ್ನಿಕಗಾಯತ್ರೀ from '../Madhyahni
 import Renderer from 'react-test-renderer';
 
 
-jest.mock('../../../Vishaya/Vishaya', () => 'ವಿಷಯ');
+
 jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../../Gayatri/Trihruti', () => 'ತ್ರಿಹೃತಿ');
 jest.mock('../../Sankalpa/MadhyahnikaJapaSankalpa', () => 'ಮಾಧ್ಯಾಹ್ನಿಕಜಪಸ೦ಕಲ್ಪ');

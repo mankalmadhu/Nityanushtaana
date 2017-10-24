@@ -3,7 +3,7 @@ import ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ from '../PratahDis
 import Renderer from 'react-test-renderer';
 
 
-jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
+
 jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 
 test("ಪ್ರಾತರ್ದಿಶಾನಮಸ್ಕಾರ", () => {

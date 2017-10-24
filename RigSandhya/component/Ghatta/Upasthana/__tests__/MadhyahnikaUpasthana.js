@@ -3,7 +3,7 @@ import ಮಾಧ್ಯಾಹ್ನಿಕೌಪಸ್ಥಾನ from '../Madhyahni
 import Renderer from 'react-test-renderer';
 
 
-jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
+
 jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../Udutyam',()=>'ಉದುತ್ಯ೦');
 jest.mock('../ChitramDevanam',()=>'ಚಿತ್ರ೦ದೇವಾನಾ೦');

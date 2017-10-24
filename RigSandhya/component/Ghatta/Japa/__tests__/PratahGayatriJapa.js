@@ -3,7 +3,7 @@ import ಪ್ರಾತಃಗಾಯತ್ರೀ from '../PratahGayatriJapa';
 import Renderer from 'react-test-renderer';
 
 
-jest.mock('../../../Vishaya/Vishaya', () => 'ವಿಷಯ');
+
 jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../../Gayatri/Trihruti', () => 'ತ್ರಿಹೃತಿ');
 jest.mock('../../Sankalpa/PratahJapaSankalpa', () => 'ಪ್ರಾತಃಜಪಸ೦ಕಲ್ಪ');

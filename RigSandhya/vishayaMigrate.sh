@@ -1,9 +1,9 @@
 cd component/Ghatta
-fileNames=($(grep -rl "import ವಿಷಯ from"))
+fileNames=($(grep -rl "jest.mock.*ವಿಷಯ.*"))
 for fileName in "${fileNames[@]}"
   do
-   
-    sed -i "s/import ವಿಷಯ from.*//g" $fileName
+    
+    sed -i "s/jest.mock.*ವಿಷಯ.*//g" $fileName
    
   done
 cd ../..
