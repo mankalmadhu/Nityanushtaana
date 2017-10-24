@@ -2,7 +2,7 @@ import React from 'react';
 import ಗಾಯತ್ರೀಮ೦ತ್ರ from '../GayatriMantra';
 import Renderer from 'react-test-renderer';
 
-jest.mock('../../Ghatta.vinyasa');
+
 jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 

@@ -9,7 +9,7 @@ jest.mock('../SankalpaShershike', () => 'ಸ೦ಕಲ್ಪಶೀರ್ಷಿಕ
 jest.mock('../Preetyartha', () => 'ಪ್ರೀತ್ಯರ್ಥ' );
 jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../Oomapo', () => 'ಓಮಾಪೋ' );
-jest.mock('../../Ghatta.vinyasa');
+
 jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
 test("ಮಾಧ್ಯಾಹ್ನಿಕಅರ್ಘ್ಯಸ೦ಕಲ್ಪ", () => {

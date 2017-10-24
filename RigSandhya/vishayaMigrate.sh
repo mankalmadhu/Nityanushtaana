@@ -1,9 +1,9 @@
 cd component/Ghatta
-fileNames=($(grep -rl "import ಘಟ್ಟವಿನ್ಯಾಸ from"))
+fileNames=($(grep -rl "jest.mock.*Ghatta.vinyasa.*"))
 for fileName in "${fileNames[@]}"
   do
    
-    sed -i "s/import ಘಟ್ಟವಿನ್ಯಾಸ from.*//g" $fileName
+    sed -i "s/jest.mock.*Ghatta.vinyasa.*//g" $fileName
    
   done
 cd ../..

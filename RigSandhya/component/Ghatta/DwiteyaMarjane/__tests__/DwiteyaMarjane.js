@@ -8,7 +8,7 @@ jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 jest.mock('../../../Vishaya/Purvanga',()=>'ಪೂರ್ವಾ೦ಗ');
 jest.mock('../../Gayatri/Vyahruti',()=>'ವ್ಯಾಹೃತಿ');
-jest.mock('../../Ghatta.vinyasa');
+
 jest.mock('../../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 
 test("ದ್ವಿತೀಯಮಾರ್ಜನೆ", () => {
