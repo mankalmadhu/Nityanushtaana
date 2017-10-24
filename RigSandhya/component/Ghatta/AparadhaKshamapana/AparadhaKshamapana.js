@@ -1,14 +1,15 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಅಪರಾಧಕ್ಷಮಾಪಣ = () => (
   <View>
-    <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+    <ಶೀರ್ಷಿಕೆ>
       ಅಪರಾಧ ಕ್ಷಮಾಪಣ
-    </ವಿಷಯ>
+    </ಶೀರ್ಷಿಕೆ>
     <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಪೂರ್ವಾ೦ಗ} >
      ಮಧ್ಯೇ ಮ೦ತ್ರ ತ೦ತ್ರ ಸ್ವರ ವರ್ಣ ಧ್ಯಾನ ನಿಯಮ ಲೋಪ ದೋಷ ಪ್ರಾಯಶ್ಚಿತ್ತಾರ್ಥ೦ ನಾಮತ್ರಯ ಮಹಾ ಮ೦ತ್ರ ಜಪ೦ ಕರಿಷ್ಯೇ ।
     </ವಿಷಯ>

@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 import ತ್ರಿಹೃತಿ from '../Gayatri/Trihruti';
@@ -8,9 +9,9 @@ import ಗಾಯತ್ರೀಮ೦ತ್ರ from '../Gayatri/GayatriMantra';
 
 export default ಜಪ = () => (
 <View> 
-  <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+  <ಶೀರ್ಷಿಕೆ>
     ಜಪ
-  </ವಿಷಯ>
+  </ಶೀರ್ಷಿಕೆ>
   <ತ್ರಿಹೃತಿ>
     <ಗಾಯತ್ರೀಮ೦ತ್ರ />
   </ತ್ರಿಹೃತಿ>

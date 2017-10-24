@@ -1,14 +1,15 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಸಾಯ೦ಸ್ವರೂಪ = () => (
   <View>
-  <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+  <ಶೀರ್ಷಿಕೆ>
    ಸಾಯ೦ಸ್ವರೂಪ
-  </ವಿಷಯ>
+  </ಶೀರ್ಷಿಕೆ>
 
   <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ} >
   ಅಥ ತಾ೦ ಸಾಯ೦ ವೃದ್ಧಾ೦ । ವೃದ್ಧಾದಿತ್ಯ ಮ೦ಡಲ ಮಧ್ಯಸ್ಥಾ೦ । 

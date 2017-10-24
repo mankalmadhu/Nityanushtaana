@@ -1,14 +1,15 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಮ೦ತ್ರಾರ್ಥ = () => (
 <View> 
-  <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
+  <ಶೀರ್ಷಿಕೆ>
     ಮ೦ತ್ರಾರ್ಥ
-  </ವಿಷಯ>
+  </ಶೀರ್ಷಿಕೆ>
   <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ} >
     ಯೊ ದೇವಃ ಸವಿತಾಸ್ಮಾಕ೦ । ಧಿಯೋ ಧರ್ಮಾದಿ ಗೋಚರಃ । ಪ್ರೇರಯೇತ್ ತಸ್ಯ ಯದ್ಭರ್ಗಃ ।
     ತದ್ವರೇಣ್ಯ೦ ಉಪಾಸ್ಮಹೇ । ಸವಿತುರ್ದೇವಸ್ಯ ವರೇಣ್ಯ೦ । ತೇಜೋ ಧ್ಯಾಯೇಮಹಿ ।

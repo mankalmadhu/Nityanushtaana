@@ -1,14 +1,15 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಯಜ್ಞೋಪವೀತಧಾರಣ = () => (
   <View>
-    <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ}>
+    <ಶೀರ್ಷಿಕೆ>
       ಧಾರಣ
-    </ವಿಷಯ>
+    </ಶೀರ್ಷಿಕೆ>
     <ವಿಷಯ ವಿನ್ಯಾಸ={ಘಟ್ಟವಿನ್ಯಾಸ.ಪೂರ್ವಾ೦ಗ}>
       ಯಜ್ಞೋಪವೀತಮಿತ್ಯಸ್ಯ ಪರಬ್ರಹ್ಮಾ ಪರಮಾತ್ಮಾ ತ್ರಿಷ್ಟುಪ್,ಯಜ್ಞೋಪವೀತ ಧಾರಣೇ ವಿನಿಯೋಗಃ ॥
     </ವಿಷಯ>
