@@ -4,8 +4,8 @@ import Renderer from 'react-test-renderer';
 
 jest.mock('../../Lekhana/Lekhana', () => 'ಲೇಖನ' );
 jest.mock('../../Puta/Puta', () => 'ಪುಟ' );
-jest.mock('../../Ghatta/Ghatta.vinyasa');
-jest.mock('../../Vishaya/Vishaya',()=>'ವಿಷಯ');
+jest.mock('../../Ghatta/YajnopavetaMantra/YajnopavetaDharana',()=>'ಯಜ್ಞೋಪವೀತಧಾರಣ');
+jest.mock('../../Ghatta/YajnopavetaMantra/YajnopavetaVisarjana',()=>'ಯಜ್ಞೋಪವೀತವಿಸರ್ಜನ');
 
 test("ಯಜ್ಞೋಪವೀತ", () => {
   expect(Renderer.create(
