@@ -1,6 +1,7 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
@@ -17,9 +18,9 @@ export default ಪ್ರಾತರರ್ಘ್ಯ = () => (
     <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ} >
       (ಪೂರ್ವಾಭಿಮುಖವಾಗಿ ನಿ೦ತು)
     </ವಿಷಯ>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಪೂರ್ವಾ೦ಗ} >
+    <ಪೂರ್ವಾ೦ಗ>
       ತತ್ಸವಿತುರ್ವಿಶ್ವಾಮಿತ್ರಸ್ಸವಿತಾಗಾಯತ್ರೀ
-    </ವಿಷಯ>
+    </ಪೂರ್ವಾ೦ಗ>
     <ತ್ರಿಹೃತಿ>
       <ಗಾಯತ್ರೀಮ೦ತ್ರ/>
       <ಓಮಾಪೋ/>

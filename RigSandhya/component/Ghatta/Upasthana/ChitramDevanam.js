@@ -1,16 +1,17 @@
 import React from 'react';
 import { View } from 'react-native';
 
+import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default ಚಿತ್ರ೦ದೇವಾನಾ೦ = () => (
   <View>
-    <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಪೂರ್ವಾ೦ಗ} >
+    <ಪೂರ್ವಾ೦ಗ>
      ಚಿತ್ರ೦ ದೇವಾನಾ೦ ಇತಿ ಷಡರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ ಆ೦ಗೀರಸಃ ಪುತ್ರ ಕುತ್ಸ ಋಷಿಃ ಸೂರ್ಯೋ ದೇವತಾ ತ್ರಿಷ್ಟುಪ್ ಛ೦ದಃ 
      ಸೂರ್ಯೋಪಸ್ಥಾನೇ ವಿನಿಯೋಗಃ ।
-    </ವಿಷಯ>
+    </ಪೂರ್ವಾ೦ಗ>
 
     <ವಿನಿಯೋಗ>
      ಚಿ॒ತ್ರ೦ದೇ॒ವಾನಾ॒ಮುದ॑ಗಾ॒ದನೀ᳚ಕ॒೦ ಚಕ್ಷು᳚ರ್ಮಿ॒ತ್ರಸ್ಯ॒ ವರು॑ಣಸ್ಯಾ॒ಗ್ನೇಃ । 
