@@ -3,10 +3,6 @@
    ['ಪುಟ']='Puta'
    ['ವಿಷಯ']='Vishaya'
    ['ವಿನ್ಯಾಸ']='Vinyasa'
-   ['ಘಟ್ಟವಿನ್ಯಾಸ']='GhattaVinyasa'
-   ['ವಿನಿಯೋಗ']='Viniyoga'
-   ['ಶೀರ್ಷಿಕೆ']='Shershike'
-   ['ಪೂರ್ವಾ೦ಗ']='Purvanga'
    ['ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ']='PratahSandhya'
    ['ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ']='PratahSamidhaDana'
    ['ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ']='MadhyahnikaSandhya'
@@ -91,23 +87,20 @@
    ['ತಚ್ಚಕ್ಷುಃ']='Tachhkshuhu'
    ['ತಚ್ಛ೦ಯೋ']='Tachayyo'
    ['ಉದುತ್ಯ೦']='Udutyam'
+   ['ಸಮಿಧಾದಾನಆಸನಸೂಚನೆ'] = 'SamidhaDanaAasanaSochane'
+   ['ಉಪನಯನಕಾರಿಕಾಮ೦ತ್ರ']= 'UpanayanaKarikaMantra'
+   ['ಯಜ್ಞೋಪವೀತಧಾರಣ']= 'YajnopavetaDharana'
+   ['ಯಜ್ಞೋಪವೀತವಿಸರ್ಜನ']= 'YajnopavetaVisarjana'
    )
 
    
  cd component
  for symbol in "${!utfSymbols[@]}"
  do
-   fileNames=($(grep -rl $symbol --exclude-dir='__tests__'))
+   fileNames=($(grep -rl $symbol --exclude-dir={'__tests__','Ghatta'}))
    for fileName in "${fileNames[@]}"
    do
      sed -i "s/\b${symbol}\b/${utfSymbols[${symbol}]}/g" $fileName
    done
  done
  cd ..
-
- cd android
- ./gradlew clean
- ./gradlew assembleRelease
- cd ..
-
- git checkout component
