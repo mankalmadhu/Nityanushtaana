@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
+import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
@@ -11,9 +12,9 @@ export default  ಮಾಧ್ಯಾಹ್ನಿಕಅಭಿಮ೦ತ್ರಣೆ 
  ಅಭಿಮ೦ತ್ರಣೆ
 </ಶೀರ್ಷಿಕೆ>
 
-<ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಪೂರ್ವಾ೦ಗ}>
+<ಪೂರ್ವಾ೦ಗ>
  ಆಪಃ ಪುನ೦ತು ಇತ್ಯಸ್ಯ ವಿಷ್ಣು ಋಷಿಃ ಆಪೋ ದೇವತಾ ಅಷ್ಟಿಃ ಛ೦ದಃ ಅಪಾ೦ಪ್ರಾಶನೇ ವಿನಿಯೋಗಃ ।
-</ವಿಷಯ>
+</ಪೂರ್ವಾ೦ಗ>
 
 <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ವಿನಿಯೋಗ}>
   ಆಪಃ॑ ಪುನ೦ತು ಪೃಥಿ॒ವೀ೦  ಪೃ॑ಥಿ॒ವೀ ಪೂ॒ತಾ ಪು॑ನಾತು॒ ಮಾಮ್ । 
