@@ -1,19 +1,20 @@
 import React from 'react';
 import {  Text } from 'react-native';
- 
+import { StyleSheet } from 'react-native';
+
 export const vinyasa = StyleSheet.create({
-  
-  purvanga :{
+  shershike :{
     marginLeft: 12,
     fontFamily: 'Ganapati',
     textAlign:'justify',
-    color: '#6695e2',
-    fontSize:18,
+    color: '#3bdde5',
+    fontSize: 19,
     lineHeight:50
   }});
- 
-export default ಪೂರ್ವಾ೦ಗವಿಷಯ = (props) => (
-    <Text style={vinyasa.purvanga}>
+
+  
+export default ಶೀರ್ಷಿಕೆ = (props) => (
+    <Text style={vinyasa.shershike}>
       {props.children}
     </Text>
   

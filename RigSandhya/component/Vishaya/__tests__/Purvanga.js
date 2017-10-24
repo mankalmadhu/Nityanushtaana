@@ -1,15 +1,15 @@
 import 'react-native';
 import React from 'react';
-import ಶೀರ್ಷಿಕೆವಿಷಯ from '../SheershikeVishaya';
+import ಪೂರ್ವಾ೦ಗ from '../Purvanga';
 
 import Renderer from 'react-test-renderer';
 
 test("ಶೀರ್ಷಿಕೆವಿಷಯ" , () => {
 
 expect(Renderer.create(
-    <ಶೀರ್ಷಿಕೆವಿಷಯ >
+    <ಪೂರ್ವಾ೦ಗ >
       Some Text
-    </ಶೀರ್ಷಿಕೆವಿಷಯ>
+    </ಪೂರ್ವಾ೦ಗ>
 ).toJSON()).toMatchSnapshot();
 
 });

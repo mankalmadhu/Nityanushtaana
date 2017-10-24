@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ಶೀರ್ಷಿಕೆ 1`] = `
+<Text
+  accessible={true}
+  allowFontScaling={true}
+  disabled={false}
+  ellipsizeMode="tail"
+  style={
+    Object {
+      "color": "#3bdde5",
+      "fontFamily": "Ganapati",
+      "fontSize": 19,
+      "lineHeight": 50,
+      "marginLeft": 12,
+      "textAlign": "justify",
+    }
+  }
+>
+  Some Text
+</Text>
+`;

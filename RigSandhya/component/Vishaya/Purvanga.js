@@ -1,19 +1,20 @@
 import React from 'react';
 import {  Text } from 'react-native';
-
+import { StyleSheet } from 'react-native';
+ 
 export const vinyasa = StyleSheet.create({
-  viniyoga :{
+  
+  purvanga :{
     marginLeft: 12,
     fontFamily: 'Ganapati',
     textAlign:'justify',
-    fontSize: 18,
-    color: '#ffffff',
+    color: '#6695e2',
+    fontSize:18,
     lineHeight:50
-  }
-  });
+  }});
  
-export default ವಿನಿಯೋಗವಿಷಯ = (props) => (
-    <Text style={vinyasa.viniyoga}>
+export default ಪೂರ್ವಾ೦ಗ = (props) => (
+    <Text style={vinyasa.purvanga}>
       {props.children}
     </Text>
   

@@ -6,7 +6,6 @@ exports[`ವಿಷಯ 1`] = `
   allowFontScaling={true}
   disabled={false}
   ellipsizeMode="tail"
-  style={Object {}}
 >
   Some Text
 </Text>

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ಶೀರ್ಷಿಕೆವಿಷಯ 1`] = `
+exports[`ವಿನಿಯೋಗ 1`] = `
 <Text
   accessible={true}
   allowFontScaling={true}
@@ -8,9 +8,9 @@ exports[`ಶೀರ್ಷಿಕೆವಿಷಯ 1`] = `
   ellipsizeMode="tail"
   style={
     Object {
-      "color": "#3bdde5",
+      "color": "#ffffff",
       "fontFamily": "Ganapati",
-      "fontSize": 19,
+      "fontSize": 18,
       "lineHeight": 50,
       "marginLeft": 12,
       "textAlign": "justify",

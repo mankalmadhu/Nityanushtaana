@@ -3,18 +3,18 @@ import {  Text } from 'react-native';
 import { StyleSheet } from 'react-native';
 
 export const vinyasa = StyleSheet.create({
-  shershike :{
+  viniyoga :{
     marginLeft: 12,
     fontFamily: 'Ganapati',
     textAlign:'justify',
-    color: '#3bdde5',
-    fontSize: 19,
+    fontSize: 18,
+    color: '#ffffff',
     lineHeight:50
-  }});
-
-  
-export default ಶೀರ್ಷಿಕೆವಿಷಯ = (props) => (
-    <Text style={vinyasa.shershike}>
+  }
+  });
+ 
+export default ವಿನಿಯೋಗ = (props) => (
+    <Text style={vinyasa.viniyoga}>
       {props.children}
     </Text>
   
