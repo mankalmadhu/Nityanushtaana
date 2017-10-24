@@ -1,8 +1,6 @@
  declare -A utfSymbols=(
    ['ಲೇಖನ']='Lekhana' 
    ['ಪುಟ']='Puta'
-   ['ವಿಷಯ']='Vishaya'
-   ['ವಿನ್ಯಾಸ']='Vinyasa'
    ['ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ']='PratahSandhya'
    ['ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ']='PratahSamidhaDana'
    ['ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ']='MadhyahnikaSandhya'
