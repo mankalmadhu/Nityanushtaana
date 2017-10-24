@@ -3,7 +3,7 @@ import { View } from 'react-native';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default ಉಪನಯನಕಾರಿಕಾಮ೦ತ್ರ = () => (
   <ವಿನಿಯೋಗ>

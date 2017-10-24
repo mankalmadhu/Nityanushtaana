@@ -5,7 +5,7 @@ import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default  ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ = () => (
 <View>

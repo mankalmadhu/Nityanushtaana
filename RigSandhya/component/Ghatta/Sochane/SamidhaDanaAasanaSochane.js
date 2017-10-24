@@ -3,7 +3,7 @@ import { Text } from 'react-native';
 
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default ಸಮಿಧಾದಾನಆಸನಸೂಚನೆ = () => (
     <ಶೀರ್ಷಿಕೆ>

@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 import ಜಾತವೇದಸೇ from './JaataVedase';
 import ತಚ್ಛ೦ಯೋ from './Tachayo';
 import ನಮೋಬ್ರಹ್ಮಣೇ from './NamoBramhane';

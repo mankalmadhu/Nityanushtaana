@@ -2,7 +2,7 @@ import React from 'react';
 
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default ಆವಾಹನ = () => (
 

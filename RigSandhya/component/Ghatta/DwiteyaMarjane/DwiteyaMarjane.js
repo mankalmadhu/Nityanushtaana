@@ -8,7 +8,7 @@ import ಮಾರ್ಜನೆ from '../Marjane/Marjane';
 import ಗಾಯತ್ರೀಮ೦ತ್ರ from '../Gayatri/GayatriMantra';
 import ವ್ಯಾಹೃತಿ from '../Gayatri/Vyahruti';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default ದ್ವಿತೀಯಮಾರ್ಜನೆ = () => (
 <View>

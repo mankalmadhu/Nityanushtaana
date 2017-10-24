@@ -3,7 +3,7 @@ import { View } from 'react-native';
 
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 import ತ್ರಿಹೃತಿ from '../Gayatri/Trihruti';
 import ಪ್ರಾತಃಜಪಸ೦ಕಲ್ಪ from '../Sankalpa/PratahJapaSankalpa';
 import ಆವಾಹನ from './Aavahana';

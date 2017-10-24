@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default ತ್ರಿಹೃತಿ = (props) => (
 <ವಿನಿಯೋಗ>

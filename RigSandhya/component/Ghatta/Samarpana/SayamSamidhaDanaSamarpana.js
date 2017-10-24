@@ -4,7 +4,7 @@ import { View } from 'react-native';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default ಸಾಯ೦ಸಮಿಧಾದಾನಸಮರ್ಪಣ = () => (
 <View>

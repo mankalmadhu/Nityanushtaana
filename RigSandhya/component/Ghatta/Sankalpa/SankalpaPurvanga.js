@@ -3,7 +3,7 @@ import { View, Text } from 'react-native';
 
 import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 
 export default  ಸ೦ಕಲ್ಪಪೂರ್ವಾ೦ಗ= () => (
     <ಪೂರ್ವಾ೦ಗ>

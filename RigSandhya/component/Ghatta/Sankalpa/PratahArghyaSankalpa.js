@@ -8,7 +8,7 @@ import ಸ೦ಕಲ್ಪಪೂರ್ವಾ೦ಗ from './SankalpaPurvanga';
 import ಸ೦ಕಲ್ಪಶೀರ್ಷಿಕೆ from './SankalpaShershike';
 import ಓಮಾಪೋ from './Oomapo';
 
-import ವಿಷಯ from '../../Vishaya/Vishaya';
+
 import ಪ್ರೀತ್ಯರ್ಥ from './Preetyartha';
 
 export default ಪ್ರಾತರ್ರಘ್ಯಸ೦ಕಲ್ಪ = () => (
