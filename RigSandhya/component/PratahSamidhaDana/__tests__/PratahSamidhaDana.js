@@ -4,8 +4,6 @@ import Renderer from 'react-test-renderer';
 
 jest.mock('../../Lekhana/Lekhana', () => 'ಲೇಖನ' );
 jest.mock('../../Puta/Puta', () => 'ಪುಟ' );
-jest.mock('../../Ghatta/Ghatta.vinyasa');
-jest.mock('../../Vishaya/Vishaya',()=>'ವಿಷಯ');
 jest.mock('../../Ghatta/Aachamaneya/Aachamaneya', () => 'ಆಚಮನೀಯ' );
 jest.mock('../../Ghatta/Sankalpa/PratahSamidhaDanaSankalpa', () => 'ಪ್ರಾತಸ್ಸಮಿಧಾದಾನಸ೦ಕಲ್ಪ' );
 jest.mock('../../Ghatta/SamidhaDana/AgniMurtiDhyana', () => 'ಅಗ್ನಿಮೂರ್ತಿಧ್ಯಾನ' );
