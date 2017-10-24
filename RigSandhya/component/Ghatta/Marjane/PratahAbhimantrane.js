@@ -1,14 +1,15 @@
 import React from 'react';
 import { View, Text } from 'react-native';
 
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಘಟ್ಟವಿನ್ಯಾಸ from '../Ghatta.vinyasa';
 import ವಿಷಯ from '../../Vishaya/Vishaya';
 
 export default  ಪ್ರಾತಃಅಭಿಮ೦ತ್ರಣೆ = () => (
 <View>
-<ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಶೀರ್ಷಿಕೆ}>
+<ಶೀರ್ಷಿಕೆ>
  ಅಭಿಮ೦ತ್ರಣೆ
-</ವಿಷಯ>
+</ಶೀರ್ಷಿಕೆ>
 
 <ವಿಷಯ ವಿನ್ಯಾಸ = {ಘಟ್ಟವಿನ್ಯಾಸ.ಪೂರ್ವಾ೦ಗ}>
  ಸೂರ್ಯಶ್ಚೇತ್ಯಸ್ಯ ಮ೦ತ್ರಸ್ಯ, ಸೂರ್ಯಮಾಮನ್ಯುಃ,ಮನ್ಯುಪತಯಃ,ಅಹರ್ದೇವತಾ, ಪ್ರಕೃತಿಪುರುಷ೦ ಛ೦ದ: ಜಲಾಭಿಮ೦ತ್ರಣೇ ವಿನಿಯೋಗಃ ॥
