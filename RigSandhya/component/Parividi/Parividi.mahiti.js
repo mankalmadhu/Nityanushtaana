@@ -10,7 +10,7 @@ import ಉಪನಯನಕಾರಿಕಾ from '../UpanayanaKarika/UpanayanaKarik
 
 export const sandhyaChitra = () => require('./chitra/sandhya.png');
 export const agnikaryaChitra = () => require('./chitra/agnikarya.png');
-export const upadeshaChitra = () => require('./chitra/upadesha.png');
+export const yajnopavetaChitra = () => require('./chitra/yajnopaveta.png');
 export const pratahSandhya = ()=> ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ;
 export const pratahSamidhaDana = ()=> ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ;
 export const madhyahnikaSandhya = ()=> ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ;
@@ -48,12 +48,12 @@ export const parividiMahiti = () => [
   },
   {
     "shershike":  "ಯಜ್ಞೋಪವೀತ",
-    "chitra": exports.upadeshaChitra(),
+    "chitra": exports.yajnopavetaChitra(),
     "paschat": exports.yajnopaveeta()
   },
   {
     "shershike":  "ಉಪನಯನಕಾರಿಕ",
-    "chitra": exports.upadeshaChitra(),
+    "chitra": exports.yajnopavetaChitra(),
     "paschat": exports.upanayanaKarika()
   }
   ]
