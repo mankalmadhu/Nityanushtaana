@@ -2,7 +2,13 @@
 
 exports[`ಪುಟ 1`] = `
 <View>
-  <RCTScrollView>
+  <RCTScrollView
+    contentContainerStyle={
+      Object {
+        "paddingBottom": 30,
+      }
+    }
+  >
     <View>
       <Text
         accessible={true}
