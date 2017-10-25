@@ -1,10 +1,15 @@
 import React from 'react';
-import {ViewPagerAndroid } from 'react-native';
+import {View } from 'react-native';
+import Swiper from 'react-native-swiper';
 import lekhanaVinyasa from './Lekhana.vinyasa';
 
 export default ಲೇಖನ = (props) => (
-    <ViewPagerAndroid style={lekhanaVinyasa.avarana} initialPage={0}>
+    <Swiper style={lekhanaVinyasa.avarana} 
+      paginationStyle={{backgroundColor:'#595959',height:30, bottom:0}}
+      dotColor='#ffffff'
+      activeDotColor='#3bdde5'
+      >
       {props.children}
-    </ViewPagerAndroid>
+    </Swiper>
 );
 

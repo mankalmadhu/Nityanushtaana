@@ -1,22 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`ಲೇಖನ 1`] = `
-<View
+<Swiper
+  activeDotColor="#3bdde5"
+  dotColor="#ffffff"
+  paginationStyle={
+    Object {
+      "backgroundColor": "#595959",
+      "bottom": 0,
+      "height": 30,
+    }
+  }
   style={
-    Array [
-      Object {
-        "alignSelf": "flex-start",
-        "borderColor": "red",
-        "borderWidth": 1,
-      },
-      Object {
-        "alignItems": "center",
-        "backgroundColor": "#333333",
-        "flex": 1,
-        "flexDirection": "column",
-        "padding": 3,
-      },
-    ]
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#333333",
+      "flex": 1,
+      "flexDirection": "column",
+      "padding": 3,
+    }
   }
 />
 `;
