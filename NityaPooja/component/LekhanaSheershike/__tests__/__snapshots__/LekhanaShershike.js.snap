@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ಲೇಖನಶೀರ್ಷಿಕೆ 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#595959",
+      "flexDirection": "row",
+      "height": 50,
+    }
+  }
+>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    disabled={false}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "#ffffff",
+        "fontFamily": "Ganapati",
+        "fontSize": 18,
+        "marginLeft": 70,
+      }
+    }
+  >
+    ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ
+  </Text>
+</View>
+`;
