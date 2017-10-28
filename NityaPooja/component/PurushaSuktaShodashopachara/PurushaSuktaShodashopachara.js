@@ -11,7 +11,7 @@ import ಶುಕ್ಲಾ೦ಬರಧರ೦ from '../Bhandara/Shuklambaradharam/
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
   (
-    <ಲೇಖನ>
+    <ಲೇಖನ title='ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ'>
       <ಪುಟ>
         <ಆಚಮನೀಯಸೂಚನೆ />
         <ಆಚಮನೀಯ />
