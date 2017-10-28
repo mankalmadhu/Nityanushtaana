@@ -6,7 +6,9 @@ import Renderer from 'react-test-renderer';
 
 test("ಲೇಖನಶೀರ್ಷಿಕೆ" , () => {
 expect(Renderer.create(
-    <ಲೇಖನಶೀರ್ಷಿಕೆ />
+    <ಲೇಖನಶೀರ್ಷಿಕೆ>
+       Some Title
+    </ಲೇಖನಶೀರ್ಷಿಕೆ>
 ).toJSON()).toMatchSnapshot();
 
 });

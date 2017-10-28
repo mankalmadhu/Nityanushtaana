@@ -7,7 +7,7 @@ export default ಲೇಖನಶೀರ್ಷಿಕೆ = (props) => (
 
     <View style={lekhanaShershikeVinyasa.avarana}>
       <Text style={lekhanaShershikeVinyasa.pathya}>
-         ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ
+        {props.children}
       </Text>
     </View>
 
