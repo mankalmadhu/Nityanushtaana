@@ -1,11 +1,11 @@
 import React from 'react';
-import { View } from 'react-native';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
+import ಆವರಣ from '../../Avarana/Avarana';
 
 export default ಆಚಮನೀಯ = () => (
-  <View>
+  <ಆವರಣ>
     <ಶೀರ್ಷಿಕೆ>
       ಆಚಮನೀಯ
     </ಶೀರ್ಷಿಕೆ>
@@ -20,6 +20,6 @@ export default ಆಚಮನೀಯ = () => (
       ಉಪೇ೦ದ್ರಾಯ ನಮಃ । ಹರಯೇ ನಮಃ । ಶ್ರೀ ಕೃಷ್ಣಾಯ ನಮಃ ॥
     </ವಿನಿಯೋಗ>
 
-  </View>
+  </ಆವರಣ>
 
 );
