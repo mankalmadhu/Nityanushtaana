@@ -13,11 +13,7 @@ exports[`ಲೇಖನ 1`] = `
   }
   style={
     Object {
-      "alignItems": "center",
       "backgroundColor": "#333333",
-      "flex": 1,
-      "flexDirection": "column",
-      "padding": 3,
     }
   }
 />
