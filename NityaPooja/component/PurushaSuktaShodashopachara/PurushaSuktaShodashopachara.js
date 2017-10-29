@@ -6,7 +6,7 @@ import ಪುಟ from '../Puta/Puta';
 import ಆಚಮನೀಯ from '../Bhandara/Aachamaneya/Aachamaneya';
 import ಆಚಮನೀಯಸೂಚನೆ from '../Bhandara/Sochane/AachaManeyaSoochane';
 import ದೇವಪೂಜಾಆಸನಸೂಚನೆ from '../Bhandara/Sochane/DevaPujaAasnaSochane';
-import ಶುಕ್ಲಾ೦ಬರಧರ೦ from '../Bhandara/Shuklambaradharam/Shuklambaradharam';
+import ಆದಿಪ್ರಾರ್ಥನೆ from '../Bhandara/AdiPrarthane/AdiPrarthane';
 
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -19,7 +19,7 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
       <ಪುಟ>
         <ದೇವಪೂಜಾಆಸನಸೂಚನೆ />
-        <ಶುಕ್ಲಾ೦ಬರಧರ೦ />
+        <ಆದಿಪ್ರಾರ್ಥನೆ />
       </ಪುಟ>
     </ಲೇಖನ>
   );
