@@ -3,7 +3,7 @@ import ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ from '../Purush
 import Renderer from 'react-test-renderer';
 
 
-jest.mock('../../Lekhana/Lekhana', () => 'ಲೇಖನ' );
+jest.mock('../../Bhandara/PurushaSuktaShodashopacharaLekhana/PurushaSuktaShodashopacharaLekhana', () => 'ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ' );
 jest.mock('../../Puta/Puta', () => 'ಪುಟ' );
 jest.mock('../../Bhandara/Aachamaneya/Aachamaneya',()=>'ಆಚಮನೀಯ');
 jest.mock('../../Bhandara/Sochane/AachaManeyaSoochane',()=>'ಆಚಮನೀಯಸೂಚನೆ');
