@@ -11,6 +11,7 @@ jest.mock('../../Bhandara/Sochane/DevaPujaAasnaSochane',()=>'ದೇವಪೂಜ�
 jest.mock('../../Bhandara/AdiPrarthane/AdiPrarthane',()=>'ಆದಿಪ್ರಾರ್ಥನೆ');
 jest.mock('../../Bhandara/Ghantanaada/Ghantanaada',()=>'ಘ೦ಟಾನಾದ');
 jest.mock('../../Bhandara/Aasanavidhi/Aasanavidhi',()=>'ಆಸನವಿಧಿ');
+jest.mock('../../Bhandara/Bhoototsarana/Bhoototsarana',()=>'ಭೂತೋತ್ಸರಣ');
 
 test("ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ", () => {
   expect(Renderer.create(
