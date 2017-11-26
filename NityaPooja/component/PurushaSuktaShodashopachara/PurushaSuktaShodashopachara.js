@@ -10,6 +10,7 @@ import ಆದಿಪ್ರಾರ್ಥನೆ from '../Bhandara/AdiPrarthane/AdiPr
 import ಘ೦ಟಾನಾದ from '../Bhandara/Ghantanaada/Ghantanaada';
 import ಆಸನವಿಧಿ  from '../Bhandara/Aasanavidhi/Aasanavidhi';
 import ಭೂತೋತ್ಸರಣ from '../Bhandara/Bhoototsarana/Bhoototsarana';
+import ಸ೦ಕಲ್ಪ from '../Bhandara/Sankalpa/Sankalpa';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -29,6 +30,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
       <ಪುಟ>
        <ಭೂತೋತ್ಸರಣ/>
        <ಆಸನವಿಧಿ />
+      </ಪುಟ>
+      <ಪುಟ>
+       <ಸ೦ಕಲ್ಪ />
       </ಪುಟ>
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
