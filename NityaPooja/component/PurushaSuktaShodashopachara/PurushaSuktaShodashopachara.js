@@ -11,6 +11,7 @@ import ಘ೦ಟಾನಾದ from '../Bhandara/Ghantanaada/Ghantanaada';
 import ಆಸನವಿಧಿ  from '../Bhandara/Aasanavidhi/Aasanavidhi';
 import ಭೂತೋತ್ಸರಣ from '../Bhandara/Bhoototsarana/Bhoototsarana';
 import ಸ೦ಕಲ್ಪ from '../Bhandara/Sankalpa/Sankalpa';
+import ಕಲಶಾರ್ಚನೆ from '../Bhandara/Kalashaarchane/Kalashaarchane';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -33,6 +34,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
       </ಪುಟ>
       <ಪುಟ>
        <ಸ೦ಕಲ್ಪ />
+      </ಪುಟ>
+      <ಪುಟ>
+       <ಕಲಶಾರ್ಚನೆ />
       </ಪುಟ>
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
