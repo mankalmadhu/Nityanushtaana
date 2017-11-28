@@ -12,6 +12,7 @@ import ಆಸನವಿಧಿ  from '../Bhandara/Aasanavidhi/Aasanavidhi';
 import ಭೂತೋತ್ಸರಣ from '../Bhandara/Bhoototsarana/Bhoototsarana';
 import ಸ೦ಕಲ್ಪ from '../Bhandara/Sankalpa/Sankalpa';
 import ಕಲಶಾರ್ಚನೆ from '../Bhandara/Kalashaarchane/Kalashaarchane';
+import ಶ೦ಖಪೂಜಾ from '../Bhandara/Shankhapuja/Shankhapuja';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -38,6 +39,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
       <ಪುಟ>
        <ಕಲಶಾರ್ಚನೆ />
       </ಪುಟ>
+      <ಪುಟ>
+        <ಶ೦ಖಪೂಜಾ />
+     </ಪುಟ>
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
 
