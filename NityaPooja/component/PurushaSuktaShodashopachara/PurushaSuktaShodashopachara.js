@@ -15,6 +15,7 @@ import ಕಲಶಾರ್ಚನೆ from '../Bhandara/Kalashaarchane/Kalashaarcha
 import ಶ೦ಖಪೂಜಾ from '../Bhandara/Shankhapuja/Shankhapuja';
 import ಮಹಾಗಣಪತಿಪ್ರಾರ್ಥನೆ from '../Bhandara/MahaGanapatiPrarthane/MahaGanapatiPrarthane';
 import ಧ್ಯಾನಾವಾಹನ from '../Bhandara/Aavahana/Aavahana';
+import  ಆಸನ from '../Bhandara/Aasana/Aasana';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -50,7 +51,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
       <ಧ್ಯಾನಾವಾಹನ/>
     </ಪುಟ>
-    
+    <ಪುಟ>
+      <ಆಸನ/>
+    </ಪುಟ>
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
 
