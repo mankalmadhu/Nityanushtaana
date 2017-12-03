@@ -17,6 +17,7 @@ import ಮಹಾಗಣಪತಿಪ್ರಾರ್ಥನೆ from '../Bhandara/Mah
 import ಧ್ಯಾನಾವಾಹನ from '../Bhandara/Aavahana/Aavahana';
 import  ಆಸನ from '../Bhandara/Aasana/Aasana';
 import  ಪಾದ್ಯ from '../Bhandara/Padya/Padya';
+import  ಉಪಚಾರಆಚಮನೀಯ  from '../Bhandara/UpacharaAchamaneya/UpacharaAchamaneya';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -57,6 +58,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     </ಪುಟ>
     <ಪುಟ>
       <ಪಾದ್ಯ/>
+    </ಪುಟ>
+    <ಪುಟ>
+     <ಉಪಚಾರಆಚಮನೀಯ/>
     </ಪುಟ>
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
