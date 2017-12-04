@@ -18,6 +18,7 @@ import ಧ್ಯಾನಾವಾಹನ from '../Bhandara/Aavahana/Aavahana';
 import  ಆಸನ from '../Bhandara/Aasana/Aasana';
 import  ಪಾದ್ಯ from '../Bhandara/Padya/Padya';
 import  ಉಪಚಾರಆಚಮನೀಯ  from '../Bhandara/UpacharaAchamaneya/UpacharaAchamaneya';
+import  ಮಧುಪರ್ಕ from '../Bhandara/MadhuParka/MadhuParka';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -62,6 +63,10 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
      <ಉಪಚಾರಆಚಮನೀಯ/>
     </ಪುಟ>
+    <ಪುಟ>
+      <ಮಧುಪರ್ಕ/>
+    </ಪುಟ>
+
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
 
