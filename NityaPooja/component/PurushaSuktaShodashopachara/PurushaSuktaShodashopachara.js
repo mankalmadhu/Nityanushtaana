@@ -20,6 +20,7 @@ import  ಪಾದ್ಯ from '../Bhandara/Padya/Padya';
 import  ಉಪಚಾರಆಚಮನೀಯ  from '../Bhandara/UpacharaAchamaneya/UpacharaAchamaneya';
 import  ಮಧುಪರ್ಕ from '../Bhandara/MadhuParka/MadhuParka';
 import ಶುದ್ಧೋದಕಸ್ನಾನ from '../Bhandara/ShudhodakaSnana/ShudhodakaSnana';
+import ವಸ್ತ್ರಯುಗ್ಮ from '../Bhandara/VastraYugma/VastraYugma';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -70,7 +71,10 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
       <ಶುದ್ಧೋದಕಸ್ನಾನ/>
     </ಪುಟ>
-  
+    <ಪುಟ>
+       <ವಸ್ತ್ರಯುಗ್ಮ/>
+    </ಪುಟ>
+   
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
 
