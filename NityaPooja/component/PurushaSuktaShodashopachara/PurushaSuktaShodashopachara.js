@@ -21,6 +21,7 @@ import  ಉಪಚಾರಆಚಮನೀಯ  from '../Bhandara/UpacharaAchamaneya/
 import  ಮಧುಪರ್ಕ from '../Bhandara/MadhuParka/MadhuParka';
 import ಶುದ್ಧೋದಕಸ್ನಾನ from '../Bhandara/ShudhodakaSnana/ShudhodakaSnana';
 import ವಸ್ತ್ರಯುಗ್ಮ from '../Bhandara/VastraYugma/VastraYugma';
+import ಉಪವೀತ  from '../Bhandara/Upaveta/Upaveta';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -74,7 +75,10 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
        <ವಸ್ತ್ರಯುಗ್ಮ/>
     </ಪುಟ>
-   
+    <ಪುಟ>
+      <ಉಪವೀತ/>
+    </ಪುಟ>
+  
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
 
