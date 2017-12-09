@@ -6,10 +6,10 @@ import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಆವರಣ from '../../Avarana/Avarana';
 import ವಿಧಾನ from '../../Vishaya/Vidhana';
  
-export default ಉಪವೀತ = () => (
+export default ಗ೦ಧ = () => (
     <ಆವರಣ>
     <ಶೀರ್ಷಿಕೆ>
-      ಉಪವೀತ
+      ಗ೦ಧ
     </ಶೀರ್ಷಿಕೆ>
     <ವಿನಿಯೋಗ >
  
