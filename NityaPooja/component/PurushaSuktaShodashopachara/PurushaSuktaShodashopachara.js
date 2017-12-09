@@ -24,6 +24,7 @@ import ವಸ್ತ್ರಯುಗ್ಮ from '../Bhandara/VastraYugma/VastraYug
 import ಉಪವೀತ  from '../Bhandara/Upaveta/Upaveta';
 import ಗ೦ಧ from '../Bhandara/Gandha/Gandha';
 import ಅಕ್ಷತೆ from '../Bhandara/Akshate/Akshate';
+import ಪುಷ್ಪ from '../Bhandara/Pushpa/Pushpa';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -86,6 +87,10 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
       <ಅಕ್ಷತೆ/>
     </ಪುಟ>
+    <ಪುಟ>
+      <ಪುಷ್ಪ/>
+    </ಪುಟ>
+
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
 
