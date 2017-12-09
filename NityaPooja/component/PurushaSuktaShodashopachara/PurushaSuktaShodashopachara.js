@@ -23,6 +23,7 @@ import ಶುದ್ಧೋದಕಸ್ನಾನ from '../Bhandara/ShudhodakaSnana
 import ವಸ್ತ್ರಯುಗ್ಮ from '../Bhandara/VastraYugma/VastraYugma';
 import ಉಪವೀತ  from '../Bhandara/Upaveta/Upaveta';
 import ಗ೦ಧ from '../Bhandara/Gandha/Gandha';
+import ಅಕ್ಷತೆ from '../Bhandara/Akshate/Akshate';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -81,6 +82,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     </ಪುಟ>
     <ಪುಟ>
       <ಗ೦ಧ/>
+    </ಪುಟ>
+    <ಪುಟ>
+      <ಅಕ್ಷತೆ/>
     </ಪುಟ>
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
