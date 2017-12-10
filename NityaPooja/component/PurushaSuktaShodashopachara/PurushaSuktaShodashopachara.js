@@ -27,6 +27,7 @@ import ಅಕ್ಷತೆ from '../Bhandara/Akshate/Akshate';
 import ಪುಷ್ಪ from '../Bhandara/Pushpa/Pushpa';
 import ಧೂಪ from '../Bhandara/Dhupa/Dhupa';
 import ದೀಪ from '../Bhandara/Deepa/Deepa';
+import ನೈವೇದ್ಯ from '../Bhandara/Naivedya/Naivedya';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -98,6 +99,10 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
       <ದೀಪ/>
     </ಪುಟ>
+    <ಪುಟ>
+      <ನೈವೇದ್ಯ/>
+    </ಪುಟ>
+
 
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );

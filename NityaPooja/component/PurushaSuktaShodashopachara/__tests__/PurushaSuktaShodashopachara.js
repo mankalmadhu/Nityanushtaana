@@ -29,6 +29,7 @@ jest.mock('../../Bhandara/Akshate/Akshate',()=>'ಆಕ್ಷತೆ');
 jest.mock('../../Bhandara/Pushpa/Pushpa',()=>'ಪುಷ್ಪ');
 jest.mock('../../Bhandara/Dhupa/Dhupa',()=>'ಧೂಪ');
 jest.mock('../../Bhandara/Deepa/Deepa',()=>'ದೀಪ');
+jest.mock('../../Bhandara/Naivedya/Naivedya',()=>'ನೈವೇದ್ಯ');
 
 
 test("ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ", () => {
