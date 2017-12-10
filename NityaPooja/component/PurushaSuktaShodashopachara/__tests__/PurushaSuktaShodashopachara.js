@@ -27,6 +27,7 @@ jest.mock('../../Bhandara/Upaveta/Upaveta',()=>'ಉಪವೀತ');
 jest.mock('../../Bhandara/Gandha/Gandha',()=>'ಗ೦ಧ');
 jest.mock('../../Bhandara/Akshate/Akshate',()=>'ಆಕ್ಷತೆ');
 jest.mock('../../Bhandara/Pushpa/Pushpa',()=>'ಪುಷ್ಪ');
+jest.mock('../../Bhandara/Dhupa/Dhupa',()=>'ಧೂಪ');
 
 test("ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ", () => {
   expect(Renderer.create(
