@@ -29,6 +29,7 @@ import ಧೂಪ from '../Bhandara/Dhupa/Dhupa';
 import ದೀಪ from '../Bhandara/Deepa/Deepa';
 import ನೈವೇದ್ಯ from '../Bhandara/Naivedya/Naivedya';
 import ತಾ೦ಬೂಲ from '../Bhandara/Tambula/Tambula';
+import ನೀರಾಜನ from '../Bhandara/Neerajana/Neerajana';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -106,8 +107,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
       <ತಾ೦ಬೂಲ/>
     </ಪುಟ>
-
-
+    <ಪುಟ>
+      <ನೀರಾಜನ/>
+    </ಪುಟ>
 
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
