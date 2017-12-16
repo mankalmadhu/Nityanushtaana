@@ -33,6 +33,7 @@ jest.mock('../../Bhandara/Naivedya/Naivedya',()=>'ನೈವೇದ್ಯ');
 jest.mock('../../Bhandara/Tambula/Tambula',()=>'ತಾ೦ಬೂಲ');
 jest.mock('../../Bhandara/Neerajana/Neerajana',()=>'ನೀರಾಜನ');
 jest.mock('../../Bhandara/MantraPushpa/MantraPushpa',()=>'ಮ೦ತ್ರಪುಷ್ಪ');
+jest.mock('../../Bhandara/Namaskara/Namaskara',()=>'ನಮಸ್ಕಾರ');
 
 
 
