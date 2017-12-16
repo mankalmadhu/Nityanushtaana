@@ -30,6 +30,7 @@ import ದೀಪ from '../Bhandara/Deepa/Deepa';
 import ನೈವೇದ್ಯ from '../Bhandara/Naivedya/Naivedya';
 import ತಾ೦ಬೂಲ from '../Bhandara/Tambula/Tambula';
 import ನೀರಾಜನ from '../Bhandara/Neerajana/Neerajana';
+import ಮ೦ತ್ರಪುಷ್ಪ from '../Bhandara/MantraPushpa/MantraPushpa';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -110,6 +111,10 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
       <ನೀರಾಜನ/>
     </ಪುಟ>
+    <ಪುಟ>
+      <ಮ೦ತ್ರಪುಷ್ಪ/>
+    </ಪುಟ>
+
 
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
