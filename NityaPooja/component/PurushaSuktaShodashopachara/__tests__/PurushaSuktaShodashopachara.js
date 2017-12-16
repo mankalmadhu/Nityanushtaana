@@ -37,7 +37,7 @@ jest.mock('../../Bhandara/Namaskara/Namaskara',()=>'ನಮಸ್ಕಾರ');
 jest.mock('../../Bhandara/Punararghya/Punararghya',()=>'ಪುನರ್ರಘ್ಯ');
 jest.mock('../../Bhandara/Prarthana/Prarthana',()=>'ಪ್ರಾರ್ಥನ');
 jest.mock('../../Bhandara/PunahPuja/PunahPuja',()=>'ಪುನಃಪೂಜಾ');
-
+jest.mock('../../Bhandara/AparadhaKshamapana/AparadhaKshamapana',()=>'ಅಪರಾಧಕ್ಷಮಾಪಣ');
 
 
 test("ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ", () => {

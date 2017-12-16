@@ -35,6 +35,7 @@ import ನಮಸ್ಕಾರ from '../Bhandara/Namaskara/Namaskara';
 import ಪುನರ್ರಘ್ಯ from '../Bhandara/Punararghya/Punararghya';
 import ಪ್ರಾರ್ಥನ from '../Bhandara/Prarthana/Prarthana';
 import ಪುನಃಪೂಜಾ from '../Bhandara/PunahPuja/PunahPuja';
+import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Bhandara/AparadhaKshamapana/AparadhaKshamapana';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -129,6 +130,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     </ಪುಟ>
     <ಪುಟ>
       <ಪುನಃಪೂಜಾ/>
+    </ಪುಟ>
+    <ಪುಟ>
+      <ಅಪರಾಧಕ್ಷಮಾಪಣ/>
     </ಪುಟ>
 
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
