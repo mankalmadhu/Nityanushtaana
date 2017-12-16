@@ -33,6 +33,7 @@ import ನೀರಾಜನ from '../Bhandara/Neerajana/Neerajana';
 import ಮ೦ತ್ರಪುಷ್ಪ from '../Bhandara/MantraPushpa/MantraPushpa';
 import ನಮಸ್ಕಾರ from '../Bhandara/Namaskara/Namaskara';
 import ಪುನರ್ರಘ್ಯ from '../Bhandara/Punararghya/Punararghya';
+import ಪ್ರಾರ್ಥನ from '../Bhandara/Prarthana/Prarthana';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -122,8 +123,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     <ಪುಟ>
       <ಪುನರ್ರಘ್ಯ/>
     </ಪುಟ>
-
-
+    <ಪುಟ>
+      <ಪ್ರಾರ್ಥನ/>
+    </ಪುಟ>
     </ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ>
   );
 
