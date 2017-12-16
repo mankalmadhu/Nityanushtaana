@@ -32,6 +32,7 @@ import ತಾ೦ಬೂಲ from '../Bhandara/Tambula/Tambula';
 import ನೀರಾಜನ from '../Bhandara/Neerajana/Neerajana';
 import ಮ೦ತ್ರಪುಷ್ಪ from '../Bhandara/MantraPushpa/MantraPushpa';
 import ನಮಸ್ಕಾರ from '../Bhandara/Namaskara/Namaskara';
+import ಪುನರ್ರಘ್ಯ from '../Bhandara/Punararghya/Punararghya';
  
 export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
 
@@ -117,6 +118,9 @@ export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =>
     </ಪುಟ>
     <ಪುಟ>
       <ನಮಸ್ಕಾರ/>
+    </ಪುಟ>
+    <ಪುಟ>
+      <ಪುನರ್ರಘ್ಯ/>
     </ಪುಟ>
 
 
