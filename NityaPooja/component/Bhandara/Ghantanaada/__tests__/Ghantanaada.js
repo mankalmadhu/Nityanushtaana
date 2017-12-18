@@ -8,6 +8,7 @@ jest.mock('../../../Avarana/Avarana',()=>'ಆವರಣ');
 jest.mock('../../../Vishaya/Sheershike',()=>'ಶೀರ್ಷಿಕೆ');
 jest.mock('../../../Vishaya/Viniyoga',()=>'ವಿನಿಯೋಗ');
 jest.mock('../../../Vishaya/Vidhana',()=>'ವಿಧಾನ');
+jest.mock('../../../Vishaya/Purvanga',()=>'ಪೂರ್ವೋತ್ತರ');
 
 test("ಘ೦ಟಾನಾದ" , () => {
 
