@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
-import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
+import ಪೂರ್ವೋತ್ತರ from '../../Vishaya/Purvanga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಆವರಣ from '../../Avarana/Avarana';
 import ವಿಧಾನ from '../../Vishaya/Vidhana';
@@ -11,9 +11,9 @@ export default ಸ೦ಕಲ್ಪ = () => (
     <ಶೀರ್ಷಿಕೆ>
       ಸ೦ಕಲ್ಪ
     </ಶೀರ್ಷಿಕೆ>
-    <ಪೂರ್ವಾ೦ಗ>
+    <ಪೂರ್ವೋತ್ತರ>
       ಪ್ರಣವಸ್ಯ ಪರಬ್ರಹ್ಮ ಋಷಿಃ ಪರಮಾತ್ಮಾ ದೇವತಾ ದೈವೀ ಗಾಯತ್ರೀ ಛ೦ದಃ ಪ್ರಾಣಾಯಾಮೇ ವಿನಿಯೋಗಃ ।
-    </ಪೂರ್ವಾ೦ಗ>
+    </ಪೂರ್ವೋತ್ತರ>
     <ವಿನಿಯೋಗ>
       ಓ೦ ಭೂಃ ಓ೦ ಭುವಃ ಓ೦ ಸುವಃ ಓ೦ ಮಹಃ ಓ೦ ಜನಃ ಓ೦ ತಪಃ ಓ೦ ಸತ್ಯಮ್ ॥
     </ವಿನಿಯೋಗ>
