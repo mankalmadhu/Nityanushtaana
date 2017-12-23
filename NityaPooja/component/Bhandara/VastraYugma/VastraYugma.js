@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
-import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
+import ಪೂರ್ವೋತ್ತರ from '../../Vishaya/Purvanga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಆವರಣ from '../../Avarana/Avarana';
 import ವಿಧಾನ from '../../Vishaya/Vidhana';
@@ -17,9 +17,9 @@ export default ವಸ್ತ್ರಯುಗ್ಮ = () => (
     ದೇ॒ವಾ ಯದ್ಯ॒ಜ್ಞಂ ತ॑ನ್ವಾ॒ನಾಃ ।  ಅಬ॑ಧ್ನ॒ನ್ ಪುರು॑ಷ೦ ಪ॒ಶುಮ್ ।
     
      </ವಿನಿಯೋಗ>
-    <ಪೂರ್ವಾ೦ಗ>
+    <ಪೂರ್ವೋತ್ತರ>
       ಶ್ರೀ ಇಷ್ಟ ದೇವತಾಭ್ಯೋ ನಮಃ । ವಸ್ತ್ರಯುಗ್ಮ೦ ಸಮರ್ಪಯಾಮಿ ॥
-    </ಪೂರ್ವಾ೦ಗ>
+    </ಪೂರ್ವೋತ್ತರ>
 
     </ಆವರಣ>
 );
