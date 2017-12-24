@@ -1,7 +1,7 @@
 import React from 'react';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
-import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
+import ಪೂರ್ವೋತ್ತರ from '../../Vishaya/Purvanga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಆವರಣ from '../../Avarana/Avarana';
 import ವಿಧಾನ from '../../Vishaya/Vidhana';
@@ -11,11 +11,11 @@ export default ಪುನಃಪೂಜಾ = () => (
     <ಶೀರ್ಷಿಕೆ>
        ಪುನಃಪೂಜಾ
     </ಶೀರ್ಷಿಕೆ>
-    <ಪೂರ್ವಾ೦ಗ>
+    <ಪೂರ್ವೋತ್ತರ>
 
        ಅಥ ಪುನಃಪೂಜಾ೦ ಕರಷ್ಯೇ ।
     
-    </ಪೂರ್ವಾ೦ಗ>
+    </ಪೂರ್ವೋತ್ತರ>
 
     <ವಿನಿಯೋಗ >
       
@@ -25,6 +25,11 @@ export default ಪುನಃಪೂಜಾ = () => (
     ಸಮಸ್ತ ರಾಜೋಪಚಾರ ದೇವೋಪಚಾರ ಪೂಜಾಃ ಸಮರ್ಪಯಾಮಿ ॥
     
      </ವಿನಿಯೋಗ>
+
+     <ವಿಧಾನ>
+     (ಪುಷ್ಪಾಕ್ಷತೆಯನ್ನು ದೇವರಿಗೆ ಅರ್ಪಿಸುವುದು.)
+   </ವಿಧಾನ>
+
 
     </ಆವರಣ>
 );
