@@ -2,15 +2,7 @@
 
 exports[`ಲೇಖನ 1`] = `
 <Swiper
-  activeDotColor="#3bdde5"
-  dotColor="#ffffff"
-  paginationStyle={
-    Object {
-      "backgroundColor": "#595959",
-      "bottom": 0,
-      "height": 30,
-    }
-  }
+  renderPagination="ಪುಟಸ೦ಖ್ಯಾದರ್ಶಕ"
   style={
     Object {
       "backgroundColor": "#333333",
