@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1514153920909" clover="3.2.0">
+  <project timestamp="1514153920910" name="All files">
+    <metrics statements="50" coveredstatements="50" conditionals="0" coveredconditionals="0" methods="46" coveredmethods="46" elements="96" coveredelements="96" complexity="0" loc="50" ncloc="50" packages="41" files="48" classes="48">
+      <package name="NityaPooja">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="App.js" path="/Dev/Nityanushtaana/NityaPooja/App.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="14" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Avarana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Avarana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Avarana/Avarana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="35" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Aachamaneya">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Aachamaneya.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Aachamaneya/Aachamaneya.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="8" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Aasana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Aasana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Aasana/Aasana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Aasanavidhi">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Aasanavidhi.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Aasanavidhi/Aasanavidhi.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Aavahana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Aavahana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Aavahana/Aavahana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.AdiPrarthane">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="AdiPrarthane.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/AdiPrarthane/AdiPrarthane.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="8" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Akshate">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Akshate.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Akshate/Akshate.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.AparadhaKshamapana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="AparadhaKshamapana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/AparadhaKshamapana/AparadhaKshamapana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="3" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Arghya">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Arghya.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Arghya/Arghya.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Bhoototsarana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Bhoototsarana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Bhoototsarana/Bhoototsarana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Deepa">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Deepa.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Deepa/Deepa.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Dhupa">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Dhupa.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Dhupa/Dhupa.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Gandha">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Gandha.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Gandha/Gandha.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Ghantanaada">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Ghantanaada.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Ghantanaada/Ghantanaada.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Kalashaarchane">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Kalashaarchane.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Kalashaarchane/Kalashaarchane.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.MadhuParka">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="MadhuParka.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/MadhuParka/MadhuParka.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.MahaGanapatiPrarthane">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="MahaGanapatiPrarthane.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/MahaGanapatiPrarthane/MahaGanapatiPrarthane.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.MantraPushpa">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="MantraPushpa.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/MantraPushpa/MantraPushpa.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Naivedya">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Naivedya.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Naivedya/Naivedya.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Namaskara">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Namaskara.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Namaskara/Namaskara.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Neerajana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Neerajana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Neerajana/Neerajana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Padya">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Padya.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Padya/Padya.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Prarthana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Prarthana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Prarthana/Prarthana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.PunahPuja">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="PunahPuja.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/PunahPuja/PunahPuja.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Punararghya">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Punararghya.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Punararghya/Punararghya.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.PurushaSuktaShodashopacharaLekhana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="PurushaSuktaShodashopacharaLekhana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/PurushaSuktaShodashopacharaLekhana/PurushaSuktaShodashopacharaLekhana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Pushpa">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Pushpa.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Pushpa/Pushpa.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Sankalpa">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Sankalpa.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Sankalpa/Sankalpa.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Shankhapuja">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Shankhapuja.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Shankhapuja/Shankhapuja.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.ShudhodakaSnana">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="ShudhodakaSnana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/ShudhodakaSnana/ShudhodakaSnana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Sochane">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="AachaManeyaSoochane.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Sochane/AachaManeyaSoochane.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="3" type="stmt"/>
+        </file>
+        <file name="DevaPujaAasnaSochane.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Sochane/DevaPujaAasnaSochane.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Tambula">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Tambula.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Tambula/Tambula.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.UpacharaAchamaneya">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="UpacharaAchamaneya.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/UpacharaAchamaneya/UpacharaAchamaneya.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.Upaveta">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Upaveta.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/Upaveta/Upaveta.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Bhandara.VastraYugma">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="VastraYugma.js" path="/Dev/Nityanushtaana/NityaPooja/component/Bhandara/VastraYugma/VastraYugma.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="10" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Lekhana">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="Lekhana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Lekhana/Lekhana.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="8" count="2" type="stmt"/>
+        </file>
+        <file name="Lekhana.vinyasa.js" path="/Dev/Nityanushtaana/NityaPooja/component/Lekhana/Lekhana.vinyasa.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+        <file name="PutaSankhyaDarshaka.js" path="/Dev/Nityanushtaana/NityaPooja/component/Lekhana/PutaSankhyaDarshaka.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.LekhanaSheershike">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="LekhanaShershike.js" path="/Dev/Nityanushtaana/NityaPooja/component/LekhanaSheershike/LekhanaShershike.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="8" count="2" type="stmt"/>
+        </file>
+        <file name="LekhanaShershike.vinyasa.js" path="/Dev/Nityanushtaana/NityaPooja/component/LekhanaSheershike/LekhanaShershike.vinyasa.js">
+          <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.PurushaSuktaShodashopachara">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="PurushaSuktaShodashopachara.js" path="/Dev/Nityanushtaana/NityaPooja/component/PurushaSuktaShodashopachara/PurushaSuktaShodashopachara.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="43" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Puta">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Puta.js" path="/Dev/Nityanushtaana/NityaPooja/component/Puta/Puta.js">
+          <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="6" count="33" type="stmt"/>
+        </file>
+      </package>
+      <package name="NityaPooja.component.Vishaya">
+        <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <file name="Purvanga.js" path="/Dev/Nityanushtaana/NityaPooja/component/Vishaya/Purvanga.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="17" count="39" type="stmt"/>
+        </file>
+        <file name="Sheershike.js" path="/Dev/Nityanushtaana/NityaPooja/component/Vishaya/Sheershike.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="17" count="34" type="stmt"/>
+        </file>
+        <file name="Vidhana.js" path="/Dev/Nityanushtaana/NityaPooja/component/Vishaya/Vidhana.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="16" count="22" type="stmt"/>
+        </file>
+        <file name="Viniyoga.js" path="/Dev/Nityanushtaana/NityaPooja/component/Vishaya/Viniyoga.js">
+          <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="5" count="2" type="stmt"/>
+          <line num="17" count="67" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

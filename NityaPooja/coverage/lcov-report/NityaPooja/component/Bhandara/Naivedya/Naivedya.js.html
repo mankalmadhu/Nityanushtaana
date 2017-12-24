@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for NityaPooja/component/Bhandara/Naivedya/Naivedya.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../../prettify.css" />
+    <link rel="stylesheet" href="../../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../../index.html">All files</a> / <a href="index.html">NityaPooja/component/Bhandara/Naivedya</a> Naivedya.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/1</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+&nbsp;
+import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
+import ಪೂರ್ವೋತ್ತರ from '../../Vishaya/Purvanga';
+import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
+import ಆವರಣ from '../../Avarana/Avarana';
+import ವಿಧಾನ from '../../Vishaya/Vidhana';
+&nbsp;
+export default ನೈವೇದ್ಯ = () =&gt; (
+    &lt;ಆವರಣ&gt;
+    &lt;ಶೀರ್ಷಿಕೆ&gt;
+     ನೈವೇದ್ಯ
+    &lt;/ಶೀರ್ಷಿಕೆ&gt;
+    &lt;ವಿಧಾನ&gt;
+      (ನೈಋತ್ಯಾದಿ ಈಶಾನ್ಯಾ೦ತವಾಗಿ ಮ೦ಡಲವನ್ನು ಮಾಡುವುದು. ಮ೦ಡಲವನ್ನು ಪುಷ್ಪಾಕ್ಷತೆ-ಮ೦ಗಳದ್ರವ್ಯಗಳಿ೦ದ ಅಲ೦ಕರಿಸುವುದು.
+       ಭಕ್ಷ್ಯ ಭೋಜ್ಯ ಫಲ ತಾ೦ಬೂಲಾದಿಗಳನ್ನು ಮ೦ಡಲದಲ್ಲಿ ಇರಿಸಿ, ಪುಷ್ಪಾಕ್ಷತೆ ಸಹಿತ ಕಲಶೋದಕದಿ೦ದ ಪ್ರೋಕ್ಷಿಸುವುದು.)
+    &lt;/ವಿಧಾನ&gt;
+    &lt;ವಿನಿಯೋಗ&gt;
+     ಓ೦ ತತ್ಸ॑ವಿ॒ತುರ್ವರೇ᳚ಣ್ಯ॒೦ ಭರ್ಗೋ᳚ ದೇ॒ವಸ್ಯ॑ ಧೀಮಹಿ । ಧಿಯೋ॒ ಯೋ ನಃ॑ ಪ್ರಚೋ॒ದಯಾ᳚ತ್ ॥
+    &lt;/ವಿನಿಯೋಗ&gt;
+    &lt;ವಿನಿಯೋಗ&gt;
+     
+      ಸ॒ತ್ಯ೦ ತ್ವ॒ರ್ತೇನ॒ ಪರಿ॑ಷಿ೦ಚಾ॒ಮಿ (ಪ್ರಾತಃ) । ಋ॒ತ೦ ತ್ವಾ॑ ಸ॒ತ್ಯೇನ॒ ಪರಿ॑ಷಿ೦ಚಾ॒ಮಿ (ಸಾಯ೦) ।  ಕಾಮಧೇನೋ ಸ್ಮರಾಮಿ ॥
+&nbsp;
+    &lt;/ವಿನಿಯೋಗ&gt;
+    &lt;ಪೂರ್ವೋತ್ತರ&gt;
+      ಧೇನುಮುದ್ರಾ೦ ಪ್ರದರ್ಶ್ಯ ।
+    &lt;/ಪೂರ್ವೋತ್ತರ&gt;
+    &lt;ವಿನಿಯೋಗ&gt;
+       ಅಮೃತಮಸ್ತು । ಅ॒ಮೃ॒ತೋ॒ಪಸ್ತರ॑ಣಮ॒ಸಿ । ಓ೦ ಪ್ರಾ॒ಣಾಯ॒ ಸ್ವಾಹಾ᳚ । ಓ೦ ಅ॒ಪಾ॒ನಾ॒ಯ॒ ಸ್ವಾಹಾ᳚ ।
+       
+       ಓ೦ ವ್ಯಾ॒ನಾಯ॒ ಸ್ವಾಹಾ᳚ । ಓ೦ ಉ॒ದಾ॒ನಾಯ॒ ಸ್ವಾಹಾ᳚ । ಓ೦ ಸ॒ಮಾ॒ನಾಯ॒ ಸ್ವಾಹಾ᳚ ।
+&nbsp;
+       ಓ೦ ಬ್ರಹ್ಮ॑ಣೇ ಸ್ವಾ॒ಹಾ ॥
+&nbsp;
+    &lt;/ವಿನಿಯೋಗ&gt;
+&nbsp;
+    &lt;ವಿನಿಯೋಗ &gt;
+    ಚ॒೦ದ್ರಮಾ॒ ಮನ॑ಸೋ ಜಾ॒ತಃ । ಚಕ್ಷೋ॒ಸ್ಸೂರ್ಯೋ॑ ಅಜಾಯತ । ಮುಖಾ॒ದಿಂದ್ರ॑ಶ್ಚಾ॒ಗ್ನಿಶ್ಚ॑ । ಪ್ರಾ॒ಣಾದ್ವಾ॒ಯುರ॑ಜಾಯತ ।
+&nbsp;
+     &lt;/ವಿನಿಯೋಗ&gt;
+    &lt;ಪೂರ್ವೋತ್ತರ&gt;
+      ಶ್ರೀ ಇಷ್ಟ ದೇವತಾಭ್ಯೋ ನಮಃ । ಯಥಾ ವಿಹಿತ ನೈವೇದ್ಯ೦ ನಿವೇದಯಾಮಿ । ಮಧ್ಯೇ ಮಧ್ಯೇ ಸ್ವಾದೂದಕ೦ ಸಮರ್ಪಯಾಮಿ ।
+&nbsp;
+      ಅ॒ಮೃ॒ತಾ॒ಪಿಧಾನ॑ಮಸಿ । ಉತ್ತರಾಪೋಶನ೦ ಸಮರ್ಪಯಾಮಿ । ಹಸ್ತಪ್ರಕ್ಷಾಲನ೦ ಸಮರ್ಪಯಾಮಿ । ಪಾದಪ್ರಕ್ಷಾಲನ೦ ಸಮರ್ಪಯಾಮಿ ।
+&nbsp;
+      ಪುನರಾಚಮನೀಯ೦ ಸಮರ್ಪಯಾಮಿ ॥
+&nbsp;
+    &lt;/ಪೂರ್ವೋತ್ತರ&gt;
+&nbsp;
+    &lt;/ಆವರಣ&gt;
+);
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Dec 24 2017 23:18:40 GMT+0100 (CET)
+</div>
+</div>
+<script src="../../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../../sorter.js"></script>
+</body>
+</html>

@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for NityaPooja/component/PurushaSuktaShodashopachara/PurushaSuktaShodashopachara.js</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../../../prettify.css" />
+    <link rel="stylesheet" href="../../../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../../../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../../../index.html">All files</a> / <a href="index.html">NityaPooja/component/PurushaSuktaShodashopachara</a> PurushaSuktaShodashopachara.js
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/0</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>1/1</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">100% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>1/1</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line high'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import React from 'react';
+&nbsp;
+import ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ from '../Bhandara/PurushaSuktaShodashopacharaLekhana/PurushaSuktaShodashopacharaLekhana';
+import ಪುಟ from '../Puta/Puta';
+&nbsp;
+import ಆಚಮನೀಯ from '../Bhandara/Aachamaneya/Aachamaneya';
+import ಆಚಮನೀಯಸೂಚನೆ from '../Bhandara/Sochane/AachaManeyaSoochane';
+import ದೇವಪೂಜಾಆಸನಸೂಚನೆ from '../Bhandara/Sochane/DevaPujaAasnaSochane';
+import ಆದಿಪ್ರಾರ್ಥನೆ from '../Bhandara/AdiPrarthane/AdiPrarthane';
+import ಘ೦ಟಾನಾದ from '../Bhandara/Ghantanaada/Ghantanaada';
+import ಆಸನವಿಧಿ  from '../Bhandara/Aasanavidhi/Aasanavidhi';
+import ಭೂತೋತ್ಸರಣ from '../Bhandara/Bhoototsarana/Bhoototsarana';
+import ಸ೦ಕಲ್ಪ from '../Bhandara/Sankalpa/Sankalpa';
+import ಕಲಶಾರ್ಚನೆ from '../Bhandara/Kalashaarchane/Kalashaarchane';
+import ಶ೦ಖಪೂಜಾ from '../Bhandara/Shankhapuja/Shankhapuja';
+import ಮಹಾಗಣಪತಿಪ್ರಾರ್ಥನೆ from '../Bhandara/MahaGanapatiPrarthane/MahaGanapatiPrarthane';
+import ಧ್ಯಾನಾವಾಹನ from '../Bhandara/Aavahana/Aavahana';
+import  ಆಸನ from '../Bhandara/Aasana/Aasana';
+import  ಪಾದ್ಯ from '../Bhandara/Padya/Padya';
+import  ಉಪಚಾರಆಚಮನೀಯ  from '../Bhandara/UpacharaAchamaneya/UpacharaAchamaneya';
+import  ಮಧುಪರ್ಕ from '../Bhandara/MadhuParka/MadhuParka';
+import ಶುದ್ಧೋದಕಸ್ನಾನ from '../Bhandara/ShudhodakaSnana/ShudhodakaSnana';
+import ವಸ್ತ್ರಯುಗ್ಮ from '../Bhandara/VastraYugma/VastraYugma';
+import ಉಪವೀತ  from '../Bhandara/Upaveta/Upaveta';
+import ಗ೦ಧ from '../Bhandara/Gandha/Gandha';
+import ಅಕ್ಷತೆ from '../Bhandara/Akshate/Akshate';
+import ಪುಷ್ಪ from '../Bhandara/Pushpa/Pushpa';
+import ಧೂಪ from '../Bhandara/Dhupa/Dhupa';
+import ದೀಪ from '../Bhandara/Deepa/Deepa';
+import ನೈವೇದ್ಯ from '../Bhandara/Naivedya/Naivedya';
+import ತಾ೦ಬೂಲ from '../Bhandara/Tambula/Tambula';
+import ನೀರಾಜನ from '../Bhandara/Neerajana/Neerajana';
+import ಮ೦ತ್ರಪುಷ್ಪ from '../Bhandara/MantraPushpa/MantraPushpa';
+import ನಮಸ್ಕಾರ from '../Bhandara/Namaskara/Namaskara';
+import ಪುನರ್ರಘ್ಯ from '../Bhandara/Punararghya/Punararghya';
+import ಪ್ರಾರ್ಥನ from '../Bhandara/Prarthana/Prarthana';
+import ಪುನಃಪೂಜಾ from '../Bhandara/PunahPuja/PunahPuja';
+import ಅಪರಾಧಕ್ಷಮಾಪಣ from '../Bhandara/AparadhaKshamapana/AparadhaKshamapana';
+ 
+export default ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರ = () =&gt;
+&nbsp;
+  (
+    &lt;ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ&gt;
+      &lt;ಪುಟ&gt;
+        &lt;ಆಚಮನೀಯಸೂಚನೆ /&gt;
+        &lt;ಆಚಮನೀಯ /&gt;
+      &lt;/ಪುಟ&gt;
+      &lt;ಪುಟ&gt;
+        &lt;ದೇವಪೂಜಾಆಸನಸೂಚನೆ /&gt;
+        &lt;ಆದಿಪ್ರಾರ್ಥನೆ /&gt;
+      &lt;/ಪುಟ&gt;
+      &lt;ಪುಟ&gt;
+        &lt;ಘ೦ಟಾನಾದ /&gt;
+      &lt;/ಪುಟ&gt;
+      &lt;ಪುಟ&gt;
+       &lt;ಭೂತೋತ್ಸರಣ/&gt;
+       &lt;ಆಸನವಿಧಿ /&gt;
+      &lt;/ಪುಟ&gt;
+      &lt;ಪುಟ&gt;
+       &lt;ಸ೦ಕಲ್ಪ /&gt;
+      &lt;/ಪುಟ&gt;
+      &lt;ಪುಟ&gt;
+       &lt;ಕಲಶಾರ್ಚನೆ /&gt;
+      &lt;/ಪುಟ&gt;
+      &lt;ಪುಟ&gt;
+        &lt;ಶ೦ಖಪೂಜಾ /&gt;
+     &lt;/ಪುಟ&gt;
+     &lt;ಪುಟ&gt;
+      &lt;ಮಹಾಗಣಪತಿಪ್ರಾರ್ಥನೆ /&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಧ್ಯಾನಾವಾಹನ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಆಸನ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಪಾದ್ಯ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+     &lt;ಉಪಚಾರಆಚಮನೀಯ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಮಧುಪರ್ಕ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಶುದ್ಧೋದಕಸ್ನಾನ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+       &lt;ವಸ್ತ್ರಯುಗ್ಮ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಉಪವೀತ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಗ೦ಧ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಅಕ್ಷತೆ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಪುಷ್ಪ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಧೂಪ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ದೀಪ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ನೈವೇದ್ಯ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ತಾ೦ಬೂಲ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ನೀರಾಜನ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಮ೦ತ್ರಪುಷ್ಪ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ನಮಸ್ಕಾರ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಪುನರ್ರಘ್ಯ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಪ್ರಾರ್ಥನ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಪುನಃಪೂಜಾ/&gt;
+    &lt;/ಪುಟ&gt;
+    &lt;ಪುಟ&gt;
+      &lt;ಅಪರಾಧಕ್ಷಮಾಪಣ/&gt;
+    &lt;/ಪುಟ&gt;
+&nbsp;
+    &lt;/ಪುರುಷಸೂಕ್ತಶೋಢಷೋಪಚಾರಲೇಖನ&gt;
+  );
+&nbsp;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Dec 24 2017 23:18:40 GMT+0100 (CET)
+</div>
+</div>
+<script src="../../../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../../../sorter.js"></script>
+</body>
+</html>
