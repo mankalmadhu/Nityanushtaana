@@ -1,11 +1,11 @@
 import React from 'react';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
-import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
+import ಪೂರ್ವೋತ್ತರ from '../../Vishaya/Purvanga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಆವರಣ from '../../Avarana/Avarana';
 import ವಿಧಾನ from '../../Vishaya/Vidhana';
-  
+ 
 export default ಮ೦ತ್ರಪುಷ್ಪ = () => (
     <ಆವರಣ>
     <ಶೀರ್ಷಿಕೆ>
@@ -25,11 +25,11 @@ export default ಮ೦ತ್ರಪುಷ್ಪ = () => (
       ಕುಬೇ॒ರಾಯ॑ ವೈಶ್ರವ॒ಣಾಯ॑ । ಮ॒ಹಾ॒ರಾ॒ಜಾಯ॒ ನಮಃ॑ ॥
      
      </ವಿನಿಯೋಗ>
-    <ಪೂರ್ವಾ೦ಗ>
+    <ಪೂರ್ವೋತ್ತರ>
 
       ಶ್ರೀ ಇಷ್ಟ ದೇವತಾಭ್ಯೋ ನಮಃ । ವೇದೋಕ್ತ ಮಂತ್ರ ಪುಷ್ಪಾಣಿ ಸಪರ್ಪಯಾಮಿ ॥
       
-    </ಪೂರ್ವಾ೦ಗ>
+    </ಪೂರ್ವೋತ್ತರ>
 
     </ಆವರಣ>
 );
