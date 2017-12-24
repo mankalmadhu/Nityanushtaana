@@ -1,11 +1,11 @@
 import React from 'react';
 
 import ವಿನಿಯೋಗ from '../../Vishaya/Viniyoga';
-import ಪೂರ್ವಾ೦ಗ from '../../Vishaya/Purvanga';
+import ಪೂರ್ವೋತ್ತರ from '../../Vishaya/Purvanga';
 import ಶೀರ್ಷಿಕೆ from '../../Vishaya/Sheershike';
 import ಆವರಣ from '../../Avarana/Avarana';
 import ವಿಧಾನ from '../../Vishaya/Vidhana';
- 
+
 export default ನಮಸ್ಕಾರ = () => (
     <ಆವರಣ>
     <ಶೀರ್ಷಿಕೆ>
@@ -18,11 +18,11 @@ export default ನಮಸ್ಕಾರ = () => (
     ತೇ ಹ॒ ನಾಕಂ॑  ಮಹಿ॒ಮಾನ॑ಸ್ಸಚ೦ತೇ । ಯತ್ರ॒ ಪೂರ್ವೇ॑  ಸಾ॒ಧ್ಯಾಸ್ಸ೦ತಿ॑ ದೇ॒ವಾಃ ।
 
      </ವಿನಿಯೋಗ>
-    <ಪೂರ್ವಾ೦ಗ>
+    <ಪೂರ್ವೋತ್ತರ>
 
       ಶ್ರೀ ಇಷ್ಟ ದೇವತಾಭ್ಯೋ ನಮಃ ।  ಪ್ರದಕ್ಷಿಣ ನಮಸ್ಕಾರಾನ್ ಸಮರ್ಪಯಾಮಿ ॥
       
-    </ಪೂರ್ವಾ೦ಗ>
+    </ಪೂರ್ವೋತ್ತರ>
 
     </ಆವರಣ>
 );
