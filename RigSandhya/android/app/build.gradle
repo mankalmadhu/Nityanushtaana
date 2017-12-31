@@ -97,8 +97,8 @@ android {
         applicationId "vedic.rigveda.sandhyavandana"
         minSdkVersion 16
         targetSdkVersion 23
-        versionCode 110000
-        versionName "1.10.0"
+        versionCode 5
+        versionName "2.0.0"
         ndk {
             abiFilters "armeabi-v7a", "x86"
         }
