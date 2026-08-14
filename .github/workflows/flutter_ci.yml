@@ -5,10 +5,16 @@ on:
     branches:
       - master
       - main
+    paths:
+      - 'flutter_rig_sandhya/**'
+      - '.github/workflows/flutter_ci.yml'
   pull_request:
     branches:
       - master
       - main
+    paths:
+      - 'flutter_rig_sandhya/**'
+      - '.github/workflows/flutter_ci.yml'
 
 jobs:
   build:

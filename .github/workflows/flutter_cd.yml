@@ -40,7 +40,7 @@ jobs:
           KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
           KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
         run: |
-          echo $KEYSTORE_JKS | base64 --decode > android/keystore.jks
+          echo $KEYSTORE_JKS | base64 --decode > android/app/keystore.jks
           cat <<EOF > android/key.properties
           storePassword=$KEYSTORE_PASSWORD
           keyPassword=$KEY_PASSWORD
