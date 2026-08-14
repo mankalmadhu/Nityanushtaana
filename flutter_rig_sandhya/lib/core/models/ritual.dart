@@ -24,7 +24,9 @@ class Ritual {
       id: json['id'] as String,
       title: json['title'] as String,
       pages: (json['pages'] as List<dynamic>)
-          .map((pageJson) => RitualPage.fromJson(pageJson as Map<String, dynamic>))
+          .map(
+            (pageJson) => RitualPage.fromJson(pageJson as Map<String, dynamic>),
+          )
           .toList(),
     );
   }

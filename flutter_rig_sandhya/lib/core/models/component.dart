@@ -5,10 +5,7 @@ class Block {
   Block({required this.type, required this.text});
 
   factory Block.fromJson(Map<String, dynamic> json) {
-    return Block(
-      type: json['type'] as String,
-      text: json['text'] as String,
-    );
+    return Block(type: json['type'] as String, text: json['text'] as String);
   }
 }
 

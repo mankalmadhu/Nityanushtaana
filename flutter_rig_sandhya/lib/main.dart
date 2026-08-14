@@ -63,7 +63,7 @@ class NityanushtaanaApp extends StatelessWidget {
             themeMode: ThemeMode.system,
             home: const HomeScreen(),
           );
-        }
+        },
       ),
     );
   }

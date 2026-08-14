@@ -12,7 +12,10 @@ void main() {
       expect(component.blocks[0].type, 'heading');
       expect(component.blocks[0].text, 'ಸಮರ್ಪಣೆ');
       expect(component.blocks[1].type, 'verse_viniyoga');
-      expect(component.blocks[1].text, 'ಅನೇನ ಮಾಧ್ಯಾಹ್ನಿಕ ಸ೦ಧ್ಯಾವ೦ದನೇನ ಭಗವಾನ್ ಸರ್ವಾತ್ಮಕಃ ಶ್ರೀ ತೇಜೋ ಲಕ್ಷ್ಮೀನೃಸಿ೦ಹ ಸ್ವಾಮಿನಃ ಪ್ರೀಣಾತು ।');
+      expect(
+        component.blocks[1].text,
+        'ಅನೇನ ಮಾಧ್ಯಾಹ್ನಿಕ ಸ೦ಧ್ಯಾವ೦ದನೇನ ಭಗವಾನ್ ಸರ್ವಾತ್ಮಕಃ ಶ್ರೀ ತೇಜೋ ಲಕ್ಷ್ಮೀನೃಸಿ೦ಹ ಸ್ವಾಮಿನಃ ಪ್ರೀಣಾತು ।',
+      );
     });
   });
 }

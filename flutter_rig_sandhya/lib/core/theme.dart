@@ -34,8 +34,10 @@ class RitualThemeColors extends ThemeExtension<RitualThemeColors> {
       verseColor: verseColor ?? this.verseColor,
       instructionColor: instructionColor ?? this.instructionColor,
       appBarColor: appBarColor ?? this.appBarColor,
-      pageIndicatorActiveColor: pageIndicatorActiveColor ?? this.pageIndicatorActiveColor,
-      pageIndicatorInactiveColor: pageIndicatorInactiveColor ?? this.pageIndicatorInactiveColor,
+      pageIndicatorActiveColor:
+          pageIndicatorActiveColor ?? this.pageIndicatorActiveColor,
+      pageIndicatorInactiveColor:
+          pageIndicatorInactiveColor ?? this.pageIndicatorInactiveColor,
       dividerColor: dividerColor ?? this.dividerColor,
     );
   }
@@ -48,10 +50,22 @@ class RitualThemeColors extends ThemeExtension<RitualThemeColors> {
     return RitualThemeColors(
       headingColor: Color.lerp(headingColor, other.headingColor, t)!,
       verseColor: Color.lerp(verseColor, other.verseColor, t)!,
-      instructionColor: Color.lerp(instructionColor, other.instructionColor, t)!,
+      instructionColor: Color.lerp(
+        instructionColor,
+        other.instructionColor,
+        t,
+      )!,
       appBarColor: Color.lerp(appBarColor, other.appBarColor, t)!,
-      pageIndicatorActiveColor: Color.lerp(pageIndicatorActiveColor, other.pageIndicatorActiveColor, t)!,
-      pageIndicatorInactiveColor: Color.lerp(pageIndicatorInactiveColor, other.pageIndicatorInactiveColor, t)!,
+      pageIndicatorActiveColor: Color.lerp(
+        pageIndicatorActiveColor,
+        other.pageIndicatorActiveColor,
+        t,
+      )!,
+      pageIndicatorInactiveColor: Color.lerp(
+        pageIndicatorInactiveColor,
+        other.pageIndicatorInactiveColor,
+        t,
+      )!,
       dividerColor: Color.lerp(dividerColor, other.dividerColor, t)!,
     );
   }

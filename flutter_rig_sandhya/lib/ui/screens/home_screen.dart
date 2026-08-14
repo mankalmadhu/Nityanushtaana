@@ -21,7 +21,10 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   void didChangeDependencies() {
     super.didChangeDependencies();
-    final currentLang = Provider.of<AppSettings>(context, listen: true).currentLanguage;
+    final currentLang = Provider.of<AppSettings>(
+      context,
+      listen: true,
+    ).currentLanguage;
     if (_lastLanguage != currentLang) {
       _lastLanguage = currentLang;
       _indexFuture = _repository.loadIndex(currentLang);
@@ -50,18 +53,26 @@ class _HomeScreenState extends State<HomeScreen> {
 
         final appIndex = snapshot.data!;
         final items = appIndex.items;
-        
+
         return Scaffold(
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           appBar: AppBar(
-            title: Text(appIndex.title, style: const TextStyle(fontFamily: 'Ganapati')),
+            title: Text(
+              appIndex.title,
+              style: const TextStyle(fontFamily: 'Ganapati'),
+            ),
             backgroundColor: themeColors?.appBarColor,
-            foregroundColor: Theme.of(context).brightness == Brightness.dark ? Colors.white : Colors.black,
+            foregroundColor: Theme.of(context).brightness == Brightness.dark
+                ? Colors.white
+                : Colors.black,
             actions: [
               PopupMenuButton<String>(
                 icon: const Icon(Icons.language),
                 onSelected: (String langCode) {
-                  Provider.of<AppSettings>(context, listen: false).changeLanguage(langCode);
+                  Provider.of<AppSettings>(
+                    context,
+                    listen: false,
+                  ).changeLanguage(langCode);
                 },
                 itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
                   const PopupMenuItem<String>(
@@ -84,22 +95,21 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           body: ListView.separated(
             itemCount: items.length,
-            separatorBuilder: (context, index) => Divider(
-              color: themeColors?.dividerColor,
-              height: 1,
-            ),
+            separatorBuilder: (context, index) =>
+                Divider(color: themeColors?.dividerColor, height: 1),
             itemBuilder: (context, index) {
               final item = items[index];
               return ListTile(
-                contentPadding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                contentPadding: const EdgeInsets.symmetric(
+                  horizontal: 16.0,
+                  vertical: 8.0,
+                ),
                 leading: Image.asset(
                   'assets/images/${item.image}',
                   width: 40,
                   height: 40,
-                  errorBuilder: (context, error, stackTrace) => Icon(
-                    Icons.menu_book,
-                    color: themeColors?.headingColor,
-                  ),
+                  errorBuilder: (context, error, stackTrace) =>
+                      Icon(Icons.menu_book, color: themeColors?.headingColor),
                 ),
                 title: Text(
                   item.title,
@@ -134,4 +144,3 @@ class _HomeScreenState extends State<HomeScreen> {
     );
   }
 }
-

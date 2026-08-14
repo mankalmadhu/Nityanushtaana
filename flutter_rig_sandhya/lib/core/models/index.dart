@@ -26,7 +26,9 @@ class AppIndex {
       language: json['language'] as String,
       title: json['title'] as String,
       items: (json['items'] as List<dynamic>)
-          .map((itemJson) => IndexItem.fromJson(itemJson as Map<String, dynamic>))
+          .map(
+            (itemJson) => IndexItem.fromJson(itemJson as Map<String, dynamic>),
+          )
           .toList(),
     );
   }

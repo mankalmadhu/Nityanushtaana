@@ -7,7 +7,9 @@ import 'package:flutter_rig_sandhya/data/ritual_repository.dart';
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
 
-  testWidgets('End-to-End: Navigate from Home to Ritual and swipe pages', (WidgetTester tester) async {
+  testWidgets('End-to-End: Navigate from Home to Ritual and swipe pages', (
+    WidgetTester tester,
+  ) async {
     // Launch the app
     await tester.pumpWidget(const NityanushtaanaApp());
 
@@ -25,13 +27,15 @@ void main() {
     expect(find.text(firstItemTitle), findsWidgets);
 
     // Test Theme Switching (Simulate Light Mode explicitly)
-    tester.binding.platformDispatcher.platformBrightnessTestValue = Brightness.light;
+    tester.binding.platformDispatcher.platformBrightnessTestValue =
+        Brightness.light;
     await tester.pumpAndSettle();
 
     // Test Theme Switching (Simulate Dark Mode explicitly)
-    tester.binding.platformDispatcher.platformBrightnessTestValue = Brightness.dark;
+    tester.binding.platformDispatcher.platformBrightnessTestValue =
+        Brightness.dark;
     await tester.pumpAndSettle();
-    
+
     // Tap on the first item (e.g. Pratah Sandhya)
     final itemFinder = find.text(firstItemTitle).first;
     await tester.dragUntilVisible(
@@ -49,20 +53,22 @@ void main() {
 
     // Verify Page 1 is loaded (Instructions are rendered with parentheses)
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
-    
+
     // Swipe to Page 2
     await tester.drag(find.byType(PageView), const Offset(-500.0, 0.0));
     await tester.pumpAndSettle();
-    
+
     // Dynamically fetch expected text for page 2 (prokshana dummy text)
     final prokshanaComponent = await repo.loadComponent('prokshana', 'kn');
     final expectedProkshanaText = prokshanaComponent.blocks.first.text;
-    
+
     // Verify Page 2 is loaded
     expect(find.text(expectedProkshanaText), findsOneWidget);
   });
 
-  testWidgets('End-to-End: Navigate to Pratah Samidhadana and swipe pages', (WidgetTester tester) async {
+  testWidgets('End-to-End: Navigate to Pratah Samidhadana and swipe pages', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const NityanushtaanaApp());
     await tester.pumpAndSettle();
 
@@ -81,7 +87,10 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text
-    final aasanaComponent = await repo.loadComponent('samidha_dana_aasana_soochane', 'kn');
+    final aasanaComponent = await repo.loadComponent(
+      'samidha_dana_aasana_soochane',
+      'kn',
+    );
     final expectedAasanaText = aasanaComponent.blocks.first.text;
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
 
@@ -89,12 +98,18 @@ void main() {
     await tester.drag(find.byType(PageView), const Offset(-500.0, 0.0));
     await tester.pumpAndSettle();
 
-    final sankalpaComponent = await repo.loadComponent('pratah_samidha_dana_sankalpa', 'kn');
-    final expectedSankalpaText = sankalpaComponent.blocks[1].text; // The first verse
+    final sankalpaComponent = await repo.loadComponent(
+      'pratah_samidha_dana_sankalpa',
+      'kn',
+    );
+    final expectedSankalpaText =
+        sankalpaComponent.blocks[1].text; // The first verse
     expect(find.text(expectedSankalpaText), findsOneWidget);
   });
 
-  testWidgets('End-to-End: Navigate to Madhyahnika Sandhya and swipe pages', (WidgetTester tester) async {
+  testWidgets('End-to-End: Navigate to Madhyahnika Sandhya and swipe pages', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const NityanushtaanaApp());
     await tester.pumpAndSettle();
 
@@ -127,7 +142,9 @@ void main() {
     expect(find.text(expectedProkshanaText), findsOneWidget);
   });
 
-  testWidgets('End-to-End: Navigate to Sayam Sandhya and swipe pages', (WidgetTester tester) async {
+  testWidgets('End-to-End: Navigate to Sayam Sandhya and swipe pages', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const NityanushtaanaApp());
     await tester.pumpAndSettle();
 
@@ -160,7 +177,9 @@ void main() {
     expect(find.text(expectedProkshanaText), findsOneWidget);
   });
 
-  testWidgets('End-to-End: Navigate to Sayam Samidha Dana and swipe pages', (WidgetTester tester) async {
+  testWidgets('End-to-End: Navigate to Sayam Samidha Dana and swipe pages', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const NityanushtaanaApp());
     await tester.pumpAndSettle();
 
@@ -179,7 +198,10 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text (aasana soochane)
-    final aasanaComponent = await repo.loadComponent('samidha_dana_aasana_soochane', 'kn');
+    final aasanaComponent = await repo.loadComponent(
+      'samidha_dana_aasana_soochane',
+      'kn',
+    );
     final expectedAasanaText = aasanaComponent.blocks.first.text;
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
 
@@ -188,12 +210,17 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verify Page 2 (Sankalpa)
-    final sankalpaComponent = await repo.loadComponent('sayam_samidha_dana_sankalpa', 'kn');
+    final sankalpaComponent = await repo.loadComponent(
+      'sayam_samidha_dana_sankalpa',
+      'kn',
+    );
     final expectedSankalpaText = sankalpaComponent.blocks.first.text;
     expect(find.text(expectedSankalpaText), findsOneWidget);
   });
 
-  testWidgets('End-to-End: Navigate to Yajnopaveeta and swipe pages', (WidgetTester tester) async {
+  testWidgets('End-to-End: Navigate to Yajnopaveeta and swipe pages', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const NityanushtaanaApp());
     await tester.pumpAndSettle();
 
@@ -212,7 +239,10 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text (dharana)
-    final dharanaComponent = await repo.loadComponent('yajnopaveeta_dharana', 'kn');
+    final dharanaComponent = await repo.loadComponent(
+      'yajnopaveeta_dharana',
+      'kn',
+    );
     final expectedDharanaText = dharanaComponent.blocks.last.text;
     expect(find.text(expectedDharanaText), findsOneWidget);
 
@@ -221,11 +251,16 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verify Page 2 (Visarjana)
-    final visarjanaComponent = await repo.loadComponent('yajnopaveeta_visarjana', 'kn');
+    final visarjanaComponent = await repo.loadComponent(
+      'yajnopaveeta_visarjana',
+      'kn',
+    );
     final expectedVisarjanaText = visarjanaComponent.blocks.last.text;
     expect(find.text(expectedVisarjanaText), findsOneWidget);
   });
-  testWidgets('End-to-End: Navigate to Upanayana Karika and swipe pages', (WidgetTester tester) async {
+  testWidgets('End-to-End: Navigate to Upanayana Karika and swipe pages', (
+    WidgetTester tester,
+  ) async {
     await tester.pumpWidget(const NityanushtaanaApp());
     await tester.pumpAndSettle();
 

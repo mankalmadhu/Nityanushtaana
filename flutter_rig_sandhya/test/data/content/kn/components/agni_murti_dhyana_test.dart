@@ -12,11 +12,20 @@ void main() {
       expect(component.blocks[0].type, 'heading');
       expect(component.blocks[0].text, 'ಅಗ್ನಿಮೂರ್ತಿ ಧ್ಯಾನ');
       expect(component.blocks[1].type, 'verse_sankalpa');
-      expect(component.blocks[1].text, 'ಚತ್ವಾರಿಶೃ೦ಗೇತಿ ವಾಮದೇವೋ ಜಾತವೇದಾಗ್ನಿಃ ತ್ರಿಷ್ಟುಪ್ ಅಗ್ನಿಮೂರ್ತಿ ಧ್ಯಾನೇ ವಿನಿಯೋಗಃ ।');
+      expect(
+        component.blocks[1].text,
+        'ಚತ್ವಾರಿಶೃ೦ಗೇತಿ ವಾಮದೇವೋ ಜಾತವೇದಾಗ್ನಿಃ ತ್ರಿಷ್ಟುಪ್ ಅಗ್ನಿಮೂರ್ತಿ ಧ್ಯಾನೇ ವಿನಿಯೋಗಃ ।',
+      );
       expect(component.blocks[2].type, 'verse_viniyoga');
-      expect(component.blocks[2].text, 'ಚ॒ತ್ವಾರಿ॒ ಶೃಙ್ಗಾ॒ ತ್ರಯೋ᳚ ಅಸ್ಯ॒ ಪಾದ॒ ದ್ವೇ ಶೀ॒ರ್ಷೇ॒ ಸ॒ಪ್ತ ಹಸ್ತಾ᳚ಸೊ ಅಸ್ಯ ।\nತ್ರಿಧಾ᳚ ಬ॒ದ್ಧೋ ವೃ॑ಷ॒ಭೋ ರೋ᳚ರವೀತಿ ಮ॒ಹೋ ದೇ॒ವೋ ಮರ್ತ್ಯಾ॒ँ ಆವಿ॑ವೇಷ ।\nಅಗ್ನಿಮೂರ್ತಿ೦ ಧ್ಯಾಯಾಮಿ ।');
+      expect(
+        component.blocks[2].text,
+        'ಚ॒ತ್ವಾರಿ॒ ಶೃಙ್ಗಾ॒ ತ್ರಯೋ᳚ ಅಸ್ಯ॒ ಪಾದ॒ ದ್ವೇ ಶೀ॒ರ್ಷೇ॒ ಸ॒ಪ್ತ ಹಸ್ತಾ᳚ಸೊ ಅಸ್ಯ ।\nತ್ರಿಧಾ᳚ ಬ॒ದ್ಧೋ ವೃ॑ಷ॒ಭೋ ರೋ᳚ರವೀತಿ ಮ॒ಹೋ ದೇ॒ವೋ ಮರ್ತ್ಯಾ॒ँ ಆವಿ॑ವೇಷ ।\nಅಗ್ನಿಮೂರ್ತಿ೦ ಧ್ಯಾಯಾಮಿ ।',
+      );
       expect(component.blocks[3].type, 'verse_viniyoga');
-      expect(component.blocks[3].text, 'ಓ೦ ಅಗ್ನಿ೦ ಪರ್ಯುಕ್ಷಣ ,ಪರಿಸಮೋಹನ , ಪರಿಷಿಚ್ಯ ।');
+      expect(
+        component.blocks[3].text,
+        'ಓ೦ ಅಗ್ನಿ೦ ಪರ್ಯುಕ್ಷಣ ,ಪರಿಸಮೋಹನ , ಪರಿಷಿಚ್ಯ ।',
+      );
     });
   });
 }

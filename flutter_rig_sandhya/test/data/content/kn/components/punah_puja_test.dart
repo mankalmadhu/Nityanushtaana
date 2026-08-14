@@ -14,7 +14,10 @@ void main() {
       expect(component.blocks[1].type, 'instruction');
       expect(component.blocks[1].text, 'ಅಗ್ನಿಗೆ ಅಭಿಮುಖವಾಗಿ ಕುಳಿತು');
       expect(component.blocks[2].type, 'verse_viniyoga');
-      expect(component.blocks[2].text, 'ಹೋಮಾ೦ತೇ ಆಗ್ನಿ ಪುರುಷಾಯ ನಮಃ । ಅಕ್ಷತಾ೦ ಸಮರ್ಪಯಾಮಿ । ಮ೦ಗಳದ್ರವ್ಯಾಣಿ ಸಮರ್ಪಯಾಮಿ ।\nಓ೦ ಭೂರ್ಭುವ॒ಸ್ಸ್ವಃ ।\nಓ೦ ಭೂರ್ಭುವ॒ಸ್ಸ್ವಃ ।\nಯಥಾ ಭಾಗಶಃ ಆಜ್ಯೋಪಹಾರ ನಿವೇದನ೦ ಸಮರ್ಪಯಾಮಿ ।');
+      expect(
+        component.blocks[2].text,
+        'ಹೋಮಾ೦ತೇ ಆಗ್ನಿ ಪುರುಷಾಯ ನಮಃ । ಅಕ್ಷತಾ೦ ಸಮರ್ಪಯಾಮಿ । ಮ೦ಗಳದ್ರವ್ಯಾಣಿ ಸಮರ್ಪಯಾಮಿ ।\nಓ೦ ಭೂರ್ಭುವ॒ಸ್ಸ್ವಃ ।\nಓ೦ ಭೂರ್ಭುವ॒ಸ್ಸ್ವಃ ।\nಯಥಾ ಭಾಗಶಃ ಆಜ್ಯೋಪಹಾರ ನಿವೇದನ೦ ಸಮರ್ಪಯಾಮಿ ।',
+      );
     });
   });
 }

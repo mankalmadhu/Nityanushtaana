@@ -4,14 +4,18 @@ import 'package:flutter_rig_sandhya/data/ritual_repository.dart';
 import 'package:flutter_rig_sandhya/ui/screens/ritual_screen.dart';
 
 void main() {
-  testWidgets('RitualScreen loads and displays the ritual pages', (WidgetTester tester) async {
-    await tester.pumpWidget(const MaterialApp(
-      home: RitualScreen(
-        ritualId: 'pratah_sandhya',
-        title: 'Dummy Ritual Title',
-        languageCode: 'kn',
+  testWidgets('RitualScreen loads and displays the ritual pages', (
+    WidgetTester tester,
+  ) async {
+    await tester.pumpWidget(
+      const MaterialApp(
+        home: RitualScreen(
+          ritualId: 'pratah_sandhya',
+          title: 'Dummy Ritual Title',
+          languageCode: 'kn',
+        ),
       ),
-    ));
+    );
 
     // Initially loading the ritual
     expect(find.byType(CircularProgressIndicator), findsOneWidget);
@@ -31,11 +35,11 @@ void main() {
 
     // Page 1 should contain Aasana Soochane text dynamically loaded (now wrapped in parenthesis by UI)
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
-    
+
     // Swipe to Page 2
     await tester.drag(find.byType(PageView), const Offset(-500.0, 0.0));
     await tester.pumpAndSettle();
-    
+
     // Page 2 should contain prokshana dummy text
     final prokshanaComponent = await repo.loadComponent('prokshana', 'kn');
     final expectedProkshanaText = prokshanaComponent.blocks.first.text;

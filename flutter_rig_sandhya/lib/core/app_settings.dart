@@ -3,9 +3,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 
 class AppSettings extends ChangeNotifier {
   static const String _languageKey = 'preferred_language';
-  
+
   String _currentLanguage = 'kn'; // default
-  
+
   String get currentLanguage => _currentLanguage;
 
   AppSettings() {

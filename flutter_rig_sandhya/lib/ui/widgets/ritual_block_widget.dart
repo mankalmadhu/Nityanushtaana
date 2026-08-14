@@ -10,7 +10,7 @@ class RitualBlockWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final themeColors = Theme.of(context).extension<RitualThemeColors>();
-    
+
     if (block.type == 'heading') {
       return Padding(
         padding: const EdgeInsets.only(left: 12.0, top: 4.0, bottom: 4.0),
@@ -25,8 +25,8 @@ class RitualBlockWidget extends StatelessWidget {
           ),
         ),
       );
-    } 
-    
+    }
+
     if (block.type == 'verse_sankalpa') {
       return Padding(
         padding: const EdgeInsets.only(left: 12.0, top: 4.0, bottom: 4.0),
@@ -83,11 +83,7 @@ class RitualBlockWidget extends StatelessWidget {
     // Default fallback
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Text(
-        block.text,
-        style: TextStyle(color: themeColors?.verseColor),
-      ),
+      child: Text(block.text, style: TextStyle(color: themeColors?.verseColor)),
     );
   }
 }
-

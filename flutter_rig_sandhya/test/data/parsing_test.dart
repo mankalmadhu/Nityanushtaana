@@ -9,9 +9,9 @@ void main() {
       final file = File('assets/i18n/kn/components/aachamaneya.json');
       final jsonString = file.readAsStringSync();
       final Map<String, dynamic> jsonMap = jsonDecode(jsonString);
-      
+
       final component = Component.fromJson(jsonMap);
-      
+
       // Structural assertions only - language agnostic
       expect(component.id, isNotEmpty);
       expect(component.blocks, isNotEmpty);
