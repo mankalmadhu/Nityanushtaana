@@ -33,7 +33,13 @@ void main() {
     await tester.pumpAndSettle();
     
     // Tap on the first item (e.g. Pratah Sandhya)
-    await tester.tap(find.text(firstItemTitle).first);
+    final itemFinder = find.text(firstItemTitle).first;
+    await tester.dragUntilVisible(
+      itemFinder,
+      find.byType(ListView),
+      const Offset(0, -300),
+    );
+    await tester.tap(itemFinder);
     await tester.pumpAndSettle();
 
     // Now we should be on the Ritual Screen.
@@ -65,7 +71,13 @@ void main() {
     final secondItemTitle = indexData.items[1].title;
 
     // Tap on the second item (Pratah Samidhadana)
-    await tester.tap(find.text(secondItemTitle).first);
+    final itemFinder = find.text(secondItemTitle).first;
+    await tester.dragUntilVisible(
+      itemFinder,
+      find.byType(ListView),
+      const Offset(0, -300),
+    );
+    await tester.tap(itemFinder);
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text
@@ -91,7 +103,13 @@ void main() {
     final thirdItemTitle = indexData.items[2].title;
 
     // Tap on the third item (Madhyahnika Sandhya)
-    await tester.tap(find.text(thirdItemTitle).first);
+    final itemFinder = find.text(thirdItemTitle).first;
+    await tester.dragUntilVisible(
+      itemFinder,
+      find.byType(ListView),
+      const Offset(0, -300),
+    );
+    await tester.tap(itemFinder);
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text (aasana soochane)
@@ -118,7 +136,13 @@ void main() {
     final fourthItemTitle = indexData.items[3].title;
 
     // Tap on the fourth item (Sayam Sandhya)
-    await tester.tap(find.text(fourthItemTitle).first);
+    final itemFinder = find.text(fourthItemTitle).first;
+    await tester.dragUntilVisible(
+      itemFinder,
+      find.byType(ListView),
+      const Offset(0, -300),
+    );
+    await tester.tap(itemFinder);
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text (aasana soochane)
@@ -145,7 +169,13 @@ void main() {
     final fifthItemTitle = indexData.items[4].title;
 
     // Tap on the fifth item (Sayam Samidha Dana)
-    await tester.tap(find.text(fifthItemTitle).first);
+    final itemFinder = find.text(fifthItemTitle).first;
+    await tester.dragUntilVisible(
+      itemFinder,
+      find.byType(ListView),
+      const Offset(0, -300),
+    );
+    await tester.tap(itemFinder);
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text (aasana soochane)
@@ -172,7 +202,13 @@ void main() {
     final sixthItemTitle = indexData.items[5].title;
 
     // Tap on the sixth item (Yajnopaveeta)
-    await tester.tap(find.text(sixthItemTitle).first);
+    final itemFinder = find.text(sixthItemTitle).first;
+    await tester.dragUntilVisible(
+      itemFinder,
+      find.byType(ListView),
+      const Offset(0, -300),
+    );
+    await tester.tap(itemFinder);
     await tester.pumpAndSettle();
 
     // Verify we are on the Ritual Screen by finding first page text (dharana)
@@ -188,5 +224,29 @@ void main() {
     final visarjanaComponent = await repo.loadComponent('yajnopaveeta_visarjana', 'kn');
     final expectedVisarjanaText = visarjanaComponent.blocks.last.text;
     expect(find.text(expectedVisarjanaText), findsOneWidget);
+  });
+  testWidgets('End-to-End: Navigate to Upanayana Karika and swipe pages', (WidgetTester tester) async {
+    await tester.pumpWidget(const NityanushtaanaApp());
+    await tester.pumpAndSettle();
+
+    final repo = RitualRepository();
+    final indexData = await repo.loadIndex('kn');
+    final seventhItemTitle = indexData.items[6].title;
+
+    // Tap on the seventh item (Upanayana Karika)
+    final itemFinder = find.text(seventhItemTitle).first;
+    await tester.dragUntilVisible(
+      itemFinder,
+      find.byType(ListView),
+      const Offset(0, -300),
+    );
+    await tester.tap(itemFinder);
+    await tester.pumpAndSettle();
+
+    // Verify we are on the Ritual Screen by finding first page text
+    final component = await repo.loadComponent('upanayana_karika', 'kn');
+    final expectedText = component.blocks.first.text.trim();
+    // Use contains since the actual text might be formatted slightly differently or match partially
+    expect(find.textContaining(expectedText.substring(0, 15)), findsOneWidget);
   });
 }
