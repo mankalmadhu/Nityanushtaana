@@ -74,7 +74,7 @@ class RitualBlockWidget extends StatelessWidget {
             fontSize: 18,
             fontStyle: FontStyle.italic,
             height: 50 / 18,
-            color: themeColors?.instructionColor?.withOpacity(0.75),
+            color: themeColors?.instructionColor.withValues(alpha: 0.75),
           ),
         ),
       );
