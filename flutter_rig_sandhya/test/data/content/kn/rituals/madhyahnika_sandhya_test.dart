@@ -5,8 +5,8 @@ import 'package:flutter_rig_sandhya/core/models/ritual.dart';
 
 void main() {
   group('Data Layer - Kannada Ritual Sanitization', () {
-    test('pratah_sandhya ritual has not been accidentally modified', () {
-      final file = File('assets/i18n/kn/rituals/pratah_sandhya.json');
+    test('madhyahnika_sandhya ritual has not been accidentally modified', () {
+      final file = File('assets/i18n/kn/rituals/madhyahnika_sandhya.json');
       final ritual = Ritual.fromJson(jsonDecode(file.readAsStringSync()));
       expect(ritual.pages.length, 14);
       expect(ritual.pages[0].componentIds.length, 2);
@@ -16,9 +16,9 @@ void main() {
       expect(ritual.pages[1].componentIds[0], 'prokshana');
       expect(ritual.pages[1].componentIds[1], 'aachamaneya');
       expect(ritual.pages[2].componentIds.length, 1);
-      expect(ritual.pages[2].componentIds[0], 'pratah_sandhya_sankalpa');
+      expect(ritual.pages[2].componentIds[0], 'madhyahnika_sandhya_sankalpa');
       expect(ritual.pages[3].componentIds.length, 1);
-      expect(ritual.pages[3].componentIds[0], 'pratah_marjane');
+      expect(ritual.pages[3].componentIds[0], 'madhyahnika_marjane');
       expect(ritual.pages[4].componentIds.length, 1);
       expect(ritual.pages[4].componentIds[0], 'aachamaneya');
       expect(ritual.pages[5].componentIds.length, 2);
@@ -27,18 +27,18 @@ void main() {
       expect(ritual.pages[6].componentIds.length, 1);
       expect(ritual.pages[6].componentIds[0], 'aachamaneya');
       expect(ritual.pages[7].componentIds.length, 1);
-      expect(ritual.pages[7].componentIds[0], 'pratah_arghya_sankalpa');
+      expect(ritual.pages[7].componentIds[0], 'madhyahnika_arghya_sankalpa');
       expect(ritual.pages[8].componentIds.length, 1);
-      expect(ritual.pages[8].componentIds[0], 'pratah_arghya_pradana');
+      expect(ritual.pages[8].componentIds[0], 'madhyahnika_arghya_pradana');
       expect(ritual.pages[9].componentIds.length, 1);
-      expect(ritual.pages[9].componentIds[0], 'aachamaneya');
+      expect(ritual.pages[9].componentIds[0], 'madhyahnika_upasthana');
       expect(ritual.pages[10].componentIds.length, 1);
-      expect(ritual.pages[10].componentIds[0], 'pratah_gayatri_japa');
+      expect(ritual.pages[10].componentIds[0], 'aachamaneya');
       expect(ritual.pages[11].componentIds.length, 1);
-      expect(ritual.pages[11].componentIds[0], 'pratah_upasthana');
+      expect(ritual.pages[11].componentIds[0], 'madhyahnika_gayatri_japa');
       expect(ritual.pages[12].componentIds.length, 2);
       expect(ritual.pages[12].componentIds[0], 'aachamaneya');
-      expect(ritual.pages[12].componentIds[1], 'pratah_samarpana');
+      expect(ritual.pages[12].componentIds[1], 'madhyahnika_samarpana');
       expect(ritual.pages[13].componentIds.length, 1);
       expect(ritual.pages[13].componentIds[0], 'aparadha_kshamapana');
     });

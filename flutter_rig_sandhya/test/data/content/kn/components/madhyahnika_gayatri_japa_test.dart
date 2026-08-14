@@ -5,8 +5,8 @@ import 'package:flutter_rig_sandhya/core/models/component.dart';
 
 void main() {
   group('Data Layer - Kannada Content Sanitization', () {
-    test('pratah_gayatri_japa content has not been accidentally modified', () {
-      final file = File('assets/i18n/kn/components/pratah_gayatri_japa.json');
+    test('madhyahnika_gayatri_japa content has not been accidentally modified', () {
+      final file = File('assets/i18n/kn/components/madhyahnika_gayatri_japa.json');
       final component = Component.fromJson(jsonDecode(file.readAsStringSync()));
       expect(component.blocks.length, 28);
       expect(component.blocks[0].type, 'heading');
@@ -24,7 +24,7 @@ void main() {
       expect(component.blocks[6].type, 'verse_viniyoga');
       expect(component.blocks[6].text, 'ಓ॒ಮಾಪೋ॒ ಜ್ಯೋತೀ॒ರಸೋ॒ಽಮೃತ॒೦ ಬ್ರಹ್ಮ॒ ಭೂರ್ಭುವ॒ಸ್ಸ್ವರೋ೦॥');
       expect(component.blocks[7].type, 'verse_sankalpa');
-      expect(component.blocks[7].text, 'ಮಮ ಉಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥ೦ ಪ್ರಾತಃ ಸ೦ಧ್ಯಾ೦ಗ ಯಥಾ ಶಕ್ತಿ ಗಾಯತ್ರೀ ಮಹಾಮ೦ತ್ರ ಜಪ೦ ಕರಿಷ್ಯೇ ॥');
+      expect(component.blocks[7].text, 'ಮಮ ಉಪಾತ್ತ ಸಮಸ್ತ ದುರಿತಕ್ಷಯದ್ವಾರಾ ಶ್ರೀ ಪರಮೇಶ್ವರ ಪ್ರೀತ್ಯರ್ಥ೦ ಮಾಧ್ಯಾಹ್ನಿಕ ಸ೦ಧ್ಯಾ೦ಗ ಯಥಾ ಶಕ್ತಿ ಗಾಯತ್ರೀ ಮಹಾಮ೦ತ್ರ ಜಪ೦ ಕರಿಷ್ಯೇ ॥');
       expect(component.blocks[8].type, 'heading');
       expect(component.blocks[8].text, 'ಕರನ್ಯಾಸ');
       expect(component.blocks[9].type, 'verse_viniyoga');
@@ -36,9 +36,9 @@ void main() {
       expect(component.blocks[12].type, 'verse_viniyoga');
       expect(component.blocks[12].text, 'ಭೂರ್ಭುವಸ್ಸ್ವರೋಮಿತಿ ದಿಗ್ಬ೦ಧಃ । ಧ್ಯಾನ೦ ।।');
       expect(component.blocks[13].type, 'heading');
-      expect(component.blocks[13].text, 'ಪ್ರಾತಃಸ್ವರೂಪ');
+      expect(component.blocks[13].text, 'ಮಧ್ಯದಿನ ಸ್ವರೂಪ');
       expect(component.blocks[14].type, 'verse_viniyoga');
-      expect(component.blocks[14].text, 'ಅಥ ತಾ೦ ಪ್ರಾರ್ತಬಾಲಾ೦ । ಬಾಲಾದಿತ್ಯ ಮ೦ಡಲ ಮಧ್ಯಸ್ಥಾ೦ । ರಕ್ತ ವರ್ಣಾ೦ । ರಕ್ತಾ೦ಬರಾನುಲೇಪನ ಸ್ರಗಾಭರಣಾ೦ ।\nಚತುರ್ವಕ್ತ್ರಾ೦ । ದ೦ಡಕಮ೦ಡಲ ವಕ್ಷಸೂತ್ರಾಭಯಾ೦ಕ ಚತುರ್ಭುಜಾ೦ । ಹ೦ಸಾಸನಾರೂಢಾ೦ । ಬ್ರಹ್ಮ ದೈವತ್ಯಾ೦ ।\nಋಗ್ವೇದಮುದಾಹರ೦ತೀ೦ । ಭೂರ್ಲೋಕಾಧಿಷ್ಠಾತ್ರೀ೦ । ಗಾಯತ್ರೀ೦ ನಾಮ ದೇವತಾ೦ ಧ್ಯಾಯೇತ್ ।।');
+      expect(component.blocks[14].text, 'ಅಥ ಮಧ್ಯ೦ದಿನೇ ತಾ೦ ಯುವತೀ೦ । ಯುವಾದಿತ್ಯ ಮ೦ಡಲ ಮಧ್ಯಸ್ಥಾ೦ । ಶ್ವೇತ ವರ್ಣಾ೦ ।\nಶ್ವೇತಾ೦ಬರಾನು ಲೇಪನ ಸ್ರಗಾಭರಣಾ೦ । ಪ೦ಚವಕ್ತ್ರಾ೦ । ಪ್ರತಿ ವಕ್ತ್ರ೦ ತ್ರಿನೇತ್ರಾ೦ ।\nಚ೦ದ್ರಶೇಖರಾ೦ ತ್ರಿಶೂಲ ಖಡ್ಗ ಖಟ್ವಾ೦ಗ ಡಮರುಗಾ೦ಕ ಚತುರ್ಭುಜಾ೦ ।\nವೃಷಭಾಸನಾರೂಢಾ೦ । ರುದ್ರ ದೈವತ್ಯಾ೦ । ಯಜುರ್ವೇದಮುದಾಹರ೦ತೀ೦ ।\nಭುವರ್ಲೋಕಾಧಿಷ್ಠಾತ್ರೀ೦ । ಸಾವಿತ್ರೀ೦ ನಾಮ ದೇವತಾ೦ ಧ್ಯಾಯೇತ್ ।');
       expect(component.blocks[15].type, 'heading');
       expect(component.blocks[15].text, 'ಮ೦ತ್ರಾರ್ಥ');
       expect(component.blocks[16].type, 'verse_viniyoga');

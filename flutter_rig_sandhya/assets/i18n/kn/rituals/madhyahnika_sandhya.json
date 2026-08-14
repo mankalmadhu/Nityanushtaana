@@ -1,0 +1,108 @@
+{
+  "id": "madhyahnika_sandhya",
+  "title": "ಮಾಧ್ಯಾಹ್ನಿಕ ಸ೦ಧ್ಯಾ",
+  "pages": [
+    {
+      "id": "page_1",
+      "page_number": 1,
+      "components": [
+        "aasana_soochane",
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_2",
+      "page_number": 2,
+      "components": [
+        "prokshana",
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_3",
+      "page_number": 3,
+      "components": [
+        "madhyahnika_sandhya_sankalpa"
+      ]
+    },
+    {
+      "id": "page_4",
+      "page_number": 4,
+      "components": [
+        "madhyahnika_marjane"
+      ]
+    },
+    {
+      "id": "page_5",
+      "page_number": 5,
+      "components": [
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_6",
+      "page_number": 6,
+      "components": [
+        "dwiteya_marjane",
+        "visarjane"
+      ]
+    },
+    {
+      "id": "page_7",
+      "page_number": 7,
+      "components": [
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_8",
+      "page_number": 8,
+      "components": [
+        "madhyahnika_arghya_sankalpa"
+      ]
+    },
+    {
+      "id": "page_9",
+      "page_number": 9,
+      "components": [
+        "madhyahnika_arghya_pradana"
+      ]
+    },
+    {
+      "id": "page_10",
+      "page_number": 10,
+      "components": [
+        "madhyahnika_upasthana"
+      ]
+    },
+    {
+      "id": "page_11",
+      "page_number": 11,
+      "components": [
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_12",
+      "page_number": 12,
+      "components": [
+        "madhyahnika_gayatri_japa"
+      ]
+    },
+    {
+      "id": "page_13",
+      "page_number": 13,
+      "components": [
+        "aachamaneya",
+        "madhyahnika_samarpana"
+      ]
+    },
+    {
+      "id": "page_14",
+      "page_number": 14,
+      "components": [
+        "aparadha_kshamapana"
+      ]
+    }
+  ]
+}

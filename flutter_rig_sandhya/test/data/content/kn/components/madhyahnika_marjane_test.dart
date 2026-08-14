@@ -5,8 +5,8 @@ import 'package:flutter_rig_sandhya/core/models/component.dart';
 
 void main() {
   group('Data Layer - Kannada Content Sanitization', () {
-    test('pratah_marjane content has not been accidentally modified', () {
-      final file = File('assets/i18n/kn/components/pratah_marjane.json');
+    test('madhyahnika_marjane content has not been accidentally modified', () {
+      final file = File('assets/i18n/kn/components/madhyahnika_marjane.json');
       final component = Component.fromJson(jsonDecode(file.readAsStringSync()));
       expect(component.blocks.length, 6);
       expect(component.blocks[0].type, 'heading');
@@ -18,9 +18,9 @@ void main() {
       expect(component.blocks[3].type, 'heading');
       expect(component.blocks[3].text, 'ಅಭಿಮ೦ತ್ರಣೆ');
       expect(component.blocks[4].type, 'verse_sankalpa');
-      expect(component.blocks[4].text, 'ಸೂರ್ಯಶ್ಚೇತ್ಯಸ್ಯ ಮ೦ತ್ರಸ್ಯ, ಸೂರ್ಯಮಾಮನ್ಯುಃ,ಮನ್ಯುಪತಯಃ,ಅಹರ್ದೇವತಾ, ಪ್ರಕೃತಿಪುರುಷ೦ ಛ೦ದ: ಜಲಾಭಿಮ೦ತ್ರಣೇ ವಿನಿಯೋಗಃ ॥');
+      expect(component.blocks[4].text, 'ಆಪಃ ಪುನ೦ತು ಇತ್ಯಸ್ಯ ವಿಷ್ಣು ಋಷಿಃ ಆಪೋ ದೇವತಾ ಅಷ್ಟಿಃ ಛ೦ದಃ ಅಪಾ೦ಪ್ರಾಶನೇ ವಿನಿಯೋಗಃ ।');
       expect(component.blocks[5].type, 'verse_viniyoga');
-      expect(component.blocks[5].text, 'ಸೂರ್ಯಶ್ಚ ಮಾ ಮನ್ಯುಶ್ಚ ಮನ್ಯುಪತಯಶ್ಚ ಮನ್ಯು॑ಕೃತೇ॒ಭ್ಯಃ । ಪಾಪೇಭ್ಯೋ॑ ರಕ್ಷ॒೦ತಾ೦ ।\nಯದ್ರಾತ್ರಿಯಾ ಪಾಪ॑ಮಕಾ॒ರ್ಷಮ್ । ಮನಸಾ ವಾಚಾ॑ ಹಸ್ತಾ॒ಭ್ಯಾ೦ । ಪದ್ಭ್ಯಾ೦ ಉದರೇ॑ಣ ಶಿ॒ಶ್ಞಾ ।\nರಾತ್ರಿ॒ಸ್ತದ॑ವಲು॒೦ಪತು । ಯತ್ಕಿ೦ಚ॑ ದುರಿ॒ತ೦ ಮಯಿ॑ । ಇದಮಹ೦ ಮಾಮಮೃ॑ತಯೋ॒ನೌ । ಸೂರ್ಯೇ ಜ್ಯೋತಿಷಿ ಜುಹೋ॑ಮಿ ಸ್ವಾ॒ಹಾ ॥');
+      expect(component.blocks[5].text, 'ಆಪಃ॑ ಪುನ೦ತು ಪೃಥಿ॒ವೀ೦  ಪೃ॑ಥಿ॒ವೀ ಪೂ॒ತಾ ಪು॑ನಾತು॒ ಮಾಮ್ ।\nಪು॒ನ೦ತು॒ ಬ್ರಹ್ಮ॑ಣ॒ಸ್ಪತಿ॒-ರ್ಬ್ರಹ್ಮ॑ಪೂ॒ತಾ ಪು॑ನಾತು॒ ಮಾಮ್ ।\nಯದುಚ್ಛಿ॑ಷ್ಟ॒ಮಭೋ᳚ಜ್ಯ॒೦  ಯದ್ವಾ॑  ದು॒ಶ್ಚರಿ॑ತ॒೦ ಮಮ॑।\nಸರ್ವ॑೦ ಪುನ೦ತು॒ ಮಾಮಾಪೋ॑ಽಸ॒ತಾ೦ ಚ॑ ಪ್ರತಿ॒ಗ್ರಹ॒೦ ಸ್ವಾಹಾ᳚॥');
     });
   });
 }

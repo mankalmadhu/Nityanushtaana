@@ -8,12 +8,9 @@ void main() {
     test('aasana_soochane content has not been accidentally modified', () {
       final file = File('assets/i18n/kn/components/aasana_soochane.json');
       final component = Component.fromJson(jsonDecode(file.readAsStringSync()));
-      
-      // Content assertions
-      expect(component.id, 'aasana_soochane');
-            // Strict Content assertions for aasana_soochane
       expect(component.blocks.length, 1);
-      expect(component.blocks.first.text, 'ಪೂರ್ವ/ಉತ್ತರ ಅಭಿಮುಖವಾಗಿ ಕುಳಿತು');
+      expect(component.blocks[0].type, 'instruction');
+      expect(component.blocks[0].text, 'ಪೂರ್ವ/ಉತ್ತರ ಅಭಿಮುಖವಾಗಿ ಕುಳಿತು');
     });
   });
 }
