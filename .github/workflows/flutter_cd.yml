@@ -3,7 +3,7 @@ name: Flutter CD (Play Store)
 on:
   push:
     tags:
-      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+      - 'rig-sandhya-v*' # Only trigger CD when pushing Rig Sandhya specific tags
 
 jobs:
   deploy_android:
