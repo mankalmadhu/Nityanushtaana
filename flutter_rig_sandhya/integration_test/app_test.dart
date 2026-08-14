@@ -108,4 +108,31 @@ void main() {
     final expectedProkshanaText = prokshanaComponent.blocks.first.text;
     expect(find.text(expectedProkshanaText), findsOneWidget);
   });
+
+  testWidgets('End-to-End: Navigate to Sayam Sandhya and swipe pages', (WidgetTester tester) async {
+    await tester.pumpWidget(const NityanushtaanaApp());
+    await tester.pumpAndSettle();
+
+    final repo = RitualRepository();
+    final indexData = await repo.loadIndex('kn');
+    final fourthItemTitle = indexData.items[3].title;
+
+    // Tap on the fourth item (Sayam Sandhya)
+    await tester.tap(find.text(fourthItemTitle).first);
+    await tester.pumpAndSettle();
+
+    // Verify we are on the Ritual Screen by finding first page text (aasana soochane)
+    final aasanaComponent = await repo.loadComponent('aasana_soochane', 'kn');
+    final expectedAasanaText = aasanaComponent.blocks.first.text;
+    expect(find.text('($expectedAasanaText)'), findsOneWidget);
+
+    // Swipe to Page 2
+    await tester.drag(find.byType(PageView), const Offset(-500.0, 0.0));
+    await tester.pumpAndSettle();
+
+    // Verify Page 2 (prokshana)
+    final prokshanaComponent = await repo.loadComponent('prokshana', 'kn');
+    final expectedProkshanaText = prokshanaComponent.blocks.first.text;
+    expect(find.text(expectedProkshanaText), findsOneWidget);
+  });
 }

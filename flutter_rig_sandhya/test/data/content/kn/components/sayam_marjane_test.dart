@@ -1,0 +1,26 @@
+import 'dart:convert';
+import 'dart:io';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_rig_sandhya/core/models/component.dart';
+
+void main() {
+  group('Data Layer - Kannada Content Sanitization', () {
+    test('sayam_marjane content has not been accidentally modified', () {
+      final file = File('assets/i18n/kn/components/sayam_marjane.json');
+      final component = Component.fromJson(jsonDecode(file.readAsStringSync()));
+      expect(component.blocks.length, 6);
+      expect(component.blocks[0].type, 'heading');
+      expect(component.blocks[0].text, 'ಮಾರ್ಜನೆ');
+      expect(component.blocks[1].type, 'verse_sankalpa');
+      expect(component.blocks[1].text, 'ಆಪೋಹಿಷ್ಠೇತಿ ತ್ರಿಚರ್ಚಸ್ಯ ಸೂಕ್ತಸ್ಯ, ಅ೦ಬರೀಶಃ ಸಿ೦ಧು ದ್ವೀಪ ಋಷಿಃ,\nಆಪೋ ದೇವತಾ, ಗಾಯತ್ರೀ ಛ೦ದಃ ಮಾರ್ಜನೇ ವಿನಿಯೋಗಃ ॥');
+      expect(component.blocks[2].type, 'verse_viniyoga');
+      expect(component.blocks[2].text, 'ಓ೦ ಆಪೋ॒ಹಿಷ್ಠಾ ಮ॑ಯೋ॒ಭುವ॒ಸ್ತಾನ॑ ಊ॒ರ್ಜೇ ದ॑ಧಾತನ । ಮ॒ಹೇರಣಾ᳚ಯ॒ ಚಕ್ಷ॑ಸೇ ॥\nಯೋವಃ॑ ಶಿ॒ವತ॑ಮೋ॒ರಸ॒ಸ್ತಸ್ಯ॑ ಭಾಜಯತೇ॒ಹನಃ॑ । ಉ॒ಶ॒ತೀರಿ॑ವ ಮಾ॒ತರಃ॑ ।\nತಸ್ಮಾ॒ ಅರ᳚೦ಗ ಮಾ॒ಮವೋ॒ಯಸ್ಯ॒ಕ್ಷಯಾ᳚ಯ॒ ಜಿನ್ವ॑ಥ । ಆಪೋ᳚ ಜ॒ನಯ॑ಥಾಚನಃ ॥');
+      expect(component.blocks[3].type, 'heading');
+      expect(component.blocks[3].text, 'ಅಭಿಮ೦ತ್ರಣೆ');
+      expect(component.blocks[4].type, 'verse_sankalpa');
+      expect(component.blocks[4].text, 'ಅಗ್ನಿಶ್ಚೇತ್ಯಸ್ಯ ಮ೦ತ್ರಸ್ಯ ಅಗ್ನಿಮಾ ಮನ್ಯುಃ ಮನ್ಯುಪತಯಃ ರಾತ್ರಿರ್ದೇವತಾ ಪ್ರಕೃತಿಪುರುಷ೦ ಛ೦ದ: ಜಲಾಭಿಮ೦ತ್ರಣೇ ವಿನಿಯೋಗಃ ॥');
+      expect(component.blocks[5].type, 'verse_viniyoga');
+      expect(component.blocks[5].text, 'ಅಗ್ನಿಶ್ಚ ಮಾ ಮನ್ಯುಶ್ಚ ಮನ್ಯುಪತಯಶ್ಚ ಮನ್ಯು॑ಕೃತೇ॒ಭ್ಯಃ । ಪಾಪೇಭ್ಯೋ॑ ರಕ್ಷ॒೦ತಾಮ್ ।\nಯದ್ರಾತ್ರ್ಯಾ ಪಾಪ॑ಮಕಾ॒ರ್ಷಮ್ । ಮನಸಾ ವಾಚಾ॑ ಹಸ್ತಾ॒ಭ್ಯಾ೦ । ಪದ್ಭ್ಯಾ೦ ಉದರೇ॑ಣ ಶಿ॒ಶ್ಞಾ ।\nರಾತ್ರಿ॒ಸ್ತದ॑ವಲು॒೦ಪತು । ಯತ್ಕಿ೦ಚ॑ ದುರಿ॒ತ೦ ಮಯಿ॑ ।\nಇದಮಹ೦ ಮಾಮಮೃ॑ತಯೋ॒ನೌ । ಸತ್ಯೇ ಜ್ಯೋತಿಷಿ ಜುಹೋ॑ಮಿ ಸ್ವಾ॒ಹಾ ॥');
+    });
+  });
+}
