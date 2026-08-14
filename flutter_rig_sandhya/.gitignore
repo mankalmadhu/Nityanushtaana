@@ -45,15 +45,8 @@ app.*.map.json
 /android/app/release
 
 # Explicitly ignore files not committed per user request
-.metadata
 README.md
 analysis_options.yaml
-android/
-ios/
-linux/
-macos/
-windows/
-web/
 fix_instructions.py
 test_output.txt
 
