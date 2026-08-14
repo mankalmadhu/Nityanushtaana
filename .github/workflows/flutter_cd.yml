@@ -49,7 +49,19 @@ jobs:
           EOF
 
       - name: Build Android App Bundle
-        run: flutter build appbundle --release
+        run: |
+          # Extract version name from tag (e.g., rig-sandhya-v3.0.1 -> 3.0.1)
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
+            VERSION_NAME=${GITHUB_REF#refs/tags/rig-sandhya-v}
+          else
+            VERSION_NAME="3.0.0"
+          fi
+          
+          # Calculate a unique, always-increasing build number for Play Store
+          BUILD_NUMBER=$((110000 + GITHUB_RUN_NUMBER))
+          
+          echo "Building version $VERSION_NAME+$BUILD_NUMBER"
+          flutter build appbundle --release --build-name=$VERSION_NAME --build-number=$BUILD_NUMBER
 
       - name: Deploy to Play Store (Internal Track)
         uses: r0adkll/upload-google-play@v1
