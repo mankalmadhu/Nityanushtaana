@@ -1,0 +1,61 @@
+name: Flutter CD (Play Store)
+
+on:
+  push:
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
+
+jobs:
+  deploy_android:
+    name: Build and Deploy to Play Store
+    runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./flutter_rig_sandhya
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Create keystore and key.properties
+        env:
+          KEYSTORE_JKS: ${{ secrets.KEYSTORE_JKS }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          echo $KEYSTORE_JKS | base64 --decode > android/keystore.jks
+          cat <<EOF > android/key.properties
+          storePassword=$KEYSTORE_PASSWORD
+          keyPassword=$KEY_PASSWORD
+          keyAlias=$KEY_ALIAS
+          storeFile=keystore.jks
+          EOF
+
+      - name: Build Android App Bundle
+        run: flutter build appbundle --release
+
+      - name: Deploy to Play Store (Internal Track)
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.PLAY_STORE_SERVICE_ACCOUNT_JSON }}
+          packageName: vedic.rigveda.sandhyavandana
+          releaseFiles: flutter_rig_sandhya/build/app/outputs/bundle/release/app-release.aab
+          track: internal # You can change this to alpha, beta, or production
+          status: completed

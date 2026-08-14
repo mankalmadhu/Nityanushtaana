@@ -56,3 +56,6 @@ windows/
 web/
 fix_instructions.py
 test_output.txt
+
+key.properties
+*.jks
