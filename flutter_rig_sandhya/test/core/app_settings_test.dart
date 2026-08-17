@@ -22,7 +22,7 @@ void main() {
 
       await settings.toggleFont();
       expect(settings.useGoogleFonts, false);
-      
+
       await settings.toggleFont();
       expect(settings.useGoogleFonts, true);
     });
