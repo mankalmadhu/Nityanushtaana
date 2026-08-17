@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../core/models/ritual.dart';
 import '../../core/models/component.dart';
 import '../../data/ritual_repository.dart';
 import '../widgets/ritual_block_widget.dart';
 import '../../core/theme.dart';
+import '../../core/app_settings.dart';
 
 class RitualScreen extends StatefulWidget {
   final String ritualId;
@@ -54,6 +57,14 @@ class _RitualScreenState extends State<RitualScreen> {
     return components;
   }
 
+  TextStyle _getStyle(BuildContext context, double fontSize, Color? color) {
+    final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
+    if (useGoogleFonts) {
+      return GoogleFonts.notoSansKannada(fontSize: fontSize, color: color);
+    }
+    return TextStyle(fontFamily: 'Ganapati', fontSize: fontSize, color: color);
+  }
+
   @override
   Widget build(BuildContext context) {
     final themeColors = Theme.of(context).extension<RitualThemeColors>();
@@ -63,7 +74,7 @@ class _RitualScreenState extends State<RitualScreen> {
       appBar: AppBar(
         title: Text(
           widget.title,
-          style: const TextStyle(fontFamily: 'Ganapati'),
+          style: _getStyle(context, 20, null),
         ),
         backgroundColor: themeColors?.appBarColor,
         foregroundColor: Theme.of(context).brightness == Brightness.dark
@@ -105,16 +116,20 @@ class _RitualScreenState extends State<RitualScreen> {
                         }
 
                         final components = compSnapshot.data!;
-                        return SingleChildScrollView(
-                          child: Padding(
-                            padding: const EdgeInsets.all(16.0),
-                            child: Column(
-                              crossAxisAlignment: CrossAxisAlignment.stretch,
-                              children: components.expand((comp) {
-                                return comp.blocks.map(
-                                  (block) => RitualBlockWidget(block: block),
-                                );
-                              }).toList(),
+                        return InteractiveViewer(
+                          minScale: 1.0,
+                          maxScale: 3.0,
+                          child: SingleChildScrollView(
+                            child: Padding(
+                              padding: const EdgeInsets.all(16.0),
+                              child: Column(
+                                crossAxisAlignment: CrossAxisAlignment.stretch,
+                                children: components.expand((comp) {
+                                  return comp.blocks.map(
+                                    (block) => RitualBlockWidget(block: block),
+                                  );
+                                }).toList(),
+                              ),
                             ),
                           ),
                         );

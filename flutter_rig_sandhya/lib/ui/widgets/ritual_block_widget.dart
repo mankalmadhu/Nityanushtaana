@@ -1,11 +1,34 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../core/models/component.dart';
 import '../../core/theme.dart';
+import '../../core/app_settings.dart';
 
 class RitualBlockWidget extends StatelessWidget {
   final Block block;
 
   const RitualBlockWidget({super.key, required this.block});
+
+  TextStyle _getStyle(BuildContext context, double fontSize, Color? color, {FontStyle? fontStyle}) {
+    final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
+    if (useGoogleFonts) {
+      return GoogleFonts.notoSansKannada(
+        fontSize: fontSize,
+        color: color,
+        fontStyle: fontStyle,
+        height: 1.5,
+      );
+    } else {
+      return TextStyle(
+        fontFamily: 'Ganapati',
+        fontSize: fontSize,
+        color: color,
+        fontStyle: fontStyle,
+        height: 50 / fontSize,
+      );
+    }
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -17,12 +40,7 @@ class RitualBlockWidget extends StatelessWidget {
         child: Text(
           block.text,
           textAlign: TextAlign.justify,
-          style: TextStyle(
-            fontFamily: 'Ganapati',
-            fontSize: 19,
-            height: 50 / 19,
-            color: themeColors?.headingColor,
-          ),
+          style: _getStyle(context, 19, themeColors?.headingColor),
         ),
       );
     }
@@ -33,12 +51,7 @@ class RitualBlockWidget extends StatelessWidget {
         child: Text(
           block.text,
           textAlign: TextAlign.justify,
-          style: TextStyle(
-            fontFamily: 'Ganapati',
-            fontSize: 18,
-            height: 50 / 18,
-            color: themeColors?.verseColor,
-          ),
+          style: _getStyle(context, 18, themeColors?.verseColor),
         ),
       );
     }
@@ -49,12 +62,7 @@ class RitualBlockWidget extends StatelessWidget {
         child: Text(
           block.text,
           textAlign: TextAlign.justify,
-          style: TextStyle(
-            fontFamily: 'Ganapati',
-            fontSize: 18,
-            height: 50 / 18,
-            color: themeColors?.instructionColor,
-          ),
+          style: _getStyle(context, 18, themeColors?.instructionColor),
         ),
       );
     }
@@ -69,13 +77,7 @@ class RitualBlockWidget extends StatelessWidget {
         child: Text(
           displayText,
           textAlign: TextAlign.justify,
-          style: TextStyle(
-            fontFamily: 'Ganapati',
-            fontSize: 18,
-            fontStyle: FontStyle.italic,
-            height: 50 / 18,
-            color: themeColors?.instructionColor.withValues(alpha: 0.75),
-          ),
+          style: _getStyle(context, 18, themeColors?.instructionColor.withValues(alpha: 0.75), fontStyle: FontStyle.italic),
         ),
       );
     }
@@ -83,7 +85,8 @@ class RitualBlockWidget extends StatelessWidget {
     // Default fallback
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Text(block.text, style: TextStyle(color: themeColors?.verseColor)),
+      child: Text(block.text, style: _getStyle(context, 18, themeColors?.verseColor)),
     );
   }
 }
+

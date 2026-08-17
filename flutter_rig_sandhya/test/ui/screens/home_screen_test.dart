@@ -38,5 +38,8 @@ void main() {
     // if the list is small, it usually renders. We check for a ListView to be safe).
     expect(find.byType(ListView), findsOneWidget);
     expect(find.byType(ListTile), findsWidgets);
+    
+    // Verify that the Font Toggle button is present in the AppBar
+    expect(find.byTooltip('Toggle Font'), findsOneWidget);
   });
 }

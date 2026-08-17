@@ -1,0 +1,9 @@
+Major Version 3.0.0 Update!
+The app is  completely rewritten from the ground up using flutter and dart.
+What's new:
+• Modern, beautiful UI that supports both Dark Mode and Light Mode.
+• Pinch-to-zoom support added to all ritual pages so you can adjust text size comfortably.
+• Upgraded fonts: You can now toggle between the classic 'Ganapati' font and the modern 'Noto Sans Kannada' font for perfect Unicode rendering of Vedic symbols.
+• Brand new, crisp, high-resolution Material Design icons and artwork.
+• Deeply integrated localization engine for future multi-language support (Sanskrit & Telugu coming soon).
+• Few bug fixes and text corrections in the Madhyahnika Sandhya & Arghya Sankalpa sections.

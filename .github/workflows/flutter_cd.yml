@@ -70,4 +70,5 @@ jobs:
           packageName: vedic.rigveda.sandhyavandana
           releaseFiles: flutter_rig_sandhya/build/app/outputs/bundle/release/app-release.aab
           track: internal # You can change this to alpha, beta, or production
+          whatsNewDirectory: flutter_rig_sandhya/whatsnew
           status: completed

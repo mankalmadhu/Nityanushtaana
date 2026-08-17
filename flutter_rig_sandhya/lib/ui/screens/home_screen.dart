@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
 import '../../core/models/index.dart';
 import '../../data/ritual_repository.dart';
 import 'ritual_screen.dart';
@@ -31,6 +32,14 @@ class _HomeScreenState extends State<HomeScreen> {
     }
   }
 
+  TextStyle _getStyle(BuildContext context, double fontSize, Color? color) {
+    final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
+    if (useGoogleFonts) {
+      return GoogleFonts.notoSansKannada(fontSize: fontSize, color: color);
+    }
+    return TextStyle(fontFamily: 'Ganapati', fontSize: fontSize, color: color);
+  }
+
   @override
   Widget build(BuildContext context) {
     final themeColors = Theme.of(context).extension<RitualThemeColors>();
@@ -53,19 +62,27 @@ class _HomeScreenState extends State<HomeScreen> {
 
         final appIndex = snapshot.data!;
         final items = appIndex.items;
+        final appSettings = context.watch<AppSettings>();
 
         return Scaffold(
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           appBar: AppBar(
             title: Text(
               appIndex.title,
-              style: const TextStyle(fontFamily: 'Ganapati'),
+              style: _getStyle(context, 22, null),
             ),
             backgroundColor: themeColors?.appBarColor,
             foregroundColor: Theme.of(context).brightness == Brightness.dark
                 ? Colors.white
                 : Colors.black,
             actions: [
+              IconButton(
+                icon: Icon(appSettings.useGoogleFonts ? Icons.font_download : Icons.font_download_outlined),
+                tooltip: 'Toggle Font',
+                onPressed: () {
+                  appSettings.toggleFont();
+                },
+              ),
               PopupMenuButton<String>(
                 icon: const Icon(Icons.language),
                 onSelected: (String langCode) {
@@ -113,11 +130,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 title: Text(
                   item.title,
-                  style: TextStyle(
-                    fontFamily: 'Ganapati',
-                    fontSize: 20,
-                    color: themeColors?.instructionColor, // White in dark mode
-                  ),
+                  style: _getStyle(context, 20, themeColors?.instructionColor),
                 ),
                 trailing: Icon(
                   Icons.arrow_forward_ios,

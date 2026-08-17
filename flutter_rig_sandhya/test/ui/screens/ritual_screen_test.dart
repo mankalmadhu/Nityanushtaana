@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
+import 'package:provider/provider.dart';
+import 'package:flutter_rig_sandhya/core/app_settings.dart';
 import 'package:flutter_rig_sandhya/data/ritual_repository.dart';
 import 'package:flutter_rig_sandhya/ui/screens/ritual_screen.dart';
 
@@ -8,11 +10,14 @@ void main() {
     WidgetTester tester,
   ) async {
     await tester.pumpWidget(
-      const MaterialApp(
-        home: RitualScreen(
-          ritualId: 'pratah_sandhya',
-          title: 'Dummy Ritual Title',
-          languageCode: 'kn',
+      ChangeNotifierProvider(
+        create: (context) => AppSettings(),
+        child: const MaterialApp(
+          home: RitualScreen(
+            ritualId: 'pratah_sandhya',
+            title: 'Dummy Ritual Title',
+            languageCode: 'kn',
+          ),
         ),
       ),
     );
