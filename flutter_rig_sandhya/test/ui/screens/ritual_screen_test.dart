@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_rig_sandhya/core/app_settings.dart';
 import 'package:flutter_rig_sandhya/data/ritual_repository.dart';
 import 'package:flutter_rig_sandhya/ui/screens/ritual_screen.dart';
 
 void main() {
+  setUpAll(() {
+    SharedPreferences.setMockInitialValues({});
+  });
+
   testWidgets('RitualScreen loads and displays the ritual pages', (
     WidgetTester tester,
   ) async {

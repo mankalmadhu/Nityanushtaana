@@ -1,11 +1,16 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:provider/provider.dart';
+import 'package:shared_preferences/shared_preferences.dart';
 import 'package:flutter_rig_sandhya/core/app_settings.dart';
 import 'package:flutter_rig_sandhya/data/ritual_repository.dart';
 import 'package:flutter_rig_sandhya/ui/screens/home_screen.dart';
 
 void main() {
+  setUpAll(() {
+    SharedPreferences.setMockInitialValues({});
+  });
+
   testWidgets('HomeScreen loads and displays the app title and items', (
     WidgetTester tester,
   ) async {
@@ -38,7 +43,7 @@ void main() {
     // if the list is small, it usually renders. We check for a ListView to be safe).
     expect(find.byType(ListView), findsOneWidget);
     expect(find.byType(ListTile), findsWidgets);
-    
+
     // Verify that the Font Toggle button is present in the AppBar
     expect(find.byTooltip('Toggle Font'), findsOneWidget);
   });

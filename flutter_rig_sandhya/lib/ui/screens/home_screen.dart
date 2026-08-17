@@ -67,17 +67,18 @@ class _HomeScreenState extends State<HomeScreen> {
         return Scaffold(
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           appBar: AppBar(
-            title: Text(
-              appIndex.title,
-              style: _getStyle(context, 22, null),
-            ),
+            title: Text(appIndex.title, style: _getStyle(context, 22, null)),
             backgroundColor: themeColors?.appBarColor,
             foregroundColor: Theme.of(context).brightness == Brightness.dark
                 ? Colors.white
                 : Colors.black,
             actions: [
               IconButton(
-                icon: Icon(appSettings.useGoogleFonts ? Icons.font_download : Icons.font_download_outlined),
+                icon: Icon(
+                  appSettings.useGoogleFonts
+                      ? Icons.font_download
+                      : Icons.font_download_outlined,
+                ),
                 tooltip: 'Toggle Font',
                 onPressed: () {
                   appSettings.toggleFont();

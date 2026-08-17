@@ -10,7 +10,12 @@ class RitualBlockWidget extends StatelessWidget {
 
   const RitualBlockWidget({super.key, required this.block});
 
-  TextStyle _getStyle(BuildContext context, double fontSize, Color? color, {FontStyle? fontStyle}) {
+  TextStyle _getStyle(
+    BuildContext context,
+    double fontSize,
+    Color? color, {
+    FontStyle? fontStyle,
+  }) {
     final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
     if (useGoogleFonts) {
       return GoogleFonts.notoSansKannada(
@@ -77,7 +82,12 @@ class RitualBlockWidget extends StatelessWidget {
         child: Text(
           displayText,
           textAlign: TextAlign.justify,
-          style: _getStyle(context, 18, themeColors?.instructionColor.withValues(alpha: 0.75), fontStyle: FontStyle.italic),
+          style: _getStyle(
+            context,
+            18,
+            themeColors?.instructionColor.withValues(alpha: 0.75),
+            fontStyle: FontStyle.italic,
+          ),
         ),
       );
     }
@@ -85,8 +95,10 @@ class RitualBlockWidget extends StatelessWidget {
     // Default fallback
     return Padding(
       padding: const EdgeInsets.all(8.0),
-      child: Text(block.text, style: _getStyle(context, 18, themeColors?.verseColor)),
+      child: Text(
+        block.text,
+        style: _getStyle(context, 18, themeColors?.verseColor),
+      ),
     );
   }
 }
-

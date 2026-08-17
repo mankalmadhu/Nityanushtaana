@@ -72,10 +72,7 @@ class _RitualScreenState extends State<RitualScreen> {
     return Scaffold(
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       appBar: AppBar(
-        title: Text(
-          widget.title,
-          style: _getStyle(context, 20, null),
-        ),
+        title: Text(widget.title, style: _getStyle(context, 20, null)),
         backgroundColor: themeColors?.appBarColor,
         foregroundColor: Theme.of(context).brightness == Brightness.dark
             ? Colors.white
