@@ -1,9 +1,10 @@
 name: Flutter CD (Play Store)
 
 on:
+  workflow_dispatch: # Allows manual trigger from GitHub Actions UI
   push:
     tags:
-      - 'rig-sandhya-v*' # Only trigger CD when pushing Rig Sandhya specific tags
+      - 'rig-sandhya-v*' # Also trigger CD when pushing a release tag
 
 jobs:
   deploy_android:
@@ -50,11 +51,12 @@ jobs:
 
       - name: Build Android App Bundle
         run: |
-          # Extract version name from tag (e.g., rig-sandhya-v3.0.1 -> 3.0.1)
-          if [[ $GITHUB_REF == refs/tags/* ]]; then
-            VERSION_NAME=${GITHUB_REF#refs/tags/rig-sandhya-v}
-          else
+          # Extract version name directly from pubspec.yaml (e.g., 3.0.0+1 -> 3.0.0)
+          PUBSPEC_VERSION=$(grep '^version: ' pubspec.yaml | awk '{print $2}' | cut -d '+' -f 1)
+          if [ -z "$PUBSPEC_VERSION" ]; then
             VERSION_NAME="3.0.0"
+          else
+            VERSION_NAME=$PUBSPEC_VERSION
           fi
           
           # Calculate a unique, always-increasing build number for Play Store
