@@ -5,9 +5,13 @@ import 'package:flutter_nityapuja/main.dart' as app;
 
 import 'package:google_fonts/google_fonts.dart';
 
+import 'package:shared_preferences/shared_preferences.dart';
+
 void main() {
   IntegrationTestWidgetsFlutterBinding.ensureInitialized();
-  GoogleFonts.config.allowRuntimeFetching = false;
+  SharedPreferences.setMockInitialValues({'use_google_fonts': false});
+  // Explicitly allow runtime fetching so tests don't fail when initializing GoogleFonts before SharedPreferences loads
+  GoogleFonts.config.allowRuntimeFetching = true;
 
   group('Nitya Pooja Integration Tests', () {
     testWidgets('App loads, displays title and can swipe through 30 pages', (
