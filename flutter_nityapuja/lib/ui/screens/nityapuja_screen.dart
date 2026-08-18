@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
 import 'package:provider/provider.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 import '../../core/app_settings.dart';
 import '../../core/models/component.dart';
@@ -33,19 +34,24 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
     try {
       final settings = Provider.of<AppSettings>(context, listen: false);
       final lang = settings.currentLanguage;
-      
-      final structureString = await rootBundle.loadString('assets/i18n/$lang/structure.json');
+
+      final structureString = await rootBundle.loadString(
+        'assets/i18n/$lang/structure.json',
+      );
       final structureMap = jsonDecode(structureString);
       final pageIds = (structureMap['pages'] as List<dynamic>).cast<String>();
-      
+
       final List<dynamic> loadedPages = [];
       for (final pageId in pageIds) {
-        final pageString = await rootBundle.loadString('assets/i18n/$lang/components/$pageId.json');
+        final pageString = await rootBundle.loadString(
+          'assets/i18n/$lang/components/$pageId.json',
+        );
         loadedPages.add(jsonDecode(pageString));
       }
-      
+
       setState(() {
-        _title = "ನಿತ್ಯ ಪೂಜಾ"; // Hardcoded title since structure doesn't have it anymore
+        _title =
+            "ನಿತ್ಯ ಪೂಜಾ"; // Hardcoded title since structure doesn't have it anymore
         _pages = loadedPages;
         _isLoading = false;
       });
@@ -70,146 +76,179 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
     super.dispose();
   }
 
-  void _showSettingsModal(BuildContext context) {
-    showModalBottomSheet(
-      context: context,
-      shape: const RoundedRectangleBorder(
-        borderRadius: BorderRadius.vertical(top: Radius.circular(16)),
-      ),
-      builder: (context) {
-        return Padding(
-          padding: const EdgeInsets.all(16.0),
-          child: Consumer<AppSettings>(
-            builder: (context, settings, child) {
-              return Column(
-                mainAxisSize: MainAxisSize.min,
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  const Text(
-                    'Settings',
-                    style: TextStyle(
-                      fontSize: 20,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                  const SizedBox(height: 16),
-                  SwitchListTile(
-                    title: const Text('Use System Default Font'),
-                    subtitle: const Text('Turn off to use Ganapati font for Kannada'),
-                    value: settings.useGoogleFonts,
-                    onChanged: (value) => settings.toggleFont(),
-                  ),
-                  const SizedBox(height: 16),
-                  const Text('Language'),
-                  DropdownButton<String>(
-                    value: settings.currentLanguage,
-                    isExpanded: true,
-                    items: const [
-                      DropdownMenuItem(
-                        value: 'kn',
-                        child: Text('ಕನ್ನಡ (Kannada)'),
-                      ),
-                      DropdownMenuItem(
-                        value: 'en-US',
-                        child: Text('English'),
-                      ),
-                    ],
-                    onChanged: (value) {
-                      if (value != null) {
-                        settings.changeLanguage(value);
-                        Navigator.pop(context); // Close modal on language change to trigger reload
-                      }
-                    },
-                  ),
-                  const SizedBox(height: 24),
-                ],
-              );
-            },
-          ),
-        );
-      },
-    );
+  TextStyle _getStyle(BuildContext context, double fontSize, Color? color) {
+    final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
+    final String currentLang = context.watch<AppSettings>().currentLanguage;
+
+    if (useGoogleFonts) {
+      if (currentLang == 'te') {
+        return GoogleFonts.tiroTelugu(fontSize: fontSize, color: color);
+      } else if (currentLang == 'sa') {
+        return GoogleFonts.tiroDevanagariSanskrit(fontSize: fontSize, color: color);
+      }
+      return GoogleFonts.tiroKannada(fontSize: fontSize, color: color);
+    }
+    return TextStyle(fontFamily: 'Ganapati', fontSize: fontSize, color: color);
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text(_title ?? 'Nitya Pooja'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.settings),
-            onPressed: () => _showSettingsModal(context),
-            tooltip: 'Settings',
-          ),
-        ],
+      appBar: AppBar(title: Text(_title ?? 'Nitya Pooja', style: _getStyle(context, 22, null))),
+      drawer: Drawer(
+        child: Consumer<AppSettings>(
+          builder: (context, settings, child) {
+            return ListView(
+              padding: EdgeInsets.zero,
+              children: [
+                DrawerHeader(
+                  decoration: BoxDecoration(
+                    color: Theme.of(context).primaryColor,
+                  ),
+                  child: const Text(
+                    'Settings',
+                    style: TextStyle(color: Colors.white, fontSize: 24),
+                  ),
+                ),
+                ExpansionTile(
+                  leading: const Icon(Icons.font_download),
+                  title: const Text('Font'),
+                  children: [
+                    RadioListTile<bool>(
+                      title: const Text('Ganapati Font'),
+                      value: false,
+                      groupValue: settings.useGoogleFonts,
+                      onChanged: (value) {
+                        if (value != null && value != settings.useGoogleFonts) {
+                          settings.toggleFont();
+                        }
+                      },
+                    ),
+                    RadioListTile<bool>(
+                      title: const Text('Google Font (System)'),
+                      value: true,
+                      groupValue: settings.useGoogleFonts,
+                      onChanged: (value) {
+                        if (value != null && value != settings.useGoogleFonts) {
+                          settings.toggleFont();
+                        }
+                      },
+                    ),
+                  ],
+                ),
+                ExpansionTile(
+                  leading: const Icon(Icons.language),
+                  title: const Text('Language'),
+                  children: [
+                    RadioListTile<String>(
+                      title: const Text('ಕನ್ನಡ (Kannada)'),
+                      value: 'kn',
+                      groupValue: settings.currentLanguage,
+                      onChanged: (value) {
+                        if (value != null) {
+                          settings.changeLanguage(value);
+                          Navigator.pop(
+                            context,
+                          ); // Close drawer on language change to reload
+                        }
+                      },
+                    ),
+                    RadioListTile<String>(
+                      title: const Text('తెలుగు (Telugu)'),
+                      subtitle: const Text('Coming soon...'),
+                      value: 'te',
+                      groupValue: settings.currentLanguage,
+                      onChanged: null, // Disabled
+                    ),
+                    RadioListTile<String>(
+                      title: const Text('संस्कृतम् (Sanskrit)'),
+                      subtitle: const Text('Coming soon...'),
+                      value: 'sa',
+                      groupValue: settings.currentLanguage,
+                      onChanged: null, // Disabled
+                    ),
+                  ],
+                ),
+              ],
+            );
+          },
+        ),
       ),
       body: _isLoading
           ? const Center(child: CircularProgressIndicator())
           : _error != null
-              ? Center(child: Text('Error: $_error'))
-              : _pages == null || _pages!.isEmpty
-                  ? const Center(child: Text('No pages found.'))
-                  : Column(
-                      children: [
-                        Expanded(
-                          child: InteractiveViewer(
-                            minScale: 1.0,
-                            maxScale: 3.0,
-                            child: PageView.builder(
-                              controller: _pageController,
-                              itemCount: _pages!.length,
-                              onPageChanged: (index) {
-                                setState(() {
-                                  _currentPage = index;
-                                });
-                              },
-                              itemBuilder: (context, index) {
-                                final pageData = _pages![index];
-                                final blocks = pageData['blocks'] as List<dynamic>;
-                                
-                                return SingleChildScrollView(
-                                  padding: const EdgeInsets.all(16.0),
-                                  child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.stretch,
-                                    children: blocks.map((block) {
-                                      return RitualBlockWidget(
-                                        block: Block(
-                                          type: block['type'],
-                                          text: block['text'],
-                                        ),
-                                      );
-                                    }).toList(),
-                                  ),
-                                );
-                              },
-                            ),
-                          ),
-                        ),
-                        Padding(
+          ? Center(child: Text('Error: $_error'))
+          : _pages == null || _pages!.isEmpty
+          ? const Center(child: Text('No pages found.'))
+          : Column(
+              children: [
+                Expanded(
+                  child: InteractiveViewer(
+                    minScale: 1.0,
+                    maxScale: 3.0,
+                    child: PageView.builder(
+                      controller: _pageController,
+                      itemCount: _pages!.length,
+                      onPageChanged: (index) {
+                        setState(() {
+                          _currentPage = index;
+                        });
+                      },
+                      itemBuilder: (context, index) {
+                        final pageData = _pages![index];
+                        final blocks = pageData['blocks'] as List<dynamic>;
+
+                        return SingleChildScrollView(
                           padding: const EdgeInsets.all(16.0),
                           child: Column(
-                            children: [
-                              LinearProgressIndicator(
-                                value: _pages!.isEmpty ? 0 : (_currentPage + 1) / _pages!.length,
-                                backgroundColor: Theme.of(context).extension<RitualThemeColors>()?.pageIndicatorInactiveColor,
-                                valueColor: AlwaysStoppedAnimation<Color>(
-                                  Theme.of(context).extension<RitualThemeColors>()?.pageIndicatorActiveColor ?? Colors.deepOrange,
+                            crossAxisAlignment: CrossAxisAlignment.stretch,
+                            children: blocks.map((block) {
+                              return RitualBlockWidget(
+                                block: Block(
+                                  type: block['type'],
+                                  text: block['text'],
                                 ),
-                              ),
-                              const SizedBox(height: 8),
-                              Text(
-                                '${_currentPage + 1} / ${_pages!.length}',
-                                style: TextStyle(
-                                  color: Theme.of(context).extension<RitualThemeColors>()?.instructionColor,
-                                  fontSize: 12,
-                                ),
-                              ),
-                            ],
+                              );
+                            }).toList(),
                           ),
-                        ),
-                      ],
+                        );
+                      },
                     ),
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.all(16.0),
+                  child: Column(
+                    children: [
+                      LinearProgressIndicator(
+                        value: _pages!.isEmpty
+                            ? 0
+                            : (_currentPage + 1) / _pages!.length,
+                        backgroundColor: Theme.of(context)
+                            .extension<RitualThemeColors>()
+                            ?.pageIndicatorInactiveColor,
+                        valueColor: AlwaysStoppedAnimation<Color>(
+                          Theme.of(context)
+                                  .extension<RitualThemeColors>()
+                                  ?.pageIndicatorActiveColor ??
+                              Colors.deepOrange,
+                        ),
+                      ),
+                      const SizedBox(height: 8),
+                      Text(
+                        '${_currentPage + 1} / ${_pages!.length}',
+                        style: TextStyle(
+                          color: Theme.of(
+                            context,
+                          ).extension<RitualThemeColors>()?.instructionColor,
+                          fontSize: 12,
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
+            ),
     );
   }
 }
