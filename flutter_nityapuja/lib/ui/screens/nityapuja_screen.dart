@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart' show rootBundle;
@@ -10,10 +12,10 @@ import '../../core/theme.dart';
 import '../widgets/ritual_block_widget.dart';
 
 class NityaPoojaScreen extends StatefulWidget {
-  const NityaPoojaScreen({Key? key}) : super(key: key);
+  const NityaPoojaScreen({super.key});
 
   @override
-  _NityaPoojaScreenState createState() => _NityaPoojaScreenState();
+  State<NityaPoojaScreen> createState() => _NityaPoojaScreenState();
 }
 
 class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
@@ -84,7 +86,10 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
       if (currentLang == 'te') {
         return GoogleFonts.tiroTelugu(fontSize: fontSize, color: color);
       } else if (currentLang == 'sa') {
-        return GoogleFonts.tiroDevanagariSanskrit(fontSize: fontSize, color: color);
+        return GoogleFonts.tiroDevanagariSanskrit(
+          fontSize: fontSize,
+          color: color,
+        );
       }
       return GoogleFonts.tiroKannada(fontSize: fontSize, color: color);
     }
@@ -94,7 +99,12 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(_title ?? 'Nitya Pooja', style: _getStyle(context, 22, null))),
+      appBar: AppBar(
+        title: Text(
+          _title ?? 'Nitya Pooja',
+          style: _getStyle(context, 22, null),
+        ),
+      ),
       drawer: Drawer(
         child: Consumer<AppSettings>(
           builder: (context, settings, child) {
