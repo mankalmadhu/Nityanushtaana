@@ -32,37 +32,57 @@ void main() {
 
   group('RitualBlockWidget Tests', () {
     testWidgets('renders heading block correctly', (tester) async {
-      await tester.pumpWidget(createWidgetUnderTest(
-        RitualBlockWidget(block: Block(type: 'heading', text: 'Test Heading')),
-      ));
+      await tester.pumpWidget(
+        createWidgetUnderTest(
+          RitualBlockWidget(
+            block: Block(type: 'heading', text: 'Test Heading'),
+          ),
+        ),
+      );
       expect(find.text('Test Heading'), findsOneWidget);
     });
 
     testWidgets('renders instruction block correctly', (tester) async {
-      await tester.pumpWidget(createWidgetUnderTest(
-        RitualBlockWidget(block: Block(type: 'instruction', text: '(Test Instruction)')),
-      ));
+      await tester.pumpWidget(
+        createWidgetUnderTest(
+          RitualBlockWidget(
+            block: Block(type: 'instruction', text: '(Test Instruction)'),
+          ),
+        ),
+      );
       expect(find.text('(Test Instruction)'), findsOneWidget);
     });
 
     testWidgets('renders verse_viniyoga block correctly', (tester) async {
-      await tester.pumpWidget(createWidgetUnderTest(
-        RitualBlockWidget(block: Block(type: 'verse_viniyoga', text: 'Test Viniyoga')),
-      ));
+      await tester.pumpWidget(
+        createWidgetUnderTest(
+          RitualBlockWidget(
+            block: Block(type: 'verse_viniyoga', text: 'Test Viniyoga'),
+          ),
+        ),
+      );
       expect(find.text('Test Viniyoga'), findsOneWidget);
     });
 
     testWidgets('renders vedic_instruction block correctly', (tester) async {
-      await tester.pumpWidget(createWidgetUnderTest(
-        RitualBlockWidget(block: Block(type: 'vedic_instruction', text: 'Test Vedic')),
-      ));
+      await tester.pumpWidget(
+        createWidgetUnderTest(
+          RitualBlockWidget(
+            block: Block(type: 'vedic_instruction', text: 'Test Vedic'),
+          ),
+        ),
+      );
       expect(find.text('Test Vedic'), findsOneWidget);
     });
 
     testWidgets('renders verse_sankalpa block correctly', (tester) async {
-      await tester.pumpWidget(createWidgetUnderTest(
-        RitualBlockWidget(block: Block(type: 'verse_sankalpa', text: 'Test Sankalpa')),
-      ));
+      await tester.pumpWidget(
+        createWidgetUnderTest(
+          RitualBlockWidget(
+            block: Block(type: 'verse_sankalpa', text: 'Test Sankalpa'),
+          ),
+        ),
+      );
       expect(find.text('Test Sankalpa'), findsOneWidget);
     });
   });
