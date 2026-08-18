@@ -55,7 +55,11 @@ void main() {
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
 
     // Swipe to Page 2
-    await tester.fling(find.byType(PageView), const Offset(-150.0, 0.0), 1000.0);
+    await tester.fling(
+      find.byType(PageView),
+      const Offset(-150.0, 0.0),
+      1000.0,
+    );
     await tester.pumpAndSettle();
 
     // Dynamically fetch expected text for page 2 (prokshana dummy text)
@@ -95,7 +99,11 @@ void main() {
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
 
     // Swipe to Page 2
-    await tester.fling(find.byType(PageView), const Offset(-150.0, 0.0), 1000.0);
+    await tester.fling(
+      find.byType(PageView),
+      const Offset(-150.0, 0.0),
+      1000.0,
+    );
     await tester.pumpAndSettle();
 
     final sankalpaComponent = await repo.loadComponent(
@@ -133,7 +141,11 @@ void main() {
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
 
     // Swipe to Page 2
-    await tester.fling(find.byType(PageView), const Offset(-150.0, 0.0), 1000.0);
+    await tester.fling(
+      find.byType(PageView),
+      const Offset(-150.0, 0.0),
+      1000.0,
+    );
     await tester.pumpAndSettle();
 
     // Verify Page 2 (prokshana)
@@ -168,7 +180,11 @@ void main() {
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
 
     // Swipe to Page 2
-    await tester.fling(find.byType(PageView), const Offset(-150.0, 0.0), 1000.0);
+    await tester.fling(
+      find.byType(PageView),
+      const Offset(-150.0, 0.0),
+      1000.0,
+    );
     await tester.pumpAndSettle();
 
     // Verify Page 2 (prokshana)
@@ -206,7 +222,11 @@ void main() {
     expect(find.text('($expectedAasanaText)'), findsOneWidget);
 
     // Swipe to Page 2
-    await tester.fling(find.byType(PageView), const Offset(-150.0, 0.0), 1000.0);
+    await tester.fling(
+      find.byType(PageView),
+      const Offset(-150.0, 0.0),
+      1000.0,
+    );
     await tester.pumpAndSettle();
 
     // Verify Page 2 (Sankalpa)
@@ -247,7 +267,11 @@ void main() {
     expect(find.text(expectedDharanaText), findsOneWidget);
 
     // Swipe to Page 2
-    await tester.fling(find.byType(PageView), const Offset(-150.0, 0.0), 1000.0);
+    await tester.fling(
+      find.byType(PageView),
+      const Offset(-150.0, 0.0),
+      1000.0,
+    );
     await tester.pumpAndSettle();
 
     // Verify Page 2 (Visarjana)
