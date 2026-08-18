@@ -162,7 +162,7 @@ jobs:
         with:
           serviceAccountJsonPlainText: ${{ secrets.PLAY_STORE_SERVICE_ACCOUNT_JSON }}
           packageName: vedic.nityanushtana.nityapuja
-          releaseFiles: build/app/outputs/bundle/release/app-release.aab
+          releaseFiles: flutter_nityapuja/build/app/outputs/bundle/release/app-release.aab
           track: internal
-          whatsNewDirectory: whatsnew
+          whatsNewDirectory: flutter_nityapuja/whatsnew
           status: completed
