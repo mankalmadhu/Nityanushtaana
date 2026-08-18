@@ -1,0 +1,97 @@
+name: Nitya Pooja CI
+
+on:
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - 'flutter_nityapuja/**'
+      - '.github/workflows/nityapuja_ci.yml'
+  pull_request:
+    branches:
+      - master
+      - main
+    paths:
+      - 'flutter_nityapuja/**'
+      - '.github/workflows/nityapuja_ci.yml'
+
+jobs:
+  build:
+    name: Build, Analyze, and Test
+    runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./flutter_nityapuja
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Format Code
+        run: dart format --set-exit-if-changed .
+
+      - name: Analyze Code
+        run: flutter analyze
+
+      - name: Run Tests
+        run: flutter test
+
+  integration_test:
+    name: Android Integration Tests
+    runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./flutter_nityapuja
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Enable KVM group perms
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Run Integration Tests on Emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 29
+          target: default
+          arch: x86_64
+          profile: Nexus 6
+          script: cd flutter_nityapuja && flutter test integration_test/app_test.dart
+

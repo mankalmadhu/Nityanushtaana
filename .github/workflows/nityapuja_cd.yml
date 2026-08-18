@@ -1,0 +1,168 @@
+name: Nitya Pooja CD (Play Store)
+
+on:
+  workflow_dispatch:
+    inputs:
+      bump_type:
+        description: 'Version bump type'
+        required: true
+        default: 'patch'
+        type: choice
+        options:
+          - patch
+          - minor
+          - major
+          - custom
+      custom_version:
+        description: 'Custom version (only used if bump_type is custom)'
+        required: false
+        type: string
+  push:
+    tags:
+      - 'nityapuja-v*' # Also trigger CD when pushing a release tag
+
+jobs:
+  deploy_android:
+    name: Build and Deploy to Play Store
+    runs-on: ubuntu-latest
+    
+    defaults:
+      run:
+        working-directory: ./flutter_nityapuja
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Need full history for tags
+          token: ${{ secrets.GITHUB_TOKEN }} # Use default token (won't trigger extra CI runs)
+
+      - name: Setup Java
+        uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: Setup Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: 'stable'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Determine Version and Create Tag
+        id: manage_tag
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          if [[ $GITHUB_REF == refs/tags/* ]]; then
+            # Triggered by tag push
+            VERSION_NAME=${GITHUB_REF#refs/tags/nityapuja-v}
+            echo "version=$VERSION_NAME" >> $GITHUB_OUTPUT
+            echo "Triggered by tag nityapuja-v$VERSION_NAME"
+          else
+            # Triggered manually via workflow_dispatch
+            
+            # Fetch all tags
+            git fetch --tags --force
+            
+            # Find the latest tag
+            LATEST_TAG=$(git tag --sort=-v:refname | grep '^nityapuja-v' | head -n 1)
+            if [ -z "$LATEST_TAG" ]; then
+              CURRENT_VERSION="3.0.0"
+              echo "No previous tags found. Defaulting to $CURRENT_VERSION"
+            else
+              CURRENT_VERSION=${LATEST_TAG#nityapuja-v}
+              echo "Latest tag found: $LATEST_TAG ($CURRENT_VERSION)"
+            fi
+            
+            # Parse version parts
+            IFS='.' read -r major minor patch <<< "$CURRENT_VERSION"
+            
+            BUMP_TYPE="${{ github.event.inputs.bump_type }}"
+            CUSTOM_VERSION="${{ github.event.inputs.custom_version }}"
+            
+            if [ "$BUMP_TYPE" = "major" ]; then
+              major=$((major + 1))
+              minor=0
+              patch=0
+              NEW_VERSION="$major.$minor.$patch"
+            elif [ "$BUMP_TYPE" = "minor" ]; then
+              minor=$((minor + 1))
+              patch=0
+              NEW_VERSION="$major.$minor.$patch"
+            elif [ "$BUMP_TYPE" = "patch" ]; then
+              patch=$((patch + 1))
+              NEW_VERSION="$major.$minor.$patch"
+            elif [ "$BUMP_TYPE" = "custom" ]; then
+              if [ -z "$CUSTOM_VERSION" ]; then
+                echo "Error: custom_version is required when bump_type is custom."
+                exit 1
+              fi
+              NEW_VERSION="$CUSTOM_VERSION"
+            fi
+            
+            echo "Calculated new version: $NEW_VERSION"
+            echo "version=nityapuja-v${NEW_VERSION}" >> $GITHUB_OUTPUT
+            NEXT_TAG="nityapuja-v${NEW_VERSION}"
+            
+            # Check if tag already exists
+            if git show-ref --tags --verify --quiet "refs/tags/$NEXT_TAG"; then
+              echo "Error: Tag $NEXT_TAG already exists! Aborting to prevent overwriting."
+              exit 1
+            fi
+            
+            # Update pubspec.yaml
+            echo "Updating pubspec.yaml to version $NEW_VERSION..."
+            sed -i "s/^version: .*/version: $NEW_VERSION/" pubspec.yaml
+            
+            # Commit and push pubspec.yaml to master
+            git add pubspec.yaml
+            git commit -m "chore: bump version to $NEW_VERSION"
+            # Push using HEAD:master to ensure it pushes to the correct branch
+            git push origin HEAD:master
+            
+            # Create and push tag
+            echo "Creating and pushing tag $NEXT_TAG..."
+            git tag -a $NEXT_TAG -m "Release $NEW_VERSION"
+            git push origin $NEXT_TAG
+          fi
+
+      - name: Create keystore and key.properties
+        env:
+          KEYSTORE_JKS: ${{ secrets.KEYSTORE_JKS }}
+          KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.KEY_PASSWORD }}
+        run: |
+          echo $KEYSTORE_JKS | base64 --decode > android/app/keystore.jks
+          cat <<EOF > android/key.properties
+          storePassword=$KEYSTORE_PASSWORD
+          keyPassword=$KEY_PASSWORD
+          keyAlias=$KEY_ALIAS
+          storeFile=keystore.jks
+          EOF
+
+      - name: Build Android App Bundle
+        run: |
+          VERSION_NAME=${{ steps.manage_tag.outputs.version }}
+          
+          # Calculate a unique, always-increasing build number for Play Store
+          # Base increased to 110500 because the workflow was renamed and GITHUB_RUN_NUMBER reset to 1
+          BUILD_NUMBER=$((110500 + GITHUB_RUN_NUMBER))
+          
+          echo "Building version $VERSION_NAME+$BUILD_NUMBER"
+          flutter build appbundle --release --build-name=$VERSION_NAME --build-number=$BUILD_NUMBER
+
+      - name: Deploy to Play Store (Internal Track)
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.PLAY_STORE_SERVICE_ACCOUNT_JSON }}
+          packageName: vedic.nityanushtana.nityapuja
+          releaseFiles: build/app/outputs/bundle/release/app-release.aab
+          track: internal
+          whatsNewDirectory: whatsnew
+          status: completed
