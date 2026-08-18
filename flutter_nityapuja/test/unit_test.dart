@@ -21,7 +21,7 @@ void main() {
     test('Can change language', () async {
       final settings = AppSettings();
       await Future.delayed(const Duration(milliseconds: 100));
-      
+
       await settings.changeLanguage('en-US');
       expect(settings.currentLanguage, 'en-US');
     });
@@ -29,7 +29,7 @@ void main() {
     test('Can toggle font', () async {
       final settings = AppSettings();
       await Future.delayed(const Duration(milliseconds: 100));
-      
+
       final initial = settings.useGoogleFonts;
       await settings.toggleFont();
       expect(settings.useGoogleFonts, !initial);

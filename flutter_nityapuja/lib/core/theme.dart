@@ -36,7 +36,8 @@ class RitualThemeColors extends ThemeExtension<RitualThemeColors> {
       headingColor: headingColor ?? this.headingColor,
       verseColor: verseColor ?? this.verseColor,
       instructionColor: instructionColor ?? this.instructionColor,
-      vedicInstructionColor: vedicInstructionColor ?? this.vedicInstructionColor,
+      vedicInstructionColor:
+          vedicInstructionColor ?? this.vedicInstructionColor,
       appBarColor: appBarColor ?? this.appBarColor,
       pageIndicatorActiveColor:
           pageIndicatorActiveColor ?? this.pageIndicatorActiveColor,
