@@ -1,4 +1,4 @@
-package vedic.rigveda.flutter_nityapuja
+package vedic.nityanushtana.nityapuja
 
 import io.flutter.embedding.android.FlutterActivity
 
