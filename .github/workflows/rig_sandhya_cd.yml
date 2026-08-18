@@ -151,7 +151,8 @@ jobs:
           VERSION_NAME=${{ steps.manage_tag.outputs.version }}
           
           # Calculate a unique, always-increasing build number for Play Store
-          BUILD_NUMBER=$((110000 + GITHUB_RUN_NUMBER))
+          # Base increased to 110500 because the workflow was renamed and GITHUB_RUN_NUMBER reset to 1
+          BUILD_NUMBER=$((110500 + GITHUB_RUN_NUMBER))
           
           echo "Building version $VERSION_NAME+$BUILD_NUMBER"
           flutter build appbundle --release --build-name=$VERSION_NAME --build-number=$BUILD_NUMBER
