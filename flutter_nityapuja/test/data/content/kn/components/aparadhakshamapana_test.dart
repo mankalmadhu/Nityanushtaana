@@ -1,0 +1,25 @@
+import 'dart:convert';
+import 'dart:io';
+import 'package:flutter_test/flutter_test.dart';
+import 'package:flutter_nityapuja/core/models/component.dart';
+
+void main() {
+  group('Data Layer - aparadhakshamapana content', () {
+    test('aparadhakshamapana has correct block count and types', () {
+      final file = File('assets/i18n/kn/components/aparadhakshamapana.json');
+      final component = Component.fromJson(jsonDecode(file.readAsStringSync()));
+      expect(component.id, 'aparadhakshamapana');
+      expect(component.blocks.length, 9);
+      expect(component.blocks[0].type, 'heading');
+      expect(component.blocks[0].text, 'ಅಪರಾಧಕ್ಷಮಾಪಣ');
+      expect(component.blocks[1].type, 'verse_viniyoga');
+      expect(component.blocks[2].type, 'verse_viniyoga');
+      expect(component.blocks[3].type, 'vedic_instruction');
+      expect(component.blocks[4].type, 'vedic_instruction');
+      expect(component.blocks[5].type, 'verse_viniyoga');
+      expect(component.blocks[6].type, 'instruction');
+      expect(component.blocks[7].type, 'verse_viniyoga');
+      expect(component.blocks[8].type, 'verse_viniyoga');
+    });
+  });
+}
