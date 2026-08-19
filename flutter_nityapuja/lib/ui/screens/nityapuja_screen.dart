@@ -91,7 +91,7 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
           color: color,
         );
       }
-      return GoogleFonts.tiroKannada(fontSize: fontSize, color: color);
+      return GoogleFonts.notoSerifKannada(fontSize: fontSize, color: color);
     }
     return TextStyle(fontFamily: 'Ganapati', fontSize: fontSize, color: color);
   }

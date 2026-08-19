@@ -20,11 +20,11 @@ class RitualBlockWidget extends StatelessWidget {
   }) {
     final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
     if (useGoogleFonts) {
-      return GoogleFonts.notoSansKannada(
+      return GoogleFonts.notoSerifKannada(
         fontSize: fontSize,
         color: color,
         fontStyle: fontStyle,
-        height: 1.5,
+        height: 50 / fontSize,
       );
     } else {
       return TextStyle(
