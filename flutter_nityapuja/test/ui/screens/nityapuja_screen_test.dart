@@ -74,8 +74,9 @@ void main() {
       expect(find.text('Language'), findsOneWidget);
     });
 
-    testWidgets('Language options include Kannada, Telugu, Sanskrit',
-        (tester) async {
+    testWidgets('Language options include Kannada, Telugu, Sanskrit', (
+      tester,
+    ) async {
       await tester.pumpWidget(buildTestApp());
       await tester.tap(find.byIcon(Icons.menu));
       await tester.pump();
@@ -91,8 +92,9 @@ void main() {
       expect(find.text('संस्कृतम् (Sanskrit)'), findsOneWidget);
     });
 
-    testWidgets('Telugu and Sanskrit show "Coming soon..." subtitle',
-        (tester) async {
+    testWidgets('Telugu and Sanskrit show "Coming soon..." subtitle', (
+      tester,
+    ) async {
       await tester.pumpWidget(buildTestApp());
       await tester.tap(find.byIcon(Icons.menu));
       await tester.pump();
@@ -104,7 +106,9 @@ void main() {
       expect(find.text('Coming soon...'), findsNWidgets(2));
     });
 
-    testWidgets('Font options include Ganapati and Google Font', (tester) async {
+    testWidgets('Font options include Ganapati and Google Font', (
+      tester,
+    ) async {
       await tester.pumpWidget(buildTestApp());
       await tester.tap(find.byIcon(Icons.menu));
       await tester.pump();

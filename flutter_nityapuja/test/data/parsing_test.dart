@@ -106,8 +106,7 @@ void main() {
           expect(
             validTypes.contains(block.type),
             isTrue,
-            reason:
-                '${file.path} has unknown block type: "${block.type}"',
+            reason: '${file.path} has unknown block type: "${block.type}"',
           );
         }
       }
@@ -145,9 +144,7 @@ void main() {
       final json = jsonDecode(file.readAsStringSync());
       final pages = (json['pages'] as List<dynamic>).cast<String>();
       for (final pageId in pages) {
-        final componentFile = File(
-          'assets/i18n/kn/components/$pageId.json',
-        );
+        final componentFile = File('assets/i18n/kn/components/$pageId.json');
         expect(
           componentFile.existsSync(),
           isTrue,
