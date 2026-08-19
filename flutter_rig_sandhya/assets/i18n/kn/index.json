@@ -1,10 +1,10 @@
 {
   "language": "kn",
-  "title": "ಋಗ್ವೇದ ಸ೦ಧ್ಯಾವ೦ದನ",
+  "title": "ಋಗ್ವೇದ ಸಂಧ್ಯಾವಂದನ",
   "items": [
     {
       "id": "pratah_sandhya",
-      "title": "ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ",
+      "title": "ಪ್ರಾತಸ್ಸಂಧ್ಯಾ",
       "image": "sandhya.png"
     },
     {
@@ -14,17 +14,17 @@
     },
     {
       "id": "madhyahnika_sandhya",
-      "title": "ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ",
+      "title": "ಮಾಧ್ಯಾಹ್ನಿಕಸಂಧ್ಯಾ",
       "image": "sandhya.png"
     },
     {
       "id": "sayam_sandhya",
-      "title": "ಸಾಯ೦ಸ೦ಧ್ಯಾ",
+      "title": "ಸಾಯಂಸಂಧ್ಯಾ",
       "image": "sandhya.png"
     },
     {
       "id": "sayam_samidhadana",
-      "title": "ಸಾಯ೦ಸಮಿಧಾದಾನ",
+      "title": "ಸಾಯಂಸಮಿಧಾದಾನ",
       "image": "agnikarya.png"
     },
     {

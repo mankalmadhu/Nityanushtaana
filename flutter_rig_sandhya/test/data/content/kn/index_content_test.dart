@@ -18,11 +18,11 @@ void main() {
 
       // Verify specific Kannada titles and image mappings
       expect(index.items[0].id, 'pratah_sandhya');
-      expect(index.items[0].title, 'ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ');
+      expect(index.items[0].title, 'ಪ್ರಾತಸ್ಸಂಧ್ಯಾ');
       expect(index.items[0].image, 'sandhya.png');
 
       expect(index.items[2].id, 'madhyahnika_sandhya');
-      expect(index.items[2].title, 'ಮಾಧ್ಯಾಹ್ನಿಕಸ೦ಧ್ಯಾ');
+      expect(index.items[2].title, 'ಮಾಧ್ಯಾಹ್ನಿಕಸಂಧ್ಯಾ');
 
       expect(index.items[5].id, 'yajnopaveeta');
       expect(index.items[5].title, 'ಯಜ್ಞೋಪವೀತ');

@@ -17,14 +17,14 @@ void main() {
       expect(index.language, 'kn');
       expect(index.items.length, 7);
       expect(index.items[0].id, 'pratah_sandhya');
-      expect(index.items[0].title, 'ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ');
+      expect(index.items[0].title, 'ಪ್ರಾತಸ್ಸಂಧ್ಯಾ');
     });
 
     test('successfully loads a ritual composition file', () async {
       final ritual = await repository.loadRitual('pratah_sandhya', 'kn');
 
       expect(ritual.id, 'pratah_sandhya');
-      expect(ritual.title, 'ಪ್ರಾತಸ್ಸ೦ಧ್ಯಾ');
+      expect(ritual.title, 'ಪ್ರಾತಸ್ಸಂಧ್ಯಾ');
       expect(ritual.pages.length, 14);
 
       // Page 1 should have 2 components: aasana_soochane and aachamaneya

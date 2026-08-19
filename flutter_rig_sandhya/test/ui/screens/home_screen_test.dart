@@ -44,7 +44,7 @@ void main() {
     expect(find.byType(ListView), findsOneWidget);
     expect(find.byType(ListTile), findsWidgets);
 
-    // Verify that the Font Toggle button is present in the AppBar
-    expect(find.byTooltip('Toggle Font'), findsOneWidget);
+    // Verify that the Drawer (hamburger menu) icon is present
+    expect(find.byIcon(Icons.menu), findsOneWidget);
   });
 }

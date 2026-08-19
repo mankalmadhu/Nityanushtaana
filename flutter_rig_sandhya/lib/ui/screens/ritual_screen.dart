@@ -60,7 +60,7 @@ class _RitualScreenState extends State<RitualScreen> {
   TextStyle _getStyle(BuildContext context, double fontSize, Color? color) {
     final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
     if (useGoogleFonts) {
-      return GoogleFonts.notoSansKannada(fontSize: fontSize, color: color);
+      return GoogleFonts.notoSerifKannada(fontSize: fontSize, color: color);
     }
     return TextStyle(fontFamily: 'Ganapati', fontSize: fontSize, color: color);
   }

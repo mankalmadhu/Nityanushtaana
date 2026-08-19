@@ -35,7 +35,7 @@ class _HomeScreenState extends State<HomeScreen> {
   TextStyle _getStyle(BuildContext context, double fontSize, Color? color) {
     final useGoogleFonts = context.watch<AppSettings>().useGoogleFonts;
     if (useGoogleFonts) {
-      return GoogleFonts.notoSansKannada(fontSize: fontSize, color: color);
+      return GoogleFonts.notoSerifKannada(fontSize: fontSize, color: color);
     }
     return TextStyle(fontFamily: 'Ganapati', fontSize: fontSize, color: color);
   }
@@ -62,7 +62,6 @@ class _HomeScreenState extends State<HomeScreen> {
 
         final appIndex = snapshot.data!;
         final items = appIndex.items;
-        final appSettings = context.watch<AppSettings>();
 
         return Scaffold(
           backgroundColor: Theme.of(context).scaffoldBackgroundColor,
@@ -72,44 +71,85 @@ class _HomeScreenState extends State<HomeScreen> {
             foregroundColor: Theme.of(context).brightness == Brightness.dark
                 ? Colors.white
                 : Colors.black,
-            actions: [
-              IconButton(
-                icon: Icon(
-                  appSettings.useGoogleFonts
-                      ? Icons.font_download
-                      : Icons.font_download_outlined,
-                ),
-                tooltip: 'Toggle Font',
-                onPressed: () {
-                  appSettings.toggleFont();
-                },
-              ),
-              PopupMenuButton<String>(
-                icon: const Icon(Icons.language),
-                onSelected: (String langCode) {
-                  Provider.of<AppSettings>(
-                    context,
-                    listen: false,
-                  ).changeLanguage(langCode);
-                },
-                itemBuilder: (BuildContext context) => <PopupMenuEntry<String>>[
-                  const PopupMenuItem<String>(
-                    value: 'kn',
-                    child: Text('ಕನ್ನಡ (Kannada)'),
-                  ),
-                  const PopupMenuItem<String>(
-                    value: 'sa',
-                    enabled: false,
-                    child: Text('संस्कृतम् (Sanskrit) - Coming Soon'),
-                  ),
-                  const PopupMenuItem<String>(
-                    value: 'te',
-                    enabled: false,
-                    child: Text('తెలుగు (Telugu) - Coming Soon'),
-                  ),
-                ],
-              ),
-            ],
+          ),
+          drawer: Drawer(
+            child: Consumer<AppSettings>(
+              builder: (context, settings, child) {
+                return ListView(
+                  padding: EdgeInsets.zero,
+                  children: [
+                    DrawerHeader(
+                      decoration: BoxDecoration(
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      child: const Text(
+                        'Settings',
+                        style: TextStyle(color: Colors.white, fontSize: 24),
+                      ),
+                    ),
+                    ExpansionTile(
+                      leading: const Icon(Icons.font_download),
+                      title: const Text('Font'),
+                      children: [
+                        RadioListTile<bool>(
+                          title: const Text('Ganapati Font'),
+                          value: false,
+                          groupValue: settings.useGoogleFonts,
+                          onChanged: (value) {
+                            if (value != null &&
+                                value != settings.useGoogleFonts) {
+                              settings.toggleFont();
+                            }
+                          },
+                        ),
+                        RadioListTile<bool>(
+                          title: const Text('Google Font (System)'),
+                          value: true,
+                          groupValue: settings.useGoogleFonts,
+                          onChanged: (value) {
+                            if (value != null &&
+                                value != settings.useGoogleFonts) {
+                              settings.toggleFont();
+                            }
+                          },
+                        ),
+                      ],
+                    ),
+                    ExpansionTile(
+                      leading: const Icon(Icons.language),
+                      title: const Text('Language'),
+                      children: [
+                        RadioListTile<String>(
+                          title: const Text('ಕನ್ನಡ (Kannada)'),
+                          value: 'kn',
+                          groupValue: settings.currentLanguage,
+                          onChanged: (value) {
+                            if (value != null) {
+                              settings.changeLanguage(value);
+                              Navigator.pop(context); // Close drawer
+                            }
+                          },
+                        ),
+                        RadioListTile<String>(
+                          title: const Text('తెలుగు (Telugu)'),
+                          subtitle: const Text('Coming soon...'),
+                          value: 'te',
+                          groupValue: settings.currentLanguage,
+                          onChanged: null,
+                        ),
+                        RadioListTile<String>(
+                          title: const Text('संस्कृतम् (Sanskrit)'),
+                          subtitle: const Text('Coming soon...'),
+                          value: 'sa',
+                          groupValue: settings.currentLanguage,
+                          onChanged: null,
+                        ),
+                      ],
+                    ),
+                  ],
+                );
+              },
+            ),
           ),
           body: ListView.separated(
             itemCount: items.length,
