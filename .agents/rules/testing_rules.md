@@ -2,6 +2,19 @@
 
 This project enforces a strict, rigorous testing protocol. As an AI assistant working on this codebase, you **MUST** adhere to the following rules:
 
+## 0. Tests Must Be Written Alongside Every Feature (MOST IMPORTANT RULE)
+
+**Writing tests is not optional and is not a separate phase that comes after implementation.**
+Every feature, migration, bug fix, or content change must include the corresponding test
+as part of the SAME commit. If there is no test, the feature is not done.
+
+**Lesson learned:** The entire Nitya Puja migration was completed without tests because
+this rule was not enforced. Tests were only added retrospectively. This must never happen again.
+
+Ask yourself before every commit:
+- "If I accidentally break this feature next week, which test would catch it?"
+- If you cannot answer that question, you are missing a test. Write it now.
+
 ## 1. Mandatory Pre-Flight Checks
 - You are acting as your own "testing sub-agent".
 - **Rule:** After every single functional code or data layer change, you MUST run the relevant test suite (e.g., `flutter test` or specific integration tests) before concluding your turn and handing control back to the user.

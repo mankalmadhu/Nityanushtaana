@@ -1,9 +1,37 @@
 # Mandatory Pre-Commit Workflow
 
 This rule applies to **every commit** across all Flutter apps in this repository
-(`flutter_nityapuja`, `flutter_rig_sandhya`). As an AI agent, you **MUST** execute
-the following steps in order and present the results to the user before committing
-or pushing **any** code change. No exceptions.
+(`flutter_nityapuja`, `flutter_rig_sandhya`). As an AI agent, you **MUST** follow
+all steps below for every code change. No exceptions.
+
+---
+
+## Phase 0 — Write Tests First (MANDATORY before implementation)
+
+This is the most critical rule and the one most commonly skipped. **You must write
+or update tests BEFORE or ALONGSIDE every change you make.** This is non-negotiable.
+
+### What requires a new test?
+| Change Type | Required Test |
+|---|---|
+| New JSON component file added | A new `test/data/content/kn/components/<name>_test.dart` |
+| New Dart model or class | A unit test in `test/core/` or `test/data/` |
+| New UI widget | A widget test in `test/ui/` |
+| New screen or navigation flow | A widget test covering the screen |
+| Data migration / content edit | Update/add content sanitization tests |
+| Bug fix | A regression test that would have caught the bug |
+
+### Red flags — stop and write tests if you notice:
+- You are about to commit a new `.dart` or `.json` file with no corresponding test file.
+- The number of test files has not increased after adding a new feature.
+- You cannot point to a specific test that would have caught a regression in your change.
+
+### How to verify coverage before committing:
+Count the test files before and after your change:
+```bash
+find test/ -name '*_test.dart' | wc -l
+```
+The count **must increase** for any non-trivial feature addition.
 
 ---
 
