@@ -87,8 +87,8 @@ class RitualBlockWidget extends StatelessWidget {
 
     if (block.type == 'instruction') {
       String displayText = block.text;
-      if (!displayText.startsWith('(')) displayText = '(' + displayText;
-      if (!displayText.endsWith(')')) displayText = displayText + ')';
+      if (!displayText.startsWith('(')) displayText = '($displayText';
+      if (!displayText.endsWith(')')) displayText = '$displayText)';
 
       return Padding(
         padding: const EdgeInsets.only(left: 12.0, top: 4.0, bottom: 4.0),
