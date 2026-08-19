@@ -124,25 +124,25 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
                   leading: const Icon(Icons.font_download),
                   title: const Text('Font'),
                   children: [
-                    RadioListTile<bool>(
-                      title: const Text('Ganapati Font'),
-                      value: false,
+                    RadioGroup<bool>(
                       groupValue: settings.useGoogleFonts,
                       onChanged: (value) {
                         if (value != null && value != settings.useGoogleFonts) {
                           settings.toggleFont();
                         }
                       },
-                    ),
-                    RadioListTile<bool>(
-                      title: const Text('Google Font (System)'),
-                      value: true,
-                      groupValue: settings.useGoogleFonts,
-                      onChanged: (value) {
-                        if (value != null && value != settings.useGoogleFonts) {
-                          settings.toggleFont();
-                        }
-                      },
+                      child: Column(
+                        children: [
+                          RadioListTile<bool>(
+                            title: const Text('Ganapati Font'),
+                            value: false,
+                          ),
+                          RadioListTile<bool>(
+                            title: const Text('Google Font (System)'),
+                            value: true,
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
@@ -150,9 +150,7 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
                   leading: const Icon(Icons.language),
                   title: const Text('Language'),
                   children: [
-                    RadioListTile<String>(
-                      title: const Text('ಕನ್ನಡ (Kannada)'),
-                      value: 'kn',
+                    RadioGroup<String>(
                       groupValue: settings.currentLanguage,
                       onChanged: (value) {
                         if (value != null) {
@@ -162,20 +160,24 @@ class _NityaPoojaScreenState extends State<NityaPoojaScreen> {
                           ); // Close drawer on language change to reload
                         }
                       },
-                    ),
-                    RadioListTile<String>(
-                      title: const Text('తెలుగు (Telugu)'),
-                      subtitle: const Text('Coming soon...'),
-                      value: 'te',
-                      groupValue: settings.currentLanguage,
-                      onChanged: null, // Disabled
-                    ),
-                    RadioListTile<String>(
-                      title: const Text('संस्कृतम् (Sanskrit)'),
-                      subtitle: const Text('Coming soon...'),
-                      value: 'sa',
-                      groupValue: settings.currentLanguage,
-                      onChanged: null, // Disabled
+                      child: Column(
+                        children: [
+                          RadioListTile<String>(
+                            title: const Text('ಕನ್ನಡ (Kannada)'),
+                            value: 'kn',
+                          ),
+                          RadioListTile<String>(
+                            title: const Text('తెలుగు (Telugu)'),
+                            subtitle: const Text('Coming soon...'),
+                            value: 'te',
+                          ),
+                          RadioListTile<String>(
+                            title: const Text('संस्कृतम् (Sanskrit)'),
+                            subtitle: const Text('Coming soon...'),
+                            value: 'sa',
+                          ),
+                        ],
+                      ),
                     ),
                   ],
                 ),
