@@ -30,7 +30,11 @@ void main() {
     test('All Kannada component JSON files parse without error', () {
       final dir = Directory('assets/i18n/kn/components');
       final files = dir.listSync().whereType<File>().toList();
-      expect(files.isNotEmpty, isTrue, reason: 'Expected component files to exist');
+      expect(
+        files.isNotEmpty,
+        isTrue,
+        reason: 'Expected component files to exist',
+      );
       for (final file in files) {
         expect(
           () => Component.fromJson(jsonDecode(file.readAsStringSync())),
