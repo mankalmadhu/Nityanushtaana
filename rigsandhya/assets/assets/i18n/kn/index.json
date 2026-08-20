@@ -1,0 +1,41 @@
+{
+  "language": "kn",
+  "title": "ಋಗ್ವೇದ ಸಂಧ್ಯಾವಂದನ",
+  "items": [
+    {
+      "id": "pratah_sandhya",
+      "title": "ಪ್ರಾತಸ್ಸಂಧ್ಯಾ",
+      "image": "sandhya.png"
+    },
+    {
+      "id": "pratah_samidhadana",
+      "title": "ಪ್ರಾತಸ್ಸಮಿಧಾದಾನ",
+      "image": "agnikarya.png"
+    },
+    {
+      "id": "madhyahnika_sandhya",
+      "title": "ಮಾಧ್ಯಾಹ್ನಿಕಸಂಧ್ಯಾ",
+      "image": "sandhya.png"
+    },
+    {
+      "id": "sayam_sandhya",
+      "title": "ಸಾಯಂಸಂಧ್ಯಾ",
+      "image": "sandhya.png"
+    },
+    {
+      "id": "sayam_samidhadana",
+      "title": "ಸಾಯಂಸಮಿಧಾದಾನ",
+      "image": "agnikarya.png"
+    },
+    {
+      "id": "yajnopaveeta",
+      "title": "ಯಜ್ಞೋಪವೀತ",
+      "image": "yajnopaveta.png"
+    },
+    {
+      "id": "upanayana_karika",
+      "title": "ಉಪನಯನಕಾರಿಕ",
+      "image": "yajnopaveta.png"
+    }
+  ]
+}

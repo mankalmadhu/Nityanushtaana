@@ -1,0 +1,108 @@
+{
+  "id": "sayam_sandhya",
+  "title": "ಸಾಯಂ ಸಂಧ್ಯಾ",
+  "pages": [
+    {
+      "id": "page_1",
+      "page_number": 1,
+      "components": [
+        "aasana_soochane",
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_2",
+      "page_number": 2,
+      "components": [
+        "prokshana",
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_3",
+      "page_number": 3,
+      "components": [
+        "sayam_sandhya_sankalpa"
+      ]
+    },
+    {
+      "id": "page_4",
+      "page_number": 4,
+      "components": [
+        "sayam_marjane"
+      ]
+    },
+    {
+      "id": "page_5",
+      "page_number": 5,
+      "components": [
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_6",
+      "page_number": 6,
+      "components": [
+        "dwiteya_marjane",
+        "visarjane"
+      ]
+    },
+    {
+      "id": "page_7",
+      "page_number": 7,
+      "components": [
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_8",
+      "page_number": 8,
+      "components": [
+        "sayam_arghya_sankalpa"
+      ]
+    },
+    {
+      "id": "page_9",
+      "page_number": 9,
+      "components": [
+        "sayam_arghya_pradana"
+      ]
+    },
+    {
+      "id": "page_10",
+      "page_number": 10,
+      "components": [
+        "aachamaneya"
+      ]
+    },
+    {
+      "id": "page_11",
+      "page_number": 11,
+      "components": [
+        "sayam_gayatri_japa"
+      ]
+    },
+    {
+      "id": "page_12",
+      "page_number": 12,
+      "components": [
+        "sayam_upasthana"
+      ]
+    },
+    {
+      "id": "page_13",
+      "page_number": 13,
+      "components": [
+        "aachamaneya",
+        "sayam_samarpana"
+      ]
+    },
+    {
+      "id": "page_14",
+      "page_number": 14,
+      "components": [
+        "aparadha_kshamapana"
+      ]
+    }
+  ]
+}

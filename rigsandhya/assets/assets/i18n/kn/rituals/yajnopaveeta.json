@@ -1,0 +1,18 @@
+{
+  "id": "yajnopaveeta",
+  "title": "ಯಜ್ಞೋಪವೀತ",
+  "pages": [
+    {
+      "page_number": 1,
+      "components": [
+        "yajnopaveeta_dharana"
+      ]
+    },
+    {
+      "page_number": 2,
+      "components": [
+        "yajnopaveeta_visarjana"
+      ]
+    }
+  ]
+}

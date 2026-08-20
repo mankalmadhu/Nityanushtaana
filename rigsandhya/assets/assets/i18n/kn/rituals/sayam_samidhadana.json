@@ -1,0 +1,69 @@
+{
+  "id": "sayam_samidhadana",
+  "title": "ಸಾಯಂ ಸಮಿಧಾದಾನ",
+  "pages": [
+    {
+      "page_number": 1,
+      "components": [
+        "samidha_dana_aasana_soochane",
+        "aachamaneya"
+      ]
+    },
+    {
+      "page_number": 2,
+      "components": [
+        "sayam_samidha_dana_sankalpa"
+      ]
+    },
+    {
+      "page_number": 3,
+      "components": [
+        "agni_murti_dhyana"
+      ]
+    },
+    {
+      "page_number": 4,
+      "components": [
+        "samidha_dana"
+      ]
+    },
+    {
+      "page_number": 5,
+      "components": [
+        "agni_upasthana"
+      ]
+    },
+    {
+      "page_number": 6,
+      "components": [
+        "raksha_dharana"
+      ]
+    },
+    {
+      "page_number": 7,
+      "components": [
+        "agni_prarthane",
+        "pravara"
+      ]
+    },
+    {
+      "page_number": 8,
+      "components": [
+        "punah_puja"
+      ]
+    },
+    {
+      "page_number": 9,
+      "components": [
+        "aachamaneya",
+        "sayam_samidha_dana_samarpana"
+      ]
+    },
+    {
+      "page_number": 10,
+      "components": [
+        "aparadha_kshamapana"
+      ]
+    }
+  ]
+}
