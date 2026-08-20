@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nityanushtaana Web Apps</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-bg: #1e1e2f;
+            --card-bg: rgba(255, 255, 255, 0.05);
+            --card-border: rgba(255, 255, 255, 0.1);
+            --accent: #ff7b54;
+            --text-main: #f0f0f5;
+            --text-secondary: #a0a0b5;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Outfit', sans-serif;
+            background-color: var(--primary-bg);
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            text-align: center;
+            background-image: radial-gradient(circle at top right, rgba(255,123,84,0.15) 0%, transparent 40%),
+                              radial-gradient(circle at bottom left, rgba(123,84,255,0.1) 0%, transparent 40%);
+        }
+
+        h1 {
+            font-weight: 600;
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            background: linear-gradient(90deg, #ff7b54, #ffb26b);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        p.subtitle {
+            font-weight: 300;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            font-size: 1.1rem;
+        }
+
+        .cards-container {
+            display: flex;
+            gap: 2rem;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 0 1rem;
+        }
+
+        .app-card {
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 2.5rem 2rem;
+            width: 280px;
+            backdrop-filter: blur(10px);
+            transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+            text-decoration: none;
+            color: var(--text-main);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            border-color: rgba(255, 123, 84, 0.3);
+        }
+
+        .icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .app-title {
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .app-desc {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 2rem;
+            line-height: 1.5;
+        }
+
+        .launch-btn {
+            background-color: transparent;
+            color: var(--accent);
+            border: 2px solid var(--accent);
+            padding: 0.75rem 1.5rem;
+            border-radius: 30px;
+            font-weight: 600;
+            font-family: 'Outfit', sans-serif;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+        }
+
+        .app-card:hover .launch-btn {
+            background-color: var(--accent);
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Nityanushtaana Web</h1>
+    <p class="subtitle">Access your daily rituals directly from your browser.</p>
+
+    <div class="cards-container">
+        <!-- Rig Sandhya Card -->
+        <a href="rigsandhya/" class="app-card">
+            <div class="icon">🌅</div>
+            <div class="app-title">Rig Sandhya</div>
+            <div class="app-desc">Complete guide to Rigveda Sandhyavandana and daily rituals.</div>
+            <button class="launch-btn">Launch App</button>
+        </a>
+
+        <!-- Nitya Puja Card -->
+        <a href="nityapuja/" class="app-card">
+            <div class="icon">🪔</div>
+            <div class="app-title">Nitya Puja</div>
+            <div class="app-desc">Step-by-step procedures for your daily deity worship.</div>
+            <button class="launch-btn">Launch App</button>
+        </a>
+    </div>
+
+</body>
+</html>
